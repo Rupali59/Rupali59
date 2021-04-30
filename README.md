@@ -3,10 +3,17 @@
 <p align="left">
     <img src="https://komarev.com/ghpvc/?username=rupali0509&label=Profile%20views&color=0e75b6&style=flat" alt="rupali0509" />
 </p>
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy?username=Rupali59"><img src="https://github-profile-trophy.vercel.app?username=Rupali59" alt="Rupali59" /></a> </p>
-<p align="left"> <a href="https://twitter.com/rupali_0509" target="blank"><img src="https://img.shields.io/twitter/follow/rupali_0509?logo=twitter&style=for-the-badge" alt="rupali_0509" /></a> </p>
-- 🔭 I’m currently working with ** Servicenow **
+<p align="left"> 
+	<a href="https://github.com/ryo-ma/github-profile-trophy?username=Rupali59"><img src="https://github-profile-trophy.vercel.app?username=Rupali59" alt="Rupali59" /></a>
+</p>
+<p align="left"> 
+	<a href="https://twitter.com/rupali_0509" target="blank"><img src="https://img.shields.io/twitter/follow/rupali_0509?logo=twitter&style=for-the-badge" alt="rupali_0509" />
+	</a>
+</p>
+
+- 🔭 I’m currently working with **Servicenow**
 - 📫 How to reach me **rupalibhatnagar0509@gmail.com**
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
     <a href="https://dev.to/rupali59" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="rupali59" height="30" width="40" /></a>

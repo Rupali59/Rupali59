@@ -3,11 +3,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rupali0509&label=Profile%20views&color=0e75b6&style=flat" alt="rupali0509" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=rupali0509" alt="rupali0509" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy?username=Rupali59"><img src="https://github-profile-trophy.vercel.app?username=Rupali59" alt="Rupali59" /></a> </p>
 
 <p align="left"> <a href="https://twitter.com/rupali_0509" target="blank"><img src="https://img.shields.io/twitter/follow/rupali_0509?logo=twitter&style=for-the-badge" alt="rupali_0509" /></a> </p>
 
-- 🔭 I’m currently working on **CRM Tool**
+- 🔭 I’m currently working with ** Servicenow **
 
 - 📫 How to reach me **rupalibhatnagar0509@gmail.com**
 

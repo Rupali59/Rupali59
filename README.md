@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Rupali Bhatnagar</h1>
 <h3 align="center">A forever learning kinda developer from India</h3>
-<p align="left">
+<p align="center">
     <img src="https://komarev.com/ghpvc/?username=rupali0509&label=Profile%20views&color=0e75b6&style=flat" alt="rupali0509" />
 </p>
 <p align="left"> 
@@ -17,8 +17,8 @@
 <h3 align="left">Connect with me:</h3>
 <p align="left">
     <a href="https://dev.to/rupali59" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="rupali59" height="30" width="40" /></a>
-    <a href="https://twitter.com/rupali_0509" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="rupali_0509" height="30" width="40" /></a>
-    <a href="https://linkedin.com/in/rupali-bhatnagar-b4864957" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="rupali-bhatnagar-b4864957" height="30" width="40" /></a>
+    <a href="https://twitter.com/rupali_0509" target="blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/twitter/twitter-original.svg" alt="rupali_0509" height="30" width="40" /></a>
+    <a href="https://linkedin.com/in/rupali-bhatnagar-b4864957" target="blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/linkedin/linkedin-original.svg" alt="rupali-bhatnagar-b4864957" height="30" width="40" /></a>
     <a href="https://stackoverflow.com/users/9696805" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="9696805" height="30" width="40" /></a>
     <a href="https://kaggle.com/rbhatnagar59" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/kaggle.svg" alt="rbhatnagar59" height="30" width="40" /></a>
 </p>

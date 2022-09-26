@@ -1,5 +1,4 @@
-<h1 align="center">Hi 👋, I'm Rupali Bhatnagar</h1>
-<h3 align="center">A forever learning kinda developer from India</h3>
+<h1 align="center">Hi, I'm Rupali Bhatnagar</h1>
 <p align="center">
     <img src="https://komarev.com/ghpvc/?username=rupali0509&label=Profile%20views&color=0e75b6&style=flat" alt="rupali0509" />
 </p>

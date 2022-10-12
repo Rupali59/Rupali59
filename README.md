@@ -1,6 +1,8 @@
 <h1 align="center">Hi, I'm Rupali Bhatnagar</h1>
 <p align="center">
-    <img src="https://komarev.com/ghpvc/?username=rupali0509&label=Profile%20views&color=0e75b6&style=flat" alt="rupali0509" />
+    <img src="https://komarev.com/ghpvc/?username=Rupali59&label=Profile%20views&color=0e75b6&style=flat" alt="Rupali59" />
+	    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRupali591212%2Fhit-counter" alt="Rupali59" />
+	
 </p>
 <p align="center"> 
 	<a href="https://github.com/ryo-ma/github-profile-trophy?username=Rupali59"><img src="https://github-profile-trophy.vercel.app?username=Rupali59&theme=onedark&row=1&column=7" alt="Rupali59" /></a>
@@ -98,7 +100,5 @@
     <a href="https://www.tensorflow.org" target="_blank">
         <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40" />
     </a> </p>
-<p>
-    <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Rupali59&show_icons=true&locale=en&layout=compact" alt="Rupali59" />
-</p>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Rupali59&show_icons=true&locale=en" alt="Rupali59" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Rupali59&show_icons=true&locale=en&layout=compact" alt="Rupali59"/></p>
+<p>&nbsp;<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Rupali59" alt="Rupali59" /></p>

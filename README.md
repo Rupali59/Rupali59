@@ -22,7 +22,8 @@
     <a href="https://linkedin.com/in/rupali-bhatnagar-b4864957" target="blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/linkedin/linkedin-original.svg" alt="rupali-bhatnagar-b4864957" height="30" width="40" /></a>
     <a href="https://stackoverflow.com/users/9696805" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="9696805" height="30" width="40" /></a>
     <a href="https://kaggle.com/rbhatnagar59" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/kaggle.svg" alt="rbhatnagar59" height="30" width="40" /></a>
-	<a href="https://leetcode.com/Rupali59/" target="_blank"><img align="center" src="https://cdn.iconscout.com/icon/free/png-256/free-leetcode-3521542-2944960.png" height="30" width="40"</a>
+	<a href="https://leetcode.com/Rupali59/" target="_blank"><img align="center" src="https://cdn.iconscout.com/icon/free/png-256/free-leetcode-3521542-2944960.png" height="30" width="30"</a>
+		<a href="https://www.hackerrank.com/profile/Rupali59" target="_blank"><img src="https://cdn.iconscout.com/icon/free/png-256/free-hackerrank-3521478-2944922.png" height="30" width="30"></img></a>
 </p>
 <h3 align="left">Languages and Tools:</h3>
 <p align="left">

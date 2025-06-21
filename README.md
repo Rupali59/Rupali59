@@ -1,106 +1,103 @@
-<h1 align="center">Hi, I'm Rupali Bhatnagar</h1>
-<p align="center">
-    <img src="https://komarev.com/ghpvc/?username=Rupali59&label=Profile%20views&color=0e75b6&style=flat" alt="Rupali59" />
-	    <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FRupali591212%2Fhit-counter" alt="Rupali59" />
-	
-</p>
-<p align="center"> 
-	<a href="https://github.com/ryo-ma/github-profile-trophy?username=Rupali59"><img src="https://github-profile-trophy.vercel.app?username=Rupali59&theme=onedark&row=1&column=7" alt="Rupali59" /></a>
-</p>
-<p align="left"> 
-	<a href="https://twitter.com/rupali_0509" target="blank"><img src="https://img.shields.io/twitter/follow/rupali_0509?logo=twitter&style=for-the-badge" alt="rupali_0509" />
-	</a>
-</p>
+# Hi, I'm Rupali Bhatnagar 👋
 
-- 🔭 I’m currently working with **Servicenow**
-- 📫 How to reach me **rupalibhatnagar0509@gmail.com**
+[![Profile Views](https://komarev.com/ghpvc/?username=Rupali59&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/Rupali59)
+[![GitHub Followers](https://img.shields.io/github/followers/Rupali59?label=Followers&style=social)](https://github.com/Rupali59)
+[![Twitter Follow](https://img.shields.io/twitter/follow/rupali_0509?logo=twitter&style=social)](https://twitter.com/rupali_0509)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-    <a href="https://dev.to/rupali59" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/dev-dot-to.svg" alt="rupali59" height="30" width="40" /></a>
-    <a href="https://twitter.com/rupali_0509" target="blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/twitter/twitter-original.svg" alt="rupali_0509" height="30" width="40" /></a>
-    <a href="https://linkedin.com/in/rupali-bhatnagar-b4864957" target="blank"><img align="center" src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/linkedin/linkedin-original.svg" alt="rupali-bhatnagar-b4864957" height="30" width="40" /></a>
-    <a href="https://stackoverflow.com/users/9696805" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/stackoverflow.svg" alt="9696805" height="30" width="40" /></a>
-    <a href="https://kaggle.com/rbhatnagar59" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/kaggle.svg" alt="rbhatnagar59" height="30" width="40" /></a>
-	<a href="https://leetcode.com/Rupali59/" target="_blank"><img align="center" src="https://cdn.iconscout.com/icon/free/png-256/free-leetcode-3521542-2944960.png" height="30" width="30"</a>
-		<a href="https://www.hackerrank.com/profile/Rupali59" target="_blank"><img src="https://cdn.iconscout.com/icon/free/png-256/free-hackerrank-3521478-2944922.png" height="30" width="30"></img></a>
-</p>
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-    <a href="https://www.w3schools.com/cs/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-plain.svg" alt="csharp" width="40" height="40" />
-    </a>
-    <a href="https://www.w3schools.com/css/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-plain.svg" alt="css3" width="40" height="40" />
-    </a>
-    <a href="https://dotnet.microsoft.com/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-plain.svg" alt="dotnet" width="40" height="40" />
-    </a>
-    <a href="https://expressjs.com" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40" />
-    </a>
-    <a href="https://git-scm.com/" target="_blank">
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" />
-    </a>
-    <a href="https://golang.org" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/go/go-original.svg" alt="go" width="40" height="40" />
-    </a>
-    <a href="https://www.w3.org/html/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40" />
-    </a>
-    <a href="https://www.invisionapp.com/" target="_blank">
-        <img src="https://www.vectorlogo.zone/logos/invisionapp/invisionapp-icon.svg" alt="invision" width="40" height="40" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40" />
-    </a>
-    <a href="https://www.jenkins.io" target="_blank">
-        <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40" />
-    </a>
-    <a href="https://laravel.com/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/laravel/laravel-plain.svg" alt="laravel" width="40" height="40" />
-    </a>
-    <a href="https://www.linux.org/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/linux/linux-original.svg" alt="linux" width="40" height="40" />
-    </a>
-    <a href="https://www.mathworks.com/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/matlab/matlab-original.svg" alt="matlab" width="40" height="40" />
-    </a>
-    <a href="https://www.mongodb.com/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40" />
-    </a>
-    <a href="https://www.mysql.com/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" />
-    </a>
-    <a href="https://nodejs.org" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40" />
-    </a>
-    <a href="https://opencv.org/" target="_blank">
-        <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40" />
-    </a>
-    <a href="https://www.php.net" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/php/php-original.svg" alt="php" width="40" height="40" />
-    </a>
-    <a href="https://postman.com" target="_blank">
-        <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40" />
-    </a>
-    <a href="https://pytorch.org/" target="_blank">
-        <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40" />
-    </a>
-    <a href="https://reactjs.org/" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40" />
-    </a>
-    <a href="https://sass-lang.com" target="_blank">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/c7d326b6009e60442abc35fa45706d6f30ee4c8e/icons/sass/sass-original.svg" alt="sass" width="40" height="40" />
-    </a>
-    <a href="https://scikit-learn.org/" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40" />
-    </a>
-    <a href="https://www.selenium.dev" target="_blank">
-        <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40" />
-    </a>
-    <a href="https://www.tensorflow.org" target="_blank">
-        <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40" />
-    </a> </p>
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=Rupali59&show_icons=true&locale=en&layout=compact" alt="Rupali59"/></p>
-<p>&nbsp;<img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Rupali59" alt="Rupali59" /></p>
+## 🏆 GitHub Trophies
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app?username=Rupali59&theme=onedark&row=1&column=7&margin-w=15&margin-h=15)
+
+## 👨‍💻 About Me
+
+- 🔭 **Currently working with:** ServiceNow
+- 🌱 **Passionate about:** Full-stack development, Machine Learning, and DevOps
+- 📫 **Contact:** [rupalibhatnagar0509@gmail.com](mailto:rupalibhatnagar0509@gmail.com)
+- 💼 **LinkedIn:** [Rupali Bhatnagar](https://linkedin.com/in/rupali-bhatnagar-b4864957)
+
+## 🚀 Skills & Technologies
+
+### Programming Languages
+
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+
+### Frontend Development
+
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Sass](https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
+
+### Backend & Frameworks
+
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=.net&logoColor=white)
+
+### Databases
+
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+
+### DevOps & Tools
+
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+
+### Machine Learning & AI
+
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![MATLAB](https://img.shields.io/badge/-MATLAB-0076A8?style=flat-square&logo=matlab&logoColor=white)
+
+### Testing & Automation
+
+![Selenium](https://img.shields.io/badge/-Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
+
+## 📊 GitHub Statistics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Rupali59&show_icons=true&theme=radical" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rupali59&theme=radical" alt="GitHub Streak" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Rupali59&show_icons=true&theme=radical&layout=compact" alt="Top Languages" />
+</div>
+
+## 🏆 Coding Profiles
+
+[![LeetCode](https://img.shields.io/badge/-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/Rupali59/)
+[![HackerRank](https://img.shields.io/badge/-HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/profile/Rupali59)
+[![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com/rbhatnagar59)
+
+## 🌐 Connect With Me
+
+<div align="center">
+  <a href="https://linkedin.com/in/rupali-bhatnagar-b4864957" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://twitter.com/rupali_0509" target="_blank">
+    <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
+  </a>
+  <a href="https://dev.to/rupali59" target="_blank">
+    <img src="https://img.shields.io/badge/-Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to" />
+  </a>
+  <a href="https://stackoverflow.com/users/9696805" target="_blank">
+    <img src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow" />
+  </a>
+</div>
+
+---
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Rupali59&style=flat-square&color=blue" alt="Profile Views" />
+</div>

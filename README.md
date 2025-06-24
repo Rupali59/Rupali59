@@ -8,6 +8,61 @@
 
 ![GitHub Trophies](https://github-profile-trophy.vercel.app?username=Rupali59&theme=onedark&row=1&column=7&margin-w=15&margin-h=15)
 
+## 🥇 GitHub Achievements
+
+You can view my latest GitHub achievements and badges on my profile:
+
+<p align="center">
+  <a href="https://github.com/Rupali59?tab=achievements" target="_blank">
+    <img src="https://img.shields.io/badge/-View%20My%20GitHub%20Achievements-blue?style=for-the-badge&logo=github" alt="GitHub Achievements" />
+  </a>
+</p>
+
+### My GitHub Achievements
+
+<p align="center">
+  <span style="display:inline-block; margin: 0 15px; text-align:center;">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="48" height="48" alt="Pull Shark" /><br/>
+    <b>Pull Shark</b>
+  </span>
+  <span style="display:inline-block; margin: 0 15px; text-align:center;">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" width="48" height="48" alt="Galaxy Brain" /><br/>
+    <b>Galaxy Brain</b>
+  </span>
+  <span style="display:inline-block; margin: 0 15px; text-align:center;">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="48" height="48" alt="YOLO" /><br/>
+    <b>YOLO</b>
+  </span>
+  <span style="display:inline-block; margin: 0 15px; text-align:center;">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="48" height="48" alt="Quickdraw" /><br/>
+    <b>Quickdraw</b>
+  </span>
+  <span style="display:inline-block; margin: 0 15px; text-align:center;">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="48" height="48" alt="Pair Extraordinaire" /><br/>
+    <b>Pair Extraordinaire</b>
+  </span>
+  <span style="display:inline-block; margin: 0 15px; text-align:center;">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="48" height="48" alt="Starstruck" /><br/>
+    <b>Starstruck</b>
+  </span>
+  <span style="display:inline-block; margin: 0 15px; text-align:center;">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/public-sponsor-default.png" width="48" height="48" alt="Public Sponsor" /><br/>
+    <b>Public Sponsor</b>
+  </span>
+  <span style="display:inline-block; margin: 0 15px; text-align:center;">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" width="48" height="48" alt="Arctic Code Vault Contributor" /><br/>
+    <b>Arctic Code Vault Contributor</b>
+  </span>
+  <span style="display:inline-block; margin: 0 15px; text-align:center;">
+    <img src="https://github.githubassets.com/images/modules/profile/achievements/mars-2020-contributor-default.png" width="48" height="48" alt="Mars 2020 Contributor" /><br/>
+    <b>Mars 2020 Contributor</b>
+  </span>
+</p>
+
+> Visit [my GitHub Achievements page](https://github.com/Rupali59?tab=achievements) for the latest updates!
+
+Stay tuned as I unlock more achievements by contributing to open source, collaborating with the community, and building awesome projects!
+
 ## 👨‍💻 About Me
 
 I'm a passionate **Full-Stack Developer** and **Machine Learning Enthusiast** with expertise in building scalable web applications and intelligent systems. Currently working with **ServiceNow**, I specialize in creating innovative solutions that bridge the gap between traditional software development and cutting-edge AI technologies.

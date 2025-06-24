@@ -10,7 +10,6 @@
 
 ## 🥇 GitHub Achievements
 
-<div align="center">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 24px;">
     <div style="display: inline-block; margin: 12px; text-align: center;">
       <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="48" height="48" alt="Pull Shark" /><br/>
@@ -49,7 +48,6 @@
       <b>Mars 2020 Contributor</b>
     </div>
   </div>
-</div>
 
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->

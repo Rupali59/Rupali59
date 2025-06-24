@@ -10,16 +10,6 @@
 
 ## 🥇 GitHub Achievements
 
-You can view my latest GitHub achievements and badges on my profile:
-
-<p align="center">
-  <a href="https://github.com/Rupali59?tab=achievements" target="_blank">
-    <img src="https://img.shields.io/badge/-View%20My%20GitHub%20Achievements-blue?style=for-the-badge&logo=github" alt="GitHub Achievements" />
-  </a>
-</p>
-
-### My GitHub Achievements
-
 <div align="center">
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 24px;">
     <div style="display: inline-block; margin: 12px; text-align: center;">
@@ -61,9 +51,8 @@ You can view my latest GitHub achievements and badges on my profile:
   </div>
 </div>
 
-> Visit [my GitHub Achievements page](https://github.com/Rupali59?tab=achievements) for the latest updates!
-
-Stay tuned as I unlock more achievements by contributing to open source, collaborating with the community, and building awesome projects!
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ## 👨‍💻 About Me
 

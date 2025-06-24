@@ -20,42 +20,46 @@ You can view my latest GitHub achievements and badges on my profile:
 
 ### My GitHub Achievements
 
-<p align="center">
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="48" height="48" alt="Pull Shark" /><br/>
-  <b>Pull Shark</b>
-</p>
-<p align="center">
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" width="48" height="48" alt="Galaxy Brain" /><br/>
-  <b>Galaxy Brain</b>
-</p>
-<p align="center">
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="48" height="48" alt="YOLO" /><br/>
-  <b>YOLO</b>
-</p>
-<p align="center">
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="48" height="48" alt="Quickdraw" /><br/>
-  <b>Quickdraw</b>
-</p>
-<p align="center">
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="48" height="48" alt="Pair Extraordinaire" /><br/>
-  <b>Pair Extraordinaire</b>
-</p>
-<p align="center">
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="48" height="48" alt="Starstruck" /><br/>
-  <b>Starstruck</b>
-</p>
-<p align="center">
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/public-sponsor-default.png" width="48" height="48" alt="Public Sponsor" /><br/>
-  <b>Public Sponsor</b>
-</p>
-<p align="center">
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" width="48" height="48" alt="Arctic Code Vault Contributor" /><br/>
-  <b>Arctic Code Vault Contributor</b>
-</p>
-<p align="center">
-  <img src="https://github.githubassets.com/images/modules/profile/achievements/mars-2020-contributor-default.png" width="48" height="48" alt="Mars 2020 Contributor" /><br/>
-  <b>Mars 2020 Contributor</b>
-</p>
+<div align="center">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 24px;">
+    <div style="display: inline-block; margin: 12px; text-align: center;">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png" width="48" height="48" alt="Pull Shark" /><br/>
+      <b>Pull Shark</b>
+    </div>
+    <div style="display: inline-block; margin: 12px; text-align: center;">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/galaxy-brain-default.png" width="48" height="48" alt="Galaxy Brain" /><br/>
+      <b>Galaxy Brain</b>
+    </div>
+    <div style="display: inline-block; margin: 12px; text-align: center;">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/yolo-default.png" width="48" height="48" alt="YOLO" /><br/>
+      <b>YOLO</b>
+    </div>
+    <div style="display: inline-block; margin: 12px; text-align: center;">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png" width="48" height="48" alt="Quickdraw" /><br/>
+      <b>Quickdraw</b>
+    </div>
+    <div style="display: inline-block; margin: 12px; text-align: center;">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="48" height="48" alt="Pair Extraordinaire" /><br/>
+      <b>Pair Extraordinaire</b>
+    </div>
+    <div style="display: inline-block; margin: 12px; text-align: center;">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="48" height="48" alt="Starstruck" /><br/>
+      <b>Starstruck</b>
+    </div>
+    <div style="display: inline-block; margin: 12px; text-align: center;">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/public-sponsor-default.png" width="48" height="48" alt="Public Sponsor" /><br/>
+      <b>Public Sponsor</b>
+    </div>
+    <div style="display: inline-block; margin: 12px; text-align: center;">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" width="48" height="48" alt="Arctic Code Vault Contributor" /><br/>
+      <b>Arctic Code Vault Contributor</b>
+    </div>
+    <div style="display: inline-block; margin: 12px; text-align: center;">
+      <img src="https://github.githubassets.com/images/modules/profile/achievements/mars-2020-contributor-default.png" width="48" height="48" alt="Mars 2020 Contributor" /><br/>
+      <b>Mars 2020 Contributor</b>
+    </div>
+  </div>
+</div>
 
 > Visit [my GitHub Achievements page](https://github.com/Rupali59?tab=achievements) for the latest updates!
 

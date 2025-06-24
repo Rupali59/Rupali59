@@ -52,6 +52,77 @@
 </table>
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-15%20mins-blue)
+
+![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
+
+**🐱 My GitHub Data** 
+
+> 📦 66.2 kB Used in GitHub's Storage 
+ > 
+> 💼 Opted to Hire
+ > 
+> 📜 18 Public Repositories 
+ > 
+> 🔑 3 Private Repositories 
+ > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                69 commits          ████░░░░░░░░░░░░░░░░░░░░░   14.37 % 
+🌆 Daytime                225 commits         ████████████░░░░░░░░░░░░░   46.88 % 
+🌃 Evening                166 commits         █████████░░░░░░░░░░░░░░░░   34.58 % 
+🌙 Night                  20 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   04.17 % 
+```
+📅 **I'm Most Productive on Tuesday** 
+
+```text
+Monday                   55 commits          ███░░░░░░░░░░░░░░░░░░░░░░   11.46 % 
+Tuesday                  137 commits         ███████░░░░░░░░░░░░░░░░░░   28.54 % 
+Wednesday                74 commits          ████░░░░░░░░░░░░░░░░░░░░░   15.42 % 
+Thursday                 33 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.88 % 
+Friday                   101 commits         █████░░░░░░░░░░░░░░░░░░░░   21.04 % 
+Saturday                 50 commits          ███░░░░░░░░░░░░░░░░░░░░░░   10.42 % 
+Sunday                   30 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Kolkata
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+
+🐱‍💻 Projects: 
+No Activity Tracked This Week
+
+💻 Operating System: 
+No Activity Tracked This Week
+```
+
+**I Mostly Code in JavaScript** 
+
+```text
+JavaScript               8 repos             ██████████░░░░░░░░░░░░░░░   40.00 % 
+Python                   4 repos             █████░░░░░░░░░░░░░░░░░░░░   20.00 % 
+HTML                     2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   10.00 % 
+Go                       2 repos             ██░░░░░░░░░░░░░░░░░░░░░░░   10.00 % 
+TypeScript               1 repo              █░░░░░░░░░░░░░░░░░░░░░░░░   05.00 % 
+```
+
+
+
+**Timeline**
+
+![Lines of Code chart](https://raw.githubusercontent.com/Rupali59/Rupali59/main/assets/bar_graph.png)
+
+
+ Last Updated on 24/06/2025 18:52:10 UTC
 <!--END_SECTION:waka-->
 
 ## 👨‍💻 About Me

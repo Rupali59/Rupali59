@@ -52,13 +52,13 @@
 </table>
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-15%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20secs-blue)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-38-blue)
 
 **🐱 My GitHub Data** 
 
-> 📦 66.2 kB Used in GitHub's Storage 
+> 📦 66.3 kB Used in GitHub's Storage 
  > 
 > 💼 Opted to Hire
  > 
@@ -122,7 +122,7 @@ TypeScript               1 repo              █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Rupali59/Rupali59/main/assets/bar_graph.png)
 
 
- Last Updated on 24/06/2025 18:52:10 UTC
+ Last Updated on 25/06/2025 18:52:03 UTC
 <!--END_SECTION:waka-->
 
 ## 👨‍💻 About Me

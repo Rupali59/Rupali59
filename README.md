@@ -78,7 +78,7 @@
 ## 🎓 Education & Certifications
 
 ### **Academic Background**
-- **Executive MBA** from **IIM Visakhapatnam** (2023 - Present)
+
 - **M.Tech in Computer Science** from **National Institute of Technology Goa** (2014 - 2016)
 - **B.Tech in Computer Science** from **National Institute of Technology Goa** (2010 - 2014)
 
@@ -234,7 +234,6 @@ HTML                     1 repo              █░░░░░░░░░░�
 
 ## 🎯 What I'm Currently Working On
 
-- 🌱 **Executive MBA** at IIM Visakhapatnam
 - 🚀 **AI/ML Integration** projects
 - 💡 **Open Source Contributions** and community building
 - 🔧 **ServiceNow Platform** development and administration

@@ -1,14 +1,102 @@
 # Hi, I'm Rupali Bhatnagar 👋
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Rupali59&label=Profile%20views&color=0e75b6&style=flat)](https://github.com/Rupali59)
-[![GitHub Followers](https://img.shields.io/github/followers/Rupali59?label=Followers&style=social)](https://github.com/Rupali59)
-[![Twitter Follow](https://img.shields.io/twitter/follow/rupali_0509?logo=twitter&style=social)](https://twitter.com/rupali_0509)
+[![GitHub Followers](https://img.shields.io/badge/github-followers/Rupali59?label=Followers&style=social)](https://github.com/Rupali59)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=social&logo=linkedin)](https://www.linkedin.com/in/rupali-bhatnagar-b4864957/)
 
-## 🏆 GitHub Trophies
+## 🚀 Software Engineer | AI/ML Enthusiast | Tech Professional
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app?username=Rupali59&theme=onedark&row=1&column=7&margin-w=15&margin-h=15)
+**Experienced software engineer** with a passion for building innovative solutions and staying at the forefront of technology. Recently worked at **ServiceNow** in the **SecOps department** as part of the **VR (Vulnerability Response) team**, specializing in full-stack development, AI/ML integration, and security operations platform development.
 
-## 🥇 GitHub Achievements
+---
+
+## 💼 Professional Experience
+
+### **Recent Experience**
+- **Software Engineer** at **ServiceNow** (SecOps Department - VR Team)
+- Built and enhanced enterprise security operations platforms using ServiceNow's development framework
+- Implemented custom workflows and integrations for vulnerability response and incident management
+- Collaborated with cross-functional teams to deliver security platform features
+- Contributed to ServiceNow platform administration and configuration
+
+### **Key Achievements**
+- 🏆 **20+ Public Repositories** with active open-source contributions
+- 💻 **500+ GitHub commits** demonstrating consistent development activity
+- 🎯 **Competitive Programming** - Active LeetCode participant with strong problem-solving skills
+- 🔧 **Full-Stack Development** - Experience across JavaScript, Python, Go, and TypeScript
+- 🚀 **Platform Development** - Built enterprise-level applications on ServiceNow framework
+
+---
+
+## 🛠️ Technical Expertise
+
+### **Core Technologies**
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![PowerShell](https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
+
+### **Frontend & UI/UX**
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
+![Sass](https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
+
+### **Backend & APIs**
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=.net&logoColor=white)
+![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
+
+### **Cloud & DevOps**
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+### **Databases & Data**
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+### **AI/ML & Data Science**
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![MATLAB](https://img.shields.io/badge/-MATLAB-0076A8?style=flat-square&logo=matlab&logoColor=white)
+
+---
+
+## 🎓 Education & Certifications
+
+### **Academic Background**
+- **Executive MBA** from **IIM Visakhapatnam** (2023 - Present)
+- **M.Tech in Computer Science** from **National Institute of Technology Goa** (2014 - 2016)
+- **B.Tech in Computer Science** from **National Institute of Technology Goa** (2010 - 2014)
+
+### **Professional Certifications** (Ranked by Value & Year)
+
+#### **🏆 High-Value Certifications**
+- **WhatsApp API Expert** - Wati (Feb 2024) - Latest API expertise
+- **Neural Networks and Deep Learning** - Coursera (Sep 2020) - AI/ML specialization
+- **JavaScript Algorithms and Data Structures** - freeCodeCamp (Apr 2020) - Core programming
+
+#### **📚 Professional Development**
+- **Ultimate JavaScript Part 1: Fundamentals** - Code With Mosh (Jun 2025) - Advanced JS
+- **Git Essential Training** - LinkedIn (Jun 2020) - Version control mastery
+- **Becoming Indistractable** - LinkedIn (Mar 2021) - Productivity & focus
+
+---
+
+## 🏆 GitHub Achievements
 
 <table align="center">
   <tr>
@@ -32,24 +120,40 @@
       <img src="https://github.githubassets.com/images/modules/profile/achievements/pair-extraordinaire-default.png" width="48" height="48" alt="Pair Extraordinaire" /><br/>
       <b>Pair Extraordinaire</b>
     </td>
-    <td align="center">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png" width="48" height="48" alt="Starstruck" /><br/>
-      <b>Starstruck</b>
-    </td>
-    <td align="center">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/public-sponsor-default.png" width="48" height="48" alt="Public Sponsor" /><br/>
-      <b>Public Sponsor</b>
-    </td>
-    <td align="center">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/arctic-code-vault-contributor-default.png" width="48" height="48" alt="Arctic Code Vault Contributor" /><br/>
-      <b>Arctic Code Vault Contributor</b>
-    </td>
-    <td align="center">
-      <img src="https://github.githubassets.com/images/modules/profile/achievements/mars-2020-contributor-default.png" width="48" height="48" alt="Mars 2020 Contributor" /><br/>
-      <b>Mars 2020 Contributor</b>
-    </td>
   </tr>
 </table>
+
+---
+
+## 📊 GitHub Statistics
+
+<div align="center">
+  
+  ### 🚀 **My GitHub Stats**
+  
+  <table align="center">
+    <tr>
+      <td align="center">
+        <img src="https://github-readme-stats.vercel.app/api?username=Rupali59&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&icon_color=58A6FF&ring_color=58A6FF" alt="GitHub Stats" width="300" />
+        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rupali59&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakNum=58A6FF&currStreakLabel=58A6FF" alt="GitHub Streak" width="300" />
+      </td>
+      <td align="center">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Rupali59&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=8B949E&layout=compact&langs_count=8" alt="Top Languages" width="600" />
+      </td>
+    </tr>
+  </table>
+  
+  ### 🏆 **GitHub Trophies**
+  
+  <div align="center">
+    <img src="https://github-profile-trophy.vercel.app/?username=Rupali59&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&margin-h=4&row=1&column=7" alt="GitHub Trophies" />
+  </div>
+  
+</div>
+
+---
+
+## ⏰ WakaTime Statistics
 
 <!--START_SECTION:waka-->
 ![Code Time](http://img.shields.io/badge/Code%20Time-69%20hrs%207%20mins-blue)
@@ -72,7 +176,7 @@
 🌞 Morning                29 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   04.39 % 
 🌆 Daytime                316 commits         ████████████░░░░░░░░░░░░░   47.81 % 
 🌃 Evening                213 commits         ████████░░░░░░░░░░░░░░░░░   32.22 % 
-🌙 Night                  103 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.58 % 
+🌙 Night                  103 commits         ████████░░░░░░░░░░░░░░░░░   15.58 % 
 ```
 📅 **I'm Most Productive on Thursday** 
 
@@ -125,113 +229,100 @@ HTML                     1 repo              █░░░░░░░░░░�
  Last Updated on 26/08/2025 18:48:55 UTC
 <!--END_SECTION:waka-->
 
-## 👨‍💻 About Me
+---
 
-I'm a passionate **Full-Stack Developer** and **Machine Learning Enthusiast** with expertise in building scalable web applications and intelligent systems. Currently working with **ServiceNow**, I specialize in creating innovative solutions that bridge the gap between traditional software development and cutting-edge AI technologies.
+## 🎯 What I'm Currently Working On
 
-### 🎯 **What I Do**
+- 🌱 **Executive MBA** at IIM Visakhapatnam
+- 🚀 **AI/ML Integration** projects
+- 💡 **Open Source Contributions** and community building
+- 🔧 **ServiceNow Platform** development and administration
+- 📚 **Technical Consulting** and solution architecture
 
-- 🔭 **Currently working with:** ServiceNow
-- 🌱 **Passionate about:** Full-stack development, Machine Learning, and DevOps
-- 💡 **Interests:** AI/ML, Web Development, System Architecture, Problem Solving
-- 🚀 **Goal:** Building impactful solutions that make a difference
+---
 
-### 📫 **Get In Touch**
-
-- 📧 **Email:** [rupalibhatnagar0509@gmail.com](mailto:rupalibhatnagar0509@gmail.com)
-- 💼 **LinkedIn:** [Rupali Bhatnagar](https://linkedin.com/in/rupali-bhatnagar-b4864957)
-- 🐦 **Twitter:** [@rupali_0509](https://twitter.com/rupali_0509)
-
-## 🚀 Skills & Technologies
-
-### Programming Languages
-
-![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-
-### Frontend Development
-
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Sass](https://img.shields.io/badge/-Sass-CC6699?style=flat-square&logo=sass&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
-
-### Backend & Frameworks
-
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=.net&logoColor=white)
-![Django](https://img.shields.io/badge/-Django-092E20?style=flat-square&logo=django&logoColor=white)
-
-### Databases
-
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
-### DevOps & Tools
-
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Postman](https://img.shields.io/badge/-Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-
-### Machine Learning & AI
-
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/-Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![MATLAB](https://img.shields.io/badge/-MATLAB-0076A8?style=flat-square&logo=matlab&logoColor=white)
-![Jupyter](https://img.shields.io/badge/-Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
-
-### Testing & Automation
-
-![Selenium](https://img.shields.io/badge/-Selenium-43B02A?style=flat-square&logo=selenium&logoColor=white)
-![Jest](https://img.shields.io/badge/-Jest-C21325?style=flat-square&logo=jest&logoColor=white)
-![Cypress](https://img.shields.io/badge/-Cypress-17202C?style=flat-square&logo=cypress&logoColor=white)
-
-## 💼 Professional Experience
-
-### **ServiceNow** - Full Stack Developer
-
-_Current Position_
-
-- Developing and maintaining enterprise-level applications
-- Working with modern web technologies and cloud platforms
-- Collaborating with cross-functional teams on complex projects
-
-### **Previous Experience**
-
-- **Full Stack Development** - Building scalable web applications
-- **Machine Learning Projects** - Implementing AI/ML solutions
-- **DevOps Practices** - CI/CD, automation, and infrastructure management
-
-## 🏆 Achievements & Certifications
-
-- **Competitive Programming:** Active participant on LeetCode and HackerRank
-- **Machine Learning:** Completed various ML projects and courses
-- **Open Source:** Contributing to the developer community
-- **Problem Solving:** Strong analytical and algorithmic thinking skills
-
-## 📊 GitHub Statistics
+## 🌟 Featured Projects
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Rupali59&show_icons=true&theme=radical" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rupali59&theme=radical" alt="GitHub Streak" />
+  <h3>🚀 Check out my latest projects!</h3>
 </div>
 
+### 🏆 **Top Projects**
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🌱 Quartz Digital Garden</h3>
+      <p align="center">
+        <a href="https://github.com/Rupali59/quartz" target="_blank">
+          <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+        </a>
+        <br/>
+        Personal digital garden built with Quartz framework for knowledge management and note-taking
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">📊 Activity Tracker</h3>
+      <p align="center">
+        <a href="https://github.com/Rupali59/tracker" target="_blank">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+        </a>
+        <br/>
+        Python-based tracker for monitoring and pushing activities in Obsidian
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">💻 LeetCode Solutions</h3>
+      <p align="center">
+        <a href="https://github.com/Rupali59/Leetcode" target="_blank">
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+        </a>
+        <br/>
+        Comprehensive collection of LeetCode problem solutions in JavaScript
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">🌐 Personal Website</h3>
+      <p align="center">
+        <a href="https://github.com/Rupali59/personal_website" target="_blank">
+          <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+        </a>
+        <br/>
+        Personal portfolio website showcasing projects and skills
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🔧 Program Snippets</h3>
+      <p align="center">
+        <a href="https://github.com/Rupali59/ProgramSnippets" target="_blank">
+          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+        </a>
+        <br/>
+        Collection of useful Python code snippets for common programming problems
+      </p>
+    </td>
+    <td width="50%">
+      <h3 align="center">🚗 Parking Lot System</h3>
+      <p align="center">
+        <a href="https://github.com/Rupali59/parking_lot" target="_blank">
+          <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+        </a>
+        <br/>
+        Go-based parking lot management system with efficient algorithms
+      </p>
+    </td>
+  </tr>
+</table>
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Rupali59&show_icons=true&theme=radical&layout=compact" alt="Top Languages" />
+  <p>Feel free to explore my repositories for more examples of my work!</p>
 </div>
+
+---
 
 ## 🏆 Coding Profiles
 
@@ -239,34 +330,40 @@ _Current Position_
 [![HackerRank](https://img.shields.io/badge/-HackerRank-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/profile/Rupali59)
 [![Kaggle](https://img.shields.io/badge/-Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com/rbhatnagar59)
 
-## 🌟 Featured Projects
-
-<div align="center">
-  <h3>🚀 Check out my latest projects!</h3>
-  <p>I'm constantly working on new projects and contributing to open source.</p>
-  <p>Feel free to explore my repositories for more examples of my work.</p>
-</div>
+---
 
 ## 🌐 Connect With Me
 
 <div align="center">
-  <a href="https://linkedin.com/in/rupali-bhatnagar-b4864957" target="_blank">
+  <a href="https://www.linkedin.com/in/rupali-bhatnagar-b4864957" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://rbhatnagar.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://twitter.com/rupali_0509" target="_blank">
     <img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter" />
   </a>
-  <a href="https://dev.to/rupali59" target="_blank">
-    <img src="https://img.shields.io/badge/-Dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to" />
-  </a>
-  <a href="https://stackoverflow.com/users/9696805" target="_blank">
-    <img src="https://img.shields.io/badge/-Stack%20Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white" alt="Stack Overflow" />
+  <a href="mailto:rupalibhatnagar0509@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </div>
 
 ---
 
+## 💡 What I'm Looking For
+
+- 🤝 **Technical Leadership** opportunities
+- 🚀 **Innovative Projects** in AI/ML and cloud technologies
+- 🔧 **ServiceNow Platform** development and administration
+- 💼 **Technical Consulting** and solution architecture
+- 🌍 **Remote/Global** collaboration opportunities
+- 📚 **Knowledge Sharing** and mentoring roles
+
+---
+
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Rupali59&style=flat-square&color=blue" alt="Profile Views" />
-  <p>Thanks for visiting my profile! Feel free to reach out for collaborations or just to say hello! 👋</p>
+  <p><strong>Thanks for visiting my profile!</strong> Feel free to reach out for collaborations, technical discussions, or just to say hello! 👋</p>
+  <p><em>"Looking forward to developing awesome stuff!"</em> 🚀</p>
 </div>

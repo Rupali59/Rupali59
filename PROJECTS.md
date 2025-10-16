@@ -4,7 +4,69 @@ A comprehensive list of all my GitHub repositories (public and private) showcasi
 
 ---
 
-## 🌟 Featured Projects
+## 🏆 TOP 3 PROJECTS TO HIGHLIGHT
+
+### 🥇 **1. SSJK-CRM System** (Private)
+**Repository:** [SSJK-CRM](https://github.com/Rupali59/SSJK-CRM)  
+**Tech Stack:** JavaScript (42%) • EJS (35%) • Astro (9%) • TypeScript (7%) • CSS (4%) • SCSS (3%) • MDX (0.4%)
+
+**🎯 Why This Stands Out:**
+Complete enterprise CRM platform demonstrating full-stack capabilities, business logic implementation, and real-world production experience.
+
+**🔑 Key Features:**
+- ✅ Lead management and tracking system
+- ✅ Customer relationship management
+- ✅ Business process automation
+- ✅ Analytics dashboard with reporting
+- ✅ Sales pipeline tracking
+- ✅ Team collaboration tools
+
+**💼 Business Impact:**
+Production CRM system handling customer lifecycle management for active business operations.
+
+---
+
+### 🥈 **2. ACE-Coliving Website** (Private)
+**Repository:** [ACE-Coliving](https://github.com/Rupali59/ACE-Coliving)  
+**Tech Stack:** Next.js • TypeScript (99%) • PostgreSQL • PLpgSQL (0.5%) • CSS (0.6%) • JavaScript (0.2%)
+
+**🎯 Why This Stands Out:**
+Modern full-stack Next.js application with database integration, demonstrating expertise in React framework, TypeScript, and backend development.
+
+**🔑 Key Features:**
+- ✅ Premium coliving spaces showcase
+- ✅ Hotel accommodations listing
+- ✅ Contact form with lead management
+- ✅ PostgreSQL database integration
+- ✅ Responsive modern design
+- ✅ SEO optimized
+
+**💼 Business Impact:**
+Production website for real business generating leads and showcasing premium accommodations.
+
+---
+
+### 🥉 **3. Voice Transcriber** (Public)
+**Repository:** [Voice_transcriber](https://github.com/Rupali59/Voice_transcriber)  
+**Tech Stack:** Python (68%) • HTML (15%) • CSS (9%) • JavaScript (8%) • Docker • Shell
+
+**🎯 Why This Stands Out:**
+Unique AI/ML integration project combining Python backend, web interface, and containerization - demonstrates technical versatility beyond typical web development.
+
+**🔑 Key Features:**
+- ✅ Speech-to-text conversion
+- ✅ Audio processing pipeline
+- ✅ Web-based interface
+- ✅ Real-time transcription
+- ✅ Docker deployment
+- ✅ File upload and processing
+
+**💼 Technical Innovation:**
+Demonstrates ML/AI integration, Python expertise, audio processing, and DevOps practices.
+
+---
+
+## 🌟 All Featured Projects
 
 ### 1. **SSJK CRM System**
 **Repository:** [SSJK-CRM](https://github.com/Rupali59/SSJK-CRM) (Private)  

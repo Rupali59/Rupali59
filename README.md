@@ -162,7 +162,7 @@
 
 **🐱 My GitHub Data** 
 
-> 📦 625.8 kB Used in GitHub's Storage 
+> 📦 625.7 kB Used in GitHub's Storage 
  > 
 > 🏆 702 Contributions in the Year 2025
  > 
@@ -236,7 +236,7 @@ PHP                      2 repos             ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Rupali59/Rupali59/main/assets/bar_graph.png)
 
 
- Last Updated on 27/10/2025 18:50:27 UTC
+ Last Updated on 28/10/2025 18:53:11 UTC
 <!--END_SECTION:waka-->
 
 ---

@@ -199,17 +199,16 @@ Sunday                   100 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-YAML                     9 mins              ███████████████░░░░░░░░░░   61.94 % 
-Other                    6 mins              ██████████░░░░░░░░░░░░░░░   38.06 % 
+No Activity Tracked This Week
 
 🔥 Editors: 
-Cursor                   16 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 🐱‍💻 Projects: 
-WebsiteCompanion         16 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 
 💻 Operating System: 
-Mac                      16 mins             █████████████████████████   100.00 % 
+No Activity Tracked This Week
 ```
 
 **I Mostly Code in JavaScript** 
@@ -229,7 +228,7 @@ PHP                      2 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Rupali59/Rupali59/main/assets/bar_graph.png)
 
 
- Last Updated on 25/11/2025 18:51:57 UTC
+ Last Updated on 27/11/2025 18:49:58 UTC
 <!--END_SECTION:waka-->
 
 ---

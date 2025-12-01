@@ -156,7 +156,7 @@
 ## ⏰ WakaTime Statistics
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-243%20hrs%2038%20mins-blue)
+![Code Time](http://img.shields.io/badge/Code%20Time-243%20hrs%2051%20mins-blue)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue)
 
@@ -199,16 +199,19 @@ Sunday                   101 commits         █░░░░░░░░░░�
 🕑︎ Time Zone: Asia/Kolkata
 
 💬 Programming Languages: 
-No Activity Tracked This Week
+JSON                     10 mins             █████████████████████░░░░   82.40 % 
+TypeScript               2 mins              ████░░░░░░░░░░░░░░░░░░░░░   17.17 % 
+Markdown                 0 secs              ░░░░░░░░░░░░░░░░░░░░░░░░░   00.43 % 
 
 🔥 Editors: 
-No Activity Tracked This Week
+Cursor                   12 mins             █████████████████████████   100.00 % 
 
 🐱‍💻 Projects: 
-No Activity Tracked This Week
+Obsidian                 10 mins             █████████████████████░░░░   82.83 % 
+VipinKaushik             2 mins              ████░░░░░░░░░░░░░░░░░░░░░   17.17 % 
 
 💻 Operating System: 
-No Activity Tracked This Week
+Mac                      12 mins             █████████████████████████   100.00 % 
 ```
 
 **I Mostly Code in JavaScript** 
@@ -228,7 +231,7 @@ PHP                      2 repos             █░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Rupali59/Rupali59/main/assets/bar_graph.png)
 
 
- Last Updated on 30/11/2025 18:49:41 UTC
+ Last Updated on 01/12/2025 18:58:05 UTC
 <!--END_SECTION:waka-->
 
 ---

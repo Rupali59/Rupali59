@@ -1,0 +1,247 @@
+[
+  {
+    "description": "",
+    "name": "Rupali59",
+    "primaryLanguage": null
+  },
+  {
+    "description": "WebsiteCompanion",
+    "name": "WebsiteCompanion",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    }
+  },
+  {
+    "description": "Creates all my obsidian notes",
+    "name": "Obsidian",
+    "primaryLanguage": {
+      "name": "Python"
+    }
+  },
+  {
+    "description": "Repository for astrologer Vipin Kaushik",
+    "name": "VipinKaushik",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    }
+  },
+  {
+    "description": "My work tracker",
+    "name": "WorkTracker",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    }
+  },
+  {
+    "description": "Shree Shyam Jyotish Kendra",
+    "name": "SSJK",
+    "primaryLanguage": {
+      "name": "HTML"
+    }
+  },
+  {
+    "description": "Lets check what is your intimacy level with your contacts",
+    "name": "PersonaCalculator",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    }
+  },
+  {
+    "description": "Secure logistics packers and movers",
+    "name": "ChoudharyTransport",
+    "primaryLanguage": null
+  },
+  {
+    "description": "",
+    "name": "Youvan",
+    "primaryLanguage": {
+      "name": "HTML"
+    }
+  },
+  {
+    "description": "Premium Next.js website for ACE Coliving - showcasing coliving spaces and hotel accommodations with contact form and lead management",
+    "name": "ACE-Coliving",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    }
+  },
+  {
+    "description": "",
+    "name": "rtistic",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    }
+  },
+  {
+    "description": "Tathya - Business Websites & CRM Solutions Portfolio",
+    "name": "tathya-portfolio",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    }
+  },
+  {
+    "description": "",
+    "name": "SSJK-website",
+    "primaryLanguage": {
+      "name": "PHP"
+    }
+  },
+  {
+    "description": "",
+    "name": "SSJK-CRM",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    }
+  },
+  {
+    "description": "",
+    "name": "gemstone",
+    "primaryLanguage": {
+      "name": "TypeScript"
+    }
+  },
+  {
+    "description": "SSJK-telegram-webapp",
+    "name": "SSJK-telegram-webapp",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    }
+  },
+  {
+    "description": "Price Analyser",
+    "name": "price-analyser",
+    "primaryLanguage": {
+      "name": "Python"
+    }
+  },
+  {
+    "description": "Voice_transcriber",
+    "name": "Voice_transcriber",
+    "primaryLanguage": {
+      "name": "Python"
+    }
+  },
+  {
+    "description": "Leetcode solutions",
+    "name": "Leetcode",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    }
+  },
+  {
+    "description": "Tracker for tracking and pushing activities in obsidian",
+    "name": "tracker",
+    "primaryLanguage": {
+      "name": "Python"
+    }
+  },
+  {
+    "description": "AdminLTE - Free admin dashboard template based on Bootstrap 5",
+    "name": "AdminLTE",
+    "primaryLanguage": {
+      "name": "CSS"
+    }
+  },
+  {
+    "description": "Program snippets written for coding problems",
+    "name": "ProgramSnippets",
+    "primaryLanguage": {
+      "name": "Python"
+    }
+  },
+  {
+    "description": "Personal Website",
+    "name": "personal_website",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    }
+  },
+  {
+    "description": "GeekTrst Problem Solutions",
+    "name": "geektrust-problems",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    }
+  },
+  {
+    "description": "SSJF office backend",
+    "name": "Office_backend",
+    "primaryLanguage": null
+  },
+  {
+    "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+    "name": "system-design-primer",
+    "primaryLanguage": {
+      "name": "Python"
+    }
+  },
+  {
+    "description": "Summaries or learning from tech blogs",
+    "name": "TechBlogs",
+    "primaryLanguage": null
+  },
+  {
+    "description": "",
+    "name": "SystemDesign",
+    "primaryLanguage": null
+  },
+  {
+    "description": "Projects for Golang",
+    "name": "Go",
+    "primaryLanguage": {
+      "name": "Go"
+    }
+  },
+  {
+    "description": "Chokidar",
+    "name": "chokidar",
+    "primaryLanguage": {
+      "name": "JavaScript"
+    }
+  },
+  {
+    "description": "A complete computer science study plan to become a software engineer.",
+    "name": "coding-interview-university",
+    "primaryLanguage": null
+  },
+  {
+    "description": "Becoming better at data science every day",
+    "name": "learning",
+    "primaryLanguage": null
+  },
+  {
+    "description": "A utility that parse Zerodha Consolidated google spreadsheets and render category-wise scrip details(margins, multiplier, etc)",
+    "name": "rms-consolidated-scrips-status",
+    "primaryLanguage": {
+      "name": "Python"
+    }
+  },
+  {
+    "description": "iNeuron Assignment",
+    "name": "iNeuron",
+    "primaryLanguage": {
+      "name": "Jupyter Notebook"
+    }
+  },
+  {
+    "description": "Solution to GoJek's programming assignment",
+    "name": "parking_lot",
+    "primaryLanguage": {
+      "name": "Go"
+    }
+  },
+  {
+    "description": "This project allows users to dynamically create databases.",
+    "name": "dynamic-data",
+    "primaryLanguage": {
+      "name": "PHP"
+    }
+  },
+  {
+    "description": "Automatically exported from code.google.com/p/pr-assignments",
+    "name": "pr-assignments",
+    "primaryLanguage": {
+      "name": "MATLAB"
+    }
+  }
+]

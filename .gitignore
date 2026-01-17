@@ -1,0 +1,9 @@
+# Environment files
+.env
+.env.local
+.env.development
+.env.preview
+.env.production
+
+# Keep the template
+!.env.example

@@ -156,7 +156,7 @@
 ## ⏰ WakaTime Statistics
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-314%20hrs%201%20min-blue?style=flat)
+![Code Time](http://img.shields.io/badge/Code%20Time-314%20hrs%2042%20mins-blue?style=flat)
 
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
@@ -234,7 +234,7 @@ Swift                    1 repo              ░░░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/Rupali59/Rupali59/main/assets/bar_graph.png)
 
 
- Last Updated on 30/01/2026 19:09:29 UTC
+ Last Updated on 31/01/2026 18:57:40 UTC
 <!--END_SECTION:waka-->
 
 ---

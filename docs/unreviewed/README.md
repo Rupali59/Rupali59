@@ -14,27 +14,145 @@
 &nbsp;
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rupalibhatnagar0509@gmail.com)
 
-**Senior Software Engineer** — ServiceNow Security Operations & Vulnerability Response
-
-Building scalable platforms that process millions of records, power CISO-level analytics, and automate complex security workflows end-to-end.
+**Senior Software Engineer** — 9 years across security platforms, distributed systems, and ML-powered products.
 
 ---
 
 ## Experience
 
-**ServiceNow · Sr. Software Engineer** — *Security Operations, Vulnerability Response*
+### [![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=black)](https://www.servicenow.com) &nbsp; Senior Software Engineer
 
-Delivered production features across **50+ enterprise organizations**:
+`Mar 2022 – May 2025` · *3 yrs 3 mos · Hyderabad, India (Remote)*
+*Security Operations · Vulnerability Response*
 
-- **Vulnerability Source Integrations** — Veracode, Qualys, Tenable, Microsoft TVM; ingesting 500K+ records daily
-- **Background Job Framework** — Multi-threaded processing of 1M+ tasks/month with 60% performance improvement
-- **Real-Time Aggregation Engine** — CISO dashboards over 100K+ records per 8h cycle, used across 50+ security teams
-- **Assignment Rule Engine** — Redis-backed routing of 1M+ vulnerable items daily with cache optimization
-- **Dynamic Approval Workflows** — Flow Designer–based exception handling, 40% reduction in approval time
-- **ML-Based Recommendations** — Vulnerability task allocation with 20% accuracy improvement
-- **Hackathon wins** — Diagnostic Framework (40% debug time reduction), PoA&M Generator, 100M-record data generator for perf testing
+**Dynamic Approval Rule Engine**
+Multi-level, dynamic approval workflow for vulnerability deferment and exception requests. Built with ServiceNow Flow Designer for flexible, scalable configuration across diverse organizational policies.
 
-**Previous:** Darwinbox · NowFloats · Finomena · Babajob — microservices, telephony systems, ML pipelines, high-traffic web at scale.
+**Penetration Testing Request Catalog & Workflow Automation**
+End-to-end catalog for penetration testing requests with automated workflows to manage and remediate manually identified vulnerabilities — streamlining the full vulnerability management lifecycle.
+
+**Background Job Processing Framework**
+Architected a robust multi-threaded framework for long-running tasks that previously strained system resources:
+- Multithreaded execution with configurable parallelism
+- Job status tracking, cancellation support, and estimated completion visibility
+- User-friendly migration interface — **60% performance improvement**, handling **1M+ tasks/month**
+
+**Real-Time Data Aggregation Engine**
+High-performance aggregation framework powering near real-time analytics over **100K+ records per 8h cycle** — drives CISO dashboards and vulnerability views for **50+ enterprise security teams**.
+
+![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Flow Designer](https://img.shields.io/badge/Flow_Designer-62D84E?style=flat-square&logo=servicenow&logoColor=black)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square&logo=fastapi&logoColor=white)
+
+---
+
+### [![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=black)](https://www.servicenow.com) &nbsp; Software Engineer
+
+`Apr 2019 – Mar 2022` · *3 yrs · Hyderabad, India (Hybrid)*
+*Security Operations · Vulnerability Response*
+
+**Assignment Rule Engine**
+Cache-optimized rule engine to automatically prioritize infrastructure vulnerabilities and policy violations, routing them to the correct remediation groups — handling **1M+ vulnerable items daily** via the GlidePlatform.
+
+**ML-Based Assignment Recommendations**
+Classification-based recommendation system for assignment suggestions with feature engineering for ML input and a performant user-facing interface — **20% improvement in task allocation accuracy**.
+
+**CISO & Vulnerability Dashboards**
+Led design and development of executive CISO dashboards and supporting vulnerability views, defining key metrics and structuring the data pipeline used by security leaders across **50+ organizations**.
+
+**Vulnerability Source Integration**
+Engineered integrations with Veracode, Qualys, Tenable, and Microsoft TVM to ingest application vulnerabilities at scale — ingesting **500K+ records daily** with standardized data models.
+
+**Hackathon Projects**
+- **Diagnostic Framework** — Streamlined issue tracking across customer instances; 40% reduction in resolution time
+- **ML for Vulnerability Response** — Prototyped models for task grouping and remediation ETA estimation
+- **POA&M Generator** — Auto-generates Plans of Action & Milestones from vulnerability data
+- **High-Volume Data Generator** — Generates 100M+ records across 20–30 tables for load/performance testing
+
+![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+
+---
+
+### [![Darwinbox](https://img.shields.io/badge/Darwinbox-1A1A2E?style=flat-square&logoColor=white)](https://darwinbox.com) &nbsp; Software Developer
+
+`Aug 2018 – Mar 2019` · *8 mos · Hyderabad, India*
+
+**Audit Logging Microservice**
+Designed and implemented a microservice-based architecture to capture audit logs of all client data modifications. Listens to MongoDB oplogs, processes changes, and pushes events to an AWS SQS queue for downstream handling.
+
+**Oplog Processor**
+Robust processor capable of detecting and highlighting differences across strings, arrays, and nested documents — translating raw oplog entries into clear, human-readable audit logs for traceability.
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Yii](https://img.shields.io/badge/Yii-42B883?style=flat-square&logo=yii&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![AWS SQS](https://img.shields.io/badge/AWS_SQS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+
+---
+
+### [![NowFloats](https://img.shields.io/badge/NowFloats-0066CC?style=flat-square&logoColor=white)](https://nowfloats.com) &nbsp; Software Engineer
+
+`Jun 2017 – Aug 2018` · *1 yr 3 mos · Hyderabad, India*
+
+**Responsive Web Platform** — Built user-centric features supporting **50,000+ daily active users** using C#, Bootstrap, JavaScript, jQuery, and Knockout.js.
+
+**Facebook Graph API Integration** — Enabled merchants to share products and updates to Facebook profiles, pages, and shops (Ads Extension) directly from the platform.
+
+**Sales Prediction Model (SPIDER)** — ML-powered module predicting sales revenue per rep based on historical performance and product training — up to **84% accuracy**.
+
+**Generic Booking System** — Flexible multi-industry booking engine (hotels, clinics, restaurants) built on Node.js and WebActions API.
+
+**Order Management Dashboard** — Comprehensive tool built with AngularJS and C# for tracking purchases, payments, delivery status, and customer grievances.
+
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![AngularJS](https://img.shields.io/badge/AngularJS-DD0031?style=flat-square&logo=angularjs&logoColor=white)
+![Knockout.js](https://img.shields.io/badge/Knockout.js-1C9CEA?style=flat-square&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+
+---
+
+### [![Finomena](https://img.shields.io/badge/Finomena-2C3E50?style=flat-square&logoColor=white)](https://finomena.com) &nbsp; Software Developer
+
+`Feb 2017 – May 2017` · *4 mos · Bengaluru, India*
+
+**Loan Management & Transaction Dashboards** — Designed and maintained dashboards for Loan Management, Repayments, Collections, and Transactions using PHP/Laravel — scaled to handle **8,000+ loans/month** with Eloquent ORM on MySQL.
+
+**System Automation** — Artisan-based task scheduling, cron jobs, authorization, validation, event handling, and mail services for loan processing workflows.
+
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
+
+---
+
+### [![Babajob](https://img.shields.io/badge/Babajob-E84C3D?style=flat-square&logoColor=white)](https://babajob.com) &nbsp; Software Engineer
+
+`May 2016 – Jan 2017` · *9 mos · Bengaluru, India*
+
+**Interactive Voice Recognition System** — Automated asynchronous inbound call handling using Golang and RabbitMQ with a state-based system for dynamic responses; RESTful APIs and SMS scheduling; logging and analytics via MongoDB. Handling **10K+ inbound calls** and **20K+ SMS/day**.
+
+**Babajob Search Subsystem** — Contributed to the Java-based search architecture on Elasticsearch; built dynamic Mustache template–based query generation for efficient search results.
+
+**Feature Development** — Async email/notification dispatch (Node.js, AngularJS, Mandrill); custom employer profile banners; priority SMS dispatch system on MVC .NET with Exotel.
+
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 
 ---
 
@@ -79,6 +197,7 @@ ServiceNow SecOps / VR · GlidePlatform · Flow Designer · vulnerability pipeli
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=matlab&logoColor=white)
 
 **Cloud & DevOps**
 
@@ -91,14 +210,18 @@ ServiceNow SecOps / VR · GlidePlatform · Flow Designer · vulnerability pipeli
 
 ---
 
-## Selected Projects
+## Projects
 
 | Project | Description | Stack |
 |---------|-------------|-------|
+| [Motherboard Platform](https://github.com/Rupali59/Mothership) | Microservices platform — auth, scheduling, notifications, inventory, storage, health monitoring | Go, TypeScript |
+| [MIS](https://github.com/Rupali59/MIS) | Management Information System for institutes — students, faculty, admin portal | Next.js, MongoDB, NextAuth |
+| [HIMK — Activity Recognition](https://github.com/Rupali59/himk-implementation) | M.Tech thesis: Human Activity Recognition using HMM-based Intermediate Matching Kernel + SVM | MATLAB, Python, Docker |
 | [Voice Transcriber](https://github.com/Rupali59/Voice_transcriber) | Speech-to-text web app with Dockerized deployment | Python, HTML/CSS/JS |
 | [Parking Lot System](https://github.com/Rupali59/parking_lot) | System design–oriented parking allocation with efficient algorithms | Go |
 | [LeetCode Solutions](https://github.com/Rupali59/Leetcode) | 500+ algorithm solutions across data structures and problem patterns | JavaScript |
-| [WorkTracker](https://rupali59.github.io/WorkTracker/) | Personal work dashboard — activity tracking with GitHub Pages frontend | TypeScript |
+| [WorkTracker](https://rupali59.github.io/WorkTracker/) | Personal work dashboard with GitHub Pages frontend | TypeScript |
+| [Zerodha Scrips Utility](https://github.com/Rupali59/rms-consolidated-scrips-status) | Parses Zerodha Consolidated Spreadsheets to render category-wise scrip margin details | Python |
 | SSJK CRM *(private)* | Enterprise CRM — lead management, dashboards, automation, reporting | JS, EJS, Astro, TypeScript |
 | ACE Coliving *(private)* | Premium booking site with PostgreSQL-backed lead management | Next.js, TypeScript, PL/pgSQL |
 
@@ -208,12 +331,37 @@ Last Updated on 17/02/2026 19:30:16 UTC
 
 ## Education
 
-**M.Tech, Computer Science & Engineering** · NIT Goa *(2014–2016)*
-**B.E., Computer Science & Engineering** · LNCT Bhopal, RGPV *(2010–2014)*
+**[National Institute of Technology Goa](https://www.nitgoa.ac.in)**
+M.Tech, Computer Science & Engineering · *2014–2016* · GPA: 8.42
+*Specialisation: Pattern Recognition and Machine Learning Techniques*
 
-**Certifications:** WhatsApp API Expert – Wati (2024) · Ultimate JavaScript Fundamentals – Code With Mosh (2025) · Neural Networks & Deep Learning – Coursera (2020) · JavaScript Algorithms & Data Structures – freeCodeCamp (2020) · Git Essential Training – LinkedIn (2020)
+**[LNCT, Bhopal](https://www.lnct.ac.in)** — RGPV
+B.E., Computer Science & Engineering · *2010–2014* · CGPA: 8.58 *(Graduated with Honors)*
 
-**Google Developer Credentials** *(via [developers.google.com/profile/u/rupali59](https://developers.google.com/profile/u/rupali59) · [credly.com/users/rupali-bhatnagar-59](https://www.credly.com/users/rupali-bhatnagar-59))*
+---
+
+## Honors & Awards
+
+| Award | Issuer | Year |
+|-------|--------|------|
+| **Chancellor's Scholarship** — Top 10 students by theory marks across the state | Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal | 2013 |
+| **Silver Medal** — 2nd place, Programming Contest (multi-college) | Persistent Systems Limited | 2013 |
+
+---
+
+## Certifications
+
+**LinkedIn & Online**
+
+| Certification | Issuer | Year |
+|--------------|--------|------|
+| WhatsApp API Expert | [Wati](https://www.wati.io) | 2024 |
+| Ultimate JavaScript Part 1: Fundamentals | [Code With Mosh](https://codewithmosh.com) | 2025 |
+| Neural Networks and Deep Learning | [Coursera](https://www.coursera.org) | 2020 |
+| JavaScript Algorithms & Data Structures | [freeCodeCamp](https://www.freecodecamp.org) | 2020 |
+| Git Essential Training | [LinkedIn Learning](https://www.linkedin.com/learning) | 2020 |
+
+**Google Developer Program** *(via [developers.google.com/profile/u/rupali59](https://developers.google.com/profile/u/rupali59) · [credly.com/users/rupali-bhatnagar-59](https://www.credly.com/users/rupali-bhatnagar-59))*
 
 | Badge | Date |
 |-------|------|

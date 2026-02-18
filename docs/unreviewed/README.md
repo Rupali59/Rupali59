@@ -207,7 +207,7 @@ Last Updated on 17/02/2026 19:30:16 UTC
 **M.Tech, Computer Science & Engineering** · NIT Goa *(2014–2016)*
 **B.E., Computer Science & Engineering** · LNCT Bhopal, RGPV *(2010–2014)*
 
-**Certifications:** WhatsApp API Expert (2024) · Neural Networks & Deep Learning – Coursera · JavaScript Algorithms – freeCodeCamp · Git Essential Training – LinkedIn
+**Certifications:** WhatsApp API Expert – Wati (2024) · Ultimate JavaScript Fundamentals – Code With Mosh (2025) · Neural Networks & Deep Learning – Coursera (2020) · JavaScript Algorithms & Data Structures – freeCodeCamp (2020) · Git Essential Training – LinkedIn (2020)
 
 ---
 

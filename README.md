@@ -28,6 +28,35 @@
 
 ## Experience
 
+```
+📁 9 Years of Engineering
+├── 🏢 ServiceNow  ·  2019 – 2025  ·  6 yrs
+│   ├── 👑 Senior Software Engineer  ·  Mar 2022 – May 2025
+│   │   ├── ⚡ Dynamic Approval Rule Engine
+│   │   ├── 🔐 Penetration Testing Workflow Automation
+│   │   └── 🚀 Background Job Processing Framework  ·  60% perf gain · 1M+ tasks/mo
+│   └── 💼 Software Engineer  ·  Apr 2019 – Mar 2022
+│       ├── 🎯 Assignment Rule Engine  ·  1M+ vulnerable items/day
+│       ├── 🤖 ML-Based Assignment Recommendations  ·  20% accuracy gain
+│       ├── 📊 CISO & Vulnerability Dashboards  ·  50+ enterprise orgs
+│       └── 🔗 Vulnerability Source Integrations  ·  500K+ records/day
+├── 🏢 Darwinbox  ·  Aug 2018 – Mar 2019  ·  8 mos
+│   ├── 📋 Audit Logging Microservice  ·  MongoDB Oplog → AWS SQS
+│   └── 🔍 Oplog Diff Processor  ·  string · array · nested doc diffing
+├── 🏢 NowFloats / Boost360  ·  Jun 2017 – Aug 2018  ·  1 yr 3 mos
+│   ├── 🌐 Responsive Web Platform  ·  50,000+ DAU
+│   ├── 🧠 SPIDER Sales Prediction ML Model  ·  84% accuracy
+│   ├── 📅 Generic Multi-Industry Booking System
+│   └── 📦 Order Management Dashboard
+├── 🏢 Finomena  ·  Feb – May 2017  ·  4 mos
+│   ├── 💰 Loan Management Dashboards  ·  8,000+ loans/mo
+│   └── ⚙️  System Automation  ·  scheduling · cron · mail services
+└── 🏢 Babajob  ·  May 2016 – Jan 2017  ·  9 mos
+    ├── 📞 IVR System  ·  10K+ calls/day · 20K+ SMS/day
+    ├── 🔎 Search Subsystem  ·  Java + Elasticsearch + Mustache templates
+    └── 🔔 Async Notifications  ·  Node.js · Mandrill · Exotel
+```
+
 <h3>
   <img src="https://img.shields.io/badge/ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=black" height="22" />
   &nbsp;
@@ -194,11 +223,11 @@ ServiceNow SecOps / VR · GlidePlatform · Flow Designer · vulnerability pipeli
 
 **AI / ML**
 
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,matlab,jupyter&perline=9" />
+<img src="https://skillicons.dev/icons?i=sklearn,matlab&perline=9" />
 
 **Cloud & DevOps**
 
-<img src="https://skillicons.dev/icons?i=aws,docker,jenkins,git,linux&perline=9" />
+<img src="https://skillicons.dev/icons?i=aws,docker,git,linux&perline=9" />
 
 ---
 

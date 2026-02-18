@@ -6,6 +6,8 @@
 &nbsp;
 [![Website](https://img.shields.io/badge/tathya.dev-111111?style=flat-square&logo=About.me&logoColor=white)](https://tathya.dev/)
 &nbsp;
+[![Google Developer](https://img.shields.io/badge/Google_Developer-4285F4?style=flat-square&logo=google&logoColor=white)](https://developers.google.com/profile/u/rupali59)
+&nbsp;
 [![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/rupali_0509)
 &nbsp;
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rupalibhatnagar0509@gmail.com)
@@ -209,6 +211,19 @@ Last Updated on 17/02/2026 19:30:16 UTC
 
 **Certifications:** WhatsApp API Expert – Wati (2024) · Ultimate JavaScript Fundamentals – Code With Mosh (2025) · Neural Networks & Deep Learning – Coursera (2020) · JavaScript Algorithms & Data Structures – freeCodeCamp (2020) · Git Essential Training – LinkedIn (2020)
 
+**Google Developer Credentials** *(via [developers.google.com/profile/u/rupali59](https://developers.google.com/profile/u/rupali59))*
+
+| Badge | Date |
+|-------|------|
+| Google Cloud Innovator | Jan 2026 |
+| Gemini Enterprise Agent Ready | Feb 2026 |
+| Google Maps Platform Innovators | Feb 2026 |
+| Google Developer Program — Premium Tier | Feb 2026 |
+| Google Cloud & NVIDIA Community Member | Feb 2026 |
+| Firebase Studio Developer Community | Feb 2026 |
+| GDG New Delhi & GDG Gurugram Member | Feb 2026 |
+| I/O 2026 — Registered | Feb 2026 |
+
 ---
 
 ## Coding Profiles
@@ -228,6 +243,8 @@ Last Updated on 17/02/2026 19:30:16 UTC
 [![Website](https://img.shields.io/badge/tathya.dev-111111?style=flat-square&logo=About.me&logoColor=white)](https://tathya.dev/)
 &nbsp;
 [![WorkTracker](https://img.shields.io/badge/WorkTracker-1F2937?style=flat-square&logo=github&logoColor=white)](https://rupali59.github.io/WorkTracker/)
+&nbsp;
+[![Google Developer](https://img.shields.io/badge/Google_Developer-4285F4?style=flat-square&logo=google&logoColor=white)](https://developers.google.com/profile/u/rupali59)
 &nbsp;
 [![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/rupali_0509)
 &nbsp;

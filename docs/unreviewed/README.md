@@ -108,13 +108,13 @@ ServiceNow SecOps / VR · GlidePlatform · Flow Designer · vulnerability pipeli
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Rupali59&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" height="160" alt="GitHub Stats" />
+<img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=Rupali59&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" height="160" alt="GitHub Stats" />
 &nbsp;
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rupali59&hide_border=true&background=0D1117&stroke=1F2937&ring=58A6FF&fire=58A6FF&currStreakNum=C9D1D9&currStreakLabel=8B949E&sideLabels=8B949E&sideNums=C9D1D9&dates=8B949E" height="160" alt="GitHub Streak" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=Rupali59&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&layout=compact&langs_count=8&count_private=true" height="140" alt="Top Languages" />
+<img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs?username=Rupali59&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&layout=compact&langs_count=8&count_private=true" height="140" alt="Top Languages" />
 
-<img src="https://github-profile-trophy.vercel.app/?username=Rupali59&theme=algolia&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" alt="GitHub Trophies" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rupali59&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&hide_border=true" alt="GitHub Activity Graph" />
 
 </div>
 

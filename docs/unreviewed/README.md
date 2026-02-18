@@ -8,6 +8,8 @@
 &nbsp;
 [![Google Developer](https://img.shields.io/badge/Google_Developer-4285F4?style=flat-square&logo=google&logoColor=white)](https://developers.google.com/profile/u/rupali59)
 &nbsp;
+[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/rupali-bhatnagar-59)
+&nbsp;
 [![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/rupali_0509)
 &nbsp;
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rupalibhatnagar0509@gmail.com)
@@ -211,7 +213,7 @@ Last Updated on 17/02/2026 19:30:16 UTC
 
 **Certifications:** WhatsApp API Expert – Wati (2024) · Ultimate JavaScript Fundamentals – Code With Mosh (2025) · Neural Networks & Deep Learning – Coursera (2020) · JavaScript Algorithms & Data Structures – freeCodeCamp (2020) · Git Essential Training – LinkedIn (2020)
 
-**Google Developer Credentials** *(via [developers.google.com/profile/u/rupali59](https://developers.google.com/profile/u/rupali59))*
+**Google Developer Credentials** *(via [developers.google.com/profile/u/rupali59](https://developers.google.com/profile/u/rupali59) · [credly.com/users/rupali-bhatnagar-59](https://www.credly.com/users/rupali-bhatnagar-59))*
 
 | Badge | Date |
 |-------|------|
@@ -233,6 +235,8 @@ Last Updated on 17/02/2026 19:30:16 UTC
 [![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/profile/Rupali59)
 &nbsp;
 [![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://kaggle.com/rbhatnagar59)
+&nbsp;
+[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/rupali-bhatnagar-59)
 
 ---
 
@@ -245,6 +249,8 @@ Last Updated on 17/02/2026 19:30:16 UTC
 [![WorkTracker](https://img.shields.io/badge/WorkTracker-1F2937?style=flat-square&logo=github&logoColor=white)](https://rupali59.github.io/WorkTracker/)
 &nbsp;
 [![Google Developer](https://img.shields.io/badge/Google_Developer-4285F4?style=flat-square&logo=google&logoColor=white)](https://developers.google.com/profile/u/rupali59)
+&nbsp;
+[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/rupali-bhatnagar-59)
 &nbsp;
 [![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/rupali_0509)
 &nbsp;

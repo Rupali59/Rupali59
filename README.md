@@ -6,6 +6,8 @@
 &nbsp;
 [![Website](https://img.shields.io/badge/tathya.dev-111111?style=flat-square&logo=About.me&logoColor=white)](https://tathya.dev/)
 &nbsp;
+[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/rupali_0509)
+&nbsp;
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rupalibhatnagar0509@gmail.com)
 
 **Senior Software Engineer** — ServiceNow Security Operations & Vulnerability Response
@@ -92,6 +94,7 @@ ServiceNow SecOps / VR · GlidePlatform · Flow Designer · vulnerability pipeli
 | [Voice Transcriber](https://github.com/Rupali59/Voice_transcriber) | Speech-to-text web app with Dockerized deployment | Python, HTML/CSS/JS |
 | [Parking Lot System](https://github.com/Rupali59/parking_lot) | System design–oriented parking allocation with efficient algorithms | Go |
 | [LeetCode Solutions](https://github.com/Rupali59/Leetcode) | 500+ algorithm solutions across data structures and problem patterns | JavaScript |
+| [WorkTracker](https://rupali59.github.io/WorkTracker/) | Personal work dashboard — activity tracking with GitHub Pages frontend | TypeScript |
 | SSJK CRM *(private)* | Enterprise CRM — lead management, dashboards, automation, reporting | JS, EJS, Astro, TypeScript |
 | ACE Coliving *(private)* | Premium booking site with PostgreSQL-backed lead management | Next.js, TypeScript, PL/pgSQL |
 
@@ -224,6 +227,8 @@ Last Updated on 17/02/2026 19:30:16 UTC
 &nbsp;
 [![Website](https://img.shields.io/badge/tathya.dev-111111?style=flat-square&logo=About.me&logoColor=white)](https://tathya.dev/)
 &nbsp;
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/rupali_0509)
+[![WorkTracker](https://img.shields.io/badge/WorkTracker-1F2937?style=flat-square&logo=github&logoColor=white)](https://rupali59.github.io/WorkTracker/)
+&nbsp;
+[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/rupali_0509)
 &nbsp;
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rupalibhatnagar0509@gmail.com)

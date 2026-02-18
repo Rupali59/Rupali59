@@ -78,7 +78,6 @@ Architected a robust multi-threaded framework for long-running resource-intensiv
 
 ![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=black)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Flow Designer](https://img.shields.io/badge/Flow_Designer-62D84E?style=flat-square&logo=servicenow&logoColor=black)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square&logo=fastapi&logoColor=white)
 
@@ -115,6 +114,7 @@ Engineered integrations with Veracode, Qualys, Tenable, and Microsoft TVM — in
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square&logo=fastapi&logoColor=white)
 
 ---
 
@@ -157,7 +157,7 @@ Detects and highlights differences across strings, arrays, and nested documents 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![AngularJS](https://img.shields.io/badge/AngularJS-DD0031?style=flat-square&logo=angularjs&logoColor=white)
-![Knockout.js](https://img.shields.io/badge/Knockout.js-1C9CEA?style=flat-square&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 
@@ -200,34 +200,43 @@ Detects and highlights differences across strings, arrays, and nested documents 
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![AngularJS](https://img.shields.io/badge/AngularJS-DD0031?style=flat-square&logo=angularjs&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 
 ---
 
 ## Tech Stack
 
-**Platform & Security Engineering**
-ServiceNow SecOps / VR · GlidePlatform · Flow Designer · vulnerability pipelines · CISO dashboards · background job systems
+**Languages**
+
+<img src="https://skillicons.dev/icons?i=js,ts,py,go,java,php,cs&perline=9" />
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,astro,html,css,bootstrap,jquery,angular&perline=9" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,astro,angular,html,css,bootstrap,jquery&perline=9" />
 
-**Backend & Systems**
+**Backend & Runtimes**
 
-<img src="https://skillicons.dev/icons?i=nodejs,go,py,php,laravel,java,cs,dotnet&perline=9" />
+<img src="https://skillicons.dev/icons?i=nodejs,laravel,dotnet&perline=9" />
 
-**Data & Messaging**
+**Databases**
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,elasticsearch,rabbitmq&perline=9" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&perline=9" />
 
-**AI / ML**
+**Search & Messaging**
+
+<img src="https://skillicons.dev/icons?i=elasticsearch,rabbitmq&perline=9" />
+
+**ML & Research**
 
 <img src="https://skillicons.dev/icons?i=sklearn,matlab&perline=9" />
 
-**Cloud & DevOps**
+**Cloud & Dev Tools**
 
-<img src="https://skillicons.dev/icons?i=aws,docker,git,linux&perline=9" />
+<img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux,bash&perline=9" />
+
+**Platform**
+ServiceNow SecOps · Vulnerability Response · GlidePlatform · Flow Designer
 
 ---
 

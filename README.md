@@ -435,5 +435,7 @@ B.E., Computer Science & Engineering · *2010–2014* · CGPA: **8.58** *(Gradua
 [![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/rupali_0509)
 &nbsp;
 [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rupalibhatnagar0509@gmail.com)
+[![HuggingFace](https://img.shields.io/badge/huggingface?logo=huggingface&style=flat-square&logoColor=%23FFD21E)](https://huggingface.co/Rupali59)
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,12,20&height=100&section=footer" width="100%" />

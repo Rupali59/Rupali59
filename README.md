@@ -1,443 +1,272 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,12,20&height=140&section=header" width="100%" />
+<!-- Dynamic header banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=200&section=header&text=Rupali%20Bhatnagar&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Senior%20Software%20Engineer%20%C2%B7%20Full-Stack%20%C2%B7%20Security%20Ops%20%C2%B7%20ML%20Integration&descAlignY=58&descSize=16&descColor=BFD8FF" alt="header" />
 
-# Rupali Bhatnagar
+<!-- Typing animation -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=1A56DB&center=true&vCenter=true&width=700&lines=9%2B+years+building+enterprise-grade+systems;Led+Security+Ops+%40+ServiceNow+%E2%80%94+1M%2B+items%2Fday;TypeScript+%C2%B7+Next.js+%C2%B7+Go+%C2%B7+Node.js+%C2%B7+Python;Open+to+Freelance+%26+Full-Time+Opportunities)](https://git.io/typing-svg)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3000&pause=800&color=58A6FF&center=true&vCenter=true&width=620&lines=Senior+Software+Engineer+%7C+9+Years;ServiceNow+SecOps+%26+Vulnerability+Response;Distributed+Systems+%7C+ML+%7C+Full+Stack;TypeScript+%C2%B7+Go+%C2%B7+Python+%C2%B7+Java" alt="Typing SVG" />
-
-<br/>
-
-[![Profile Views](https://komarev.com/ghpvc/?username=Rupali59&color=0e75b6&style=flat-square&label=profile+views)](https://github.com/Rupali59)
-&nbsp;
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rupali-bhatnagar-b4864957/)
-&nbsp;
-[![Website](https://img.shields.io/badge/tathya.dev-111111?style=flat-square&logo=About.me&logoColor=white)](https://tathya.dev/)
-&nbsp;
-[![Google Developer](https://img.shields.io/badge/g.dev%2Frupali59-4285F4?style=flat-square&logo=google&logoColor=white)](https://g.dev/rupali59)
-&nbsp;
-[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/rupali-bhatnagar-59)
-&nbsp;
-[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/rupali_0509)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rupalibhatnagar0509@gmail.com)
+<!-- Badges -->
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-rupali--bhatnagar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rupali-bhatnagar-b4864957)
+[![Email](https://img.shields.io/badge/Email-rupalibhatnagar0509%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rupalibhatnagar0509@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Rupali59-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rupali59)
+[![Location](https://img.shields.io/badge/Location-Hyderabad%2C%20India-34A853?style=for-the-badge&logo=google-maps&logoColor=white)](https://maps.google.com/?q=Hyderabad,India)
 
 </div>
 
 ---
 
-## Experience
+## 👩‍💻 About Me
+
+Results-driven **Senior Software Engineer** with **9+ years** of experience building high-scale, enterprise-grade systems. At **ServiceNow**, I led feature development across Security Operations and Vulnerability Response — delivering engines that process **1M+ vulnerable items daily** and dashboards trusted by **50+ global organisations**.
+
+I'm passionate about clean architecture, ML-augmented workflows, and developer tooling. Currently focused on **freelance product work**, open-source contributions, and expanding my digital presence as a full-stack builder.
 
 ```
-📁 9 Years of Engineering
-├── 🏢 ServiceNow  ·  2019 – 2025  ·  6 yrs
-│   ├── 👑 Senior Software Engineer  ·  Mar 2022 – May 2025
-│   │   ├── ⚡ Dynamic Approval Rule Engine
-│   │   ├── 🔐 Penetration Testing Workflow Automation
-│   │   └── 🚀 Background Job Processing Framework  ·  60% perf gain · 1M+ tasks/mo
-│   └── 💼 Software Engineer  ·  Apr 2019 – Mar 2022
-│       ├── 🎯 Assignment Rule Engine  ·  1M+ vulnerable items/day
-│       ├── 🤖 ML-Based Assignment Recommendations  ·  20% accuracy gain
-│       ├── 📊 CISO & Vulnerability Dashboards  ·  50+ enterprise orgs
-│       └── 🔗 Vulnerability Source Integrations  ·  500K+ records/day
-├── 🏢 Darwinbox  ·  Aug 2018 – Mar 2019  ·  8 mos
-│   ├── 📋 Audit Logging Microservice  ·  MongoDB Oplog → AWS SQS
-│   └── 🔍 Oplog Diff Processor  ·  string · array · nested doc diffing
-├── 🏢 NowFloats / Boost360  ·  Jun 2017 – Aug 2018  ·  1 yr 3 mos
-│   ├── 🌐 Responsive Web Platform  ·  50,000+ DAU
-│   ├── 🧠 SPIDER Sales Prediction ML Model  ·  84% accuracy
-│   ├── 📅 Generic Multi-Industry Booking System
-│   └── 📦 Order Management Dashboard
-├── 🏢 Finomena  ·  Feb – May 2017  ·  4 mos
-│   ├── 💰 Loan Management Dashboards  ·  8,000+ loans/mo
-│   └── ⚙️  System Automation  ·  scheduling · cron · mail services
-└── 🏢 Babajob  ·  May 2016 – Jan 2017  ·  9 mos
-    ├── 📞 IVR System  ·  10K+ calls/day · 20K+ SMS/day
-    ├── 🔎 Search Subsystem  ·  Java + Elasticsearch + Mustache templates
-    └── 🔔 Async Notifications  ·  Node.js · Mandrill · Exotel
+🔭 Currently building:  Motherboard (microservices), AstroClarity, Rishta
+🌱 Learning:            AI Agents · LLM tooling · Digital product growth
+🤝 Open to:            Freelance · Consulting · Full-time remote roles
+💬 Ask me about:       Security Ops · Vulnerability Management · TypeScript · System Design
 ```
 
-<h3>
-  <img src="https://img.shields.io/badge/ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=black" height="22" />
-  &nbsp;
-  <a href="https://www.servicenow.com">ServiceNow</a> — Senior Software Engineer
-</h3>
-
-`Mar 2022 – May 2025` · *3 yrs 3 mos · Hyderabad, India (Remote) · Security Operations, Vulnerability Response*
-
-**[Dynamic Approval Rule Engine](https://www.servicenow.com/docs/r/washingtondc/servicenow-platform/approvals/c_ApprovalEngines.html)**
-Multi-level, dynamic approval workflow for vulnerability deferment and exception requests — built on ServiceNow Flow Designer for flexible, scalable configuration across diverse enterprise policies.
-
-**[Penetration Testing Request Catalog & Workflow Automation](https://www.servicenow.com/docs/r/security-management/application-vulnerability-response/pen-test-config-v16-1.html)**
-End-to-end catalog and automated workflows for penetration testing requests targeting specific subsystems — streamlining the full vulnerability management lifecycle with 30% reduction in manual intervention.
-
-**[Background Job Processing Framework](https://www.servicenow.com/docs/r/security-management/vulnerability-response/vr-background-framework.html)**
-Architected a robust multi-threaded framework for long-running resource-intensive operations:
-- Multithreaded execution · job status tracking · cancellation support · ETA visibility
-- **60% performance improvement** handling **1M+ tasks/month**
-
-![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square&logo=fastapi&logoColor=white)
-
 ---
 
-<h3>
-  <img src="https://img.shields.io/badge/ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=black" height="22" />
-  &nbsp;
-  <a href="https://www.servicenow.com">ServiceNow</a> — Software Engineer
-</h3>
-
-`Apr 2019 – Mar 2022` · *3 yrs · Hyderabad, India (Hybrid) · Security Operations, Vulnerability Response*
-
-**[Assignment Rule Engine](https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-assignment-rules.html)**
-Cache-optimized engine to automatically prioritize infrastructure vulnerabilities and policy violations — accurate routing to remediation groups via the GlidePlatform, handling **1M+ vulnerable items daily**.
-
-**[ML-Based Assignment Recommendations](https://www.servicenow.com/docs/r/security-management/vulnerability-response/ml_view_assignment_recommendations.html)**
-Classification-based recommendation system with feature engineering and a user-facing interface — **20% improvement in task allocation accuracy**.
-
-**[CISO & Vulnerability Dashboards](https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-mgmnt-CISO-dashboard.html)**
-Led design and development of executive CISO dashboards over **100K+ records per 8h cycle**, used by security leaders across **50+ organizations**.
-
-**[Vulnerability Source Integration](https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-response-common-content-pack.html)**
-Engineered integrations with Veracode, Qualys, Tenable, and Microsoft TVM — ingesting **500K+ vulnerability records daily** with standardized data models.
-
-**Hackathon Projects**
-- **Diagnostic Framework** — Streamlined issue tracking across customer instances; 40% reduction in resolution time
-- **ML for Vulnerability Response** — Prototyped models for task grouping and remediation ETA estimation
-- **POA&M Generator** — Auto-generates Plans of Action & Milestones from vulnerability data
-- **High-Volume Data Generator** — Generates 100M+ records across 20–30 tables for load testing
-
-![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=flat-square&logo=servicenow&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square&logo=fastapi&logoColor=white)
-
----
-
-<h3>
-  <img src="https://img.shields.io/badge/Darwinbox-1A1A2E?style=flat-square&logoColor=white" height="22" />
-  &nbsp;
-  <a href="https://darwinbox.com">Darwinbox</a> — Software Developer
-</h3>
-
-`Aug 2018 – Mar 2019` · *8 mos · Hyderabad, India*
-
-**Audit Logging Microservice**
-Microservice-based architecture capturing audit logs of all client data modifications — underpinning Darwinbox's [HR document management audit trail](https://blog.darwinbox.com/hr-document-management-software) and [attendance tracking](https://blog.darwinbox.com/track-better-act-smarter-with-our-leave-and-attendance-module). Listens to MongoDB oplogs and pushes events to AWS SQS for downstream processing.
-
-**Oplog Processor**
-Detects and highlights differences across strings, arrays, and nested documents — translating raw oplog entries into human-readable audit logs for compliance and traceability.
-
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Yii](https://img.shields.io/badge/Yii-42B883?style=flat-square&logo=yii&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![AWS SQS](https://img.shields.io/badge/AWS_SQS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
-
----
-
-<h3>
-  <img src="https://img.shields.io/badge/NowFloats%20(Boost360)-0066CC?style=flat-square&logoColor=white" height="22" />
-  &nbsp;
-  <a href="https://www.getboost360.com/">NowFloats</a> — Software Engineer
-</h3>
-
-`Jun 2017 – Aug 2018` · *1 yr 3 mos · Hyderabad, India*
-
-- **Responsive Web Platform** — Features serving **50,000+ daily active users** (C#, Bootstrap, JS, jQuery, Knockout.js)
-- **Facebook Graph API Integration** — Merchants share products directly to Facebook profiles, pages, and shops (Ads Extension)
-- **Sales Prediction Model (SPIDER)** — ML-powered revenue prediction per sales rep; up to **84% accuracy**
-- **Generic Booking System** — Multi-industry booking engine (hotels, clinics, restaurants) on Node.js
-- **Order Management Dashboard** — Purchase tracking, payment & delivery status, grievance management (AngularJS, C#)
-
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![AngularJS](https://img.shields.io/badge/AngularJS-DD0031?style=flat-square&logo=angularjs&logoColor=white)
-![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-
----
-
-<h3>
-  <img src="https://img.shields.io/badge/Finomena-2C3E50?style=flat-square&logoColor=white" height="22" />
-  &nbsp;
-  <a href="https://in.linkedin.com/company/finomena">Finomena</a> — Software Developer
-</h3>
-
-`Feb 2017 – May 2017` · *4 mos · Bengaluru, India*
-
-- **Loan Management Dashboards** — Repayments, Collections, Transaction Tracking (PHP/Laravel); scaled to **8,000+ loans/month**
-- **System Automation** — Artisan-based task scheduling, cron jobs, authorization, event handling, mail services for loan workflows
-
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white)
-
----
-
-<h3>
-  <img src="https://img.shields.io/badge/Babajob-E84C3D?style=flat-square&logoColor=white" height="22" />
-  &nbsp;
-  <a href="https://www.linkedin.com/company/babajob/">Babajob</a> — Software Engineer
-</h3>
-
-`May 2016 – Jan 2017` · *9 mos · Bengaluru, India*
-
-- **IVR System** — Async inbound call handling (Go, RabbitMQ, state-based); RESTful APIs + SMS scheduling; MongoDB analytics — **10K+ calls/day, 20K+ SMS/day**
-- **Search Subsystem** — Java-based Elasticsearch architecture; dynamic Mustache template query generation
-- **Feature Development** — Async notifications (Node.js, AngularJS, Mandrill); custom employer profiles; priority SMS (MVC .NET, Exotel)
-
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![AngularJS](https://img.shields.io/badge/AngularJS-DD0031?style=flat-square&logo=angularjs&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-
----
-
-## Tech Stack
-
-**Languages**
-
-<img src="https://skillicons.dev/icons?i=js,ts,py,go,java,php,cs&perline=9" />
-
-**Frontend**
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,astro,angular,html,css,bootstrap,jquery&perline=9" />
-
-**Backend & Runtimes**
-
-<img src="https://skillicons.dev/icons?i=nodejs,laravel,dotnet&perline=9" />
-
-**Databases**
-
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&perline=9" />
-
-**Search & Messaging**
-
-<img src="https://skillicons.dev/icons?i=elasticsearch,rabbitmq&perline=9" />
-
-**ML & Research**
-
-<img src="https://skillicons.dev/icons?i=sklearn,matlab&perline=9" />
-
-**Cloud & Dev Tools**
-
-<img src="https://skillicons.dev/icons?i=aws,docker,git,github,linux,bash&perline=9" />
-
-**Platform**
-ServiceNow SecOps · Vulnerability Response · GlidePlatform · Flow Designer
-
----
-
-## Projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [Motherboard Platform](https://github.com/Rupali59/Mothership) | Microservices platform — auth, scheduling, notifications, inventory, storage, health monitoring | Go, TypeScript |
-| [MIS](https://github.com/Rupali59/MIS) | Management Information System for institutes — students, faculty, admin portal | Next.js, MongoDB, NextAuth |
-| [HIMK — Activity Recognition](https://github.com/Rupali59/himk-implementation) | M.Tech thesis: Human Activity Recognition using HMM-based Intermediate Matching Kernel + SVM | MATLAB, Python, Docker |
-| [Voice Transcriber](https://github.com/Rupali59/Voice_transcriber) | Speech-to-text web app with Dockerized deployment | Python, HTML/CSS/JS |
-| [Parking Lot System](https://github.com/Rupali59/parking_lot) | System design–oriented parking allocation with efficient algorithms | Go |
-| [LeetCode Solutions](https://github.com/Rupali59/Leetcode) | 500+ algorithm solutions across data structures and problem patterns | JavaScript |
-| [WorkTracker](https://rupali59.github.io/WorkTracker/) | Personal work dashboard with GitHub Pages frontend | TypeScript |
-| [Zerodha Scrips Utility](https://github.com/Rupali59/rms-consolidated-scrips-status) | Parses Zerodha Consolidated Spreadsheets to render category-wise scrip margin details | Python |
-| SSJK CRM *(private)* | Enterprise CRM — lead management, dashboards, automation, reporting | JS, EJS, Astro, TypeScript |
-| ACE Coliving *(private)* | Premium booking site with PostgreSQL-backed lead management | Next.js, TypeScript, PL/pgSQL |
-
----
-
-## GitHub Stats
+## 🛠️ Tech Stack
 
 <div align="center">
 
-<img src="https://github-readme-stats-anuraghazra1.vercel.app/api?username=Rupali59&show_icons=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&icon_color=58A6FF" height="160" alt="GitHub Stats" />
-&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Rupali59&hide_border=true&background=0D1117&stroke=1F2937&ring=58A6FF&fire=58A6FF&currStreakNum=C9D1D9&currStreakLabel=8B949E&sideLabels=8B949E&sideNums=C9D1D9&dates=8B949E" height="160" alt="GitHub Streak" />
+**Languages**
 
-<img src="https://github-readme-stats-anuraghazra1.vercel.app/api/top-langs?username=Rupali59&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=C9D1D9&layout=compact&langs_count=8&count_private=true" height="140" alt="Top Languages" />
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rupali59&theme=github_dark" alt="Profile Summary" />
+**Frontend**
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Rupali59&bg_color=0D1117&color=58A6FF&line=58A6FF&point=C9D1D9&area=true&hide_border=true" alt="GitHub Activity Graph" />
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Astro](https://img.shields.io/badge/Astro-FF5D01?style=flat-square&logo=astro&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![jQuery](https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
+
+**Backend & Runtime**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Go](https://img.shields.io/badge/Golang-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Yii](https://img.shields.io/badge/Yii-006EAF?style=flat-square&logo=php&logoColor=white)
+![C#/.NET](https://img.shields.io/badge/C%23%2F.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+
+**Databases & Cloud**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+**ML & Research**
+
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 
 </div>
 
 ---
 
-## Coding Activity
+## 💼 Work Experience
 
-<!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-353%20hrs%2036%20mins-blue?style=flat)
-
-**🐱 My GitHub Data** 
-
-> 📦 1.0 MB Used in GitHub's Storage 
- > 
-> 🏆 402 Contributions in the Year 2026
- > 
-> 💼 Opted to Hire
- > 
-> 📜 27 Public Repositories 
- > 
-> 🔑 49 Private Repositories 
- > 
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                542 commits         ████░░░░░░░░░░░░░░░░░░░░░   17.63 % 
-🌆 Daytime                1368 commits        ███████████░░░░░░░░░░░░░░   44.50 % 
-🌃 Evening                773 commits         ██████░░░░░░░░░░░░░░░░░░░   25.15 % 
-🌙 Night                  391 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.72 % 
 ```
-📅 **I'm Most Productive on Thursday** 
+ServiceNow  ·  Senior Software Engineer — Security Ops & Vulnerability Response
+📍 Hyderabad (Remote)                                          Mar 2022 – May 2025
+│
+├─ ⚙️  Dynamic Approval Rule Engine
+│       Multi-level workflow for vulnerability deferment & exception requests
+│       → Reduced approval time by 40%
+│
+├─ 🔍  Penetration Testing Workflow Automation
+│       End-to-end catalog across 50+ subsystems
+│       → 30% reduction in manual intervention
+│
+└─ 🚀  Background Job Processing Framework
+        Multithreaded, cancellable job engine
+        → 60% performance gain  ·  1M+ tasks/month
 
-```text
-Monday                   566 commits         █████░░░░░░░░░░░░░░░░░░░░   18.41 % 
-Tuesday                  449 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.61 % 
-Wednesday                317 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.31 % 
-Thursday                 632 commits         █████░░░░░░░░░░░░░░░░░░░░   20.56 % 
-Friday                   285 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   09.27 % 
-Saturday                 575 commits         █████░░░░░░░░░░░░░░░░░░░░   18.71 % 
-Sunday                   250 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   08.13 % 
+─────────────────────────────────────────────────────────────────────────────────
+
+ServiceNow  ·  Software Engineer — Security Ops & Vulnerability Response
+📍 Hyderabad (Hybrid)                                          Apr 2019 – Mar 2022
+│
+├─ 🎯  Assignment Rule Engine
+│       Cache-optimised engine auto-routing 1M+ vulnerable items/day
+│
+├─ 🤖  ML-Based Assignment Recommendations
+│       Classification model → 20% improvement in task allocation accuracy
+│
+├─ 📊  CISO & Vulnerability Dashboards
+│       Executive dashboards over 100K+ records/8h
+│       → Adopted by 50+ enterprise organisations
+│
+├─ 🔗  Vulnerability Source Integrations
+│       Veracode · Qualys · Tenable · Microsoft TVM
+│       → 500K+ records/day ingested
+│
+└─ 🏆  Hackathon Projects (Winner)
+        Diagnostic Framework · ML Vulnerability Grouping
+        POA&M Generator · 100M-record Data Generator
+
+─────────────────────────────────────────────────────────────────────────────────
+
+Darwinbox  ·  Software Developer
+📍 Hyderabad                                                   Aug 2018 – Mar 2019
+│
+├─ 📝  Audit Logging Microservice
+│       PHP/Yii service · MongoDB oplogs → AWS SQS
+│
+└─ ⚡  Oplog Diff Processor
+        Node.js · string/array/nested-doc diffs for human-readable audit logs
+
+─────────────────────────────────────────────────────────────────────────────────
+
+NowFloats / Boost360  ·  Software Engineer
+📍 Hyderabad                                                   Jun 2017 – Aug 2018
+│
+├─ 🌐  Responsive Web Platform
+│       50,000+ daily active users  ·  C# · Bootstrap · JS · Knockout.js
+│
+├─ 📈  SPIDER Sales ML Model
+│       Revenue prediction per sales rep  →  up to 84% accuracy
+│
+└─ 📅  Generic Booking System
+        Multi-industry engine (hotels · clinics · restaurants) on Node.js
+
+─────────────────────────────────────────────────────────────────────────────────
+
+Finomena  ·  Software Developer
+📍 Bengaluru                                                   Feb 2017 – May 2017
+└─ 💳  Loan Management — PHP/Laravel · 8,000+ loans/month · Artisan scheduling
+
+─────────────────────────────────────────────────────────────────────────────────
+
+Babajob  ·  Software Engineer
+📍 Bengaluru                                                   May 2016 – Jan 2017
+│
+├─ 📞  IVR & SMS System
+│       Go · RabbitMQ  →  10K+ calls/day · 20K+ SMS/day
+│
+└─ 🔎  Search Subsystem
+        Java · Elasticsearch · dynamic Mustache template query generation
 ```
 
+---
 
-📊 **This Week I Spent My Time On** 
+## 🚀 Selected Projects
 
-```text
-🕑︎ Time Zone: Asia/Kolkata
-
-💬 Programming Languages: 
-Other                    8 hrs 21 mins       ███████████░░░░░░░░░░░░░░   45.03 % 
-JavaScript               3 hrs 12 mins       ████░░░░░░░░░░░░░░░░░░░░░   17.25 % 
-TypeScript               2 hrs 17 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.30 % 
-Markdown                 1 hr 42 mins        ██░░░░░░░░░░░░░░░░░░░░░░░   09.24 % 
-Limbo                    58 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   05.28 % 
-
-🔥 Editors: 
-Claude Code              14 hrs 18 mins      ███████████████████░░░░░░   77.00 % 
-Antigravity              2 hrs 24 mins       ███░░░░░░░░░░░░░░░░░░░░░░   12.92 % 
-Cursor                   1 hr 52 mins        ███░░░░░░░░░░░░░░░░░░░░░░   10.07 % 
-
-🐱‍💻 Projects: 
-Rishta                   10 hrs 47 mins      ███████████████░░░░░░░░░░   58.06 % 
-AstroClarity             3 hrs               ████░░░░░░░░░░░░░░░░░░░░░   16.21 % 
-motherboard-web          1 hr 9 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   06.25 % 
-rupali.b                 1 hr 2 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   05.60 % 
-MotherBoard              54 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   04.89 % 
-
-💻 Operating System: 
-Mac                      18 hrs 34 mins      █████████████████████████   100.00 % 
-```
-
-**I Mostly Code in TypeScript** 
-
-```text
-TypeScript               28 repos            ██████████░░░░░░░░░░░░░░░   38.36 % 
-JavaScript               14 repos            █████░░░░░░░░░░░░░░░░░░░░   19.18 % 
-Go                       8 repos             ███░░░░░░░░░░░░░░░░░░░░░░   10.96 % 
-Makefile                 1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.37 % 
-Java                     1 repo              ░░░░░░░░░░░░░░░░░░░░░░░░░   01.37 % 
-```
-
-
-
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/Rupali59/Rupali59/main/assets/bar_graph.png)
-
-
- Last Updated on 07/03/2026 18:58:52 UTC
-<!--END_SECTION:waka-->
+| Project | Description | Stack | Status |
+|---------|-------------|-------|--------|
+| **[Motherboard](https://github.com/Rupali59)** | Microservices platform — auth, scheduling, notifications, inventory, health monitoring | Go · TypeScript | 🟢 Active |
+| **SSJK CRM** | Enterprise CRM — lead management, dashboards, sales pipeline, reporting | JS · EJS · Astro · TS | ✅ Live |
+| **ACE Coliving** | Premium booking site with PostgreSQL-backed lead management & SEO | Next.js · TS · PL/pgSQL | ✅ Live |
+| **Voice Transcriber** | Speech-to-text web app, Dockerized, real-time audio processing | Python · Docker | ✅ Done |
+| **MIS Platform** | Institute management — students, faculty, admin portal | Next.js · MongoDB · NextAuth | ✅ Done |
+| **[AstroClarity](https://github.com/Rupali59)** | Astrology-themed web app | TypeScript | 🔨 Building |
+| **[Rishta](https://github.com/Rupali59)** | Matrimonial platform | TypeScript | 🔨 Building |
+| **HIMK — Activity Recognition** | M.Tech thesis: Human Activity Recognition with HMM-based Kernel + SVM | MATLAB · Python | 📚 Research |
 
 ---
 
-## Education
+## 📊 GitHub Stats
 
-**[National Institute of Technology Goa](https://www.nitgoa.ac.in)**
-M.Tech, Computer Science & Engineering · *2014–2016* · GPA: **8.42**
-*Specialisation: Pattern Recognition and Machine Learning Techniques*
+<div align="center">
 
-**[LNCT, Bhopal](https://www.lnct.ac.in)** — RGPV
-B.E., Computer Science & Engineering · *2010–2014* · CGPA: **8.58** *(Graduated with Honors)*
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=Rupali59&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=1A56DB&icon_color=1A56DB&text_color=C9D1D9" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rupali59&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1A56DB&text_color=C9D1D9&langs_count=8" />
 
----
+</div>
 
-## Honors & Awards
+<div align="center">
 
-| Award | Issuer | Year |
-|-------|--------|------|
-| **Chancellor's Scholarship** — Top 10 students by theory marks statewide | Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal | 2013 |
-| **Silver Medal** — 2nd place, Programming Contest (multi-college) | [Persistent Systems Limited](https://www.persistent.com) | 2013 |
+[![GitHub Streak](https://streak-stats.demolab.com?user=Rupali59&theme=tokyonight&hide_border=true&background=0D1117&ring=1A56DB&fire=FF6B35&currStreakLabel=1A56DB)](https://git.io/streak-stats)
+
+</div>
 
 ---
 
-## Certifications
+## 🎓 Education
 
-**LinkedIn & Online**
-
-| Certification | Issuer | Year |
-|--------------|--------|------|
-| WhatsApp API Expert | [Wati](https://www.wati.io) | 2024 |
-| Ultimate JavaScript Part 1: Fundamentals | [Code With Mosh](https://codewithmosh.com) | 2025 |
-| Neural Networks and Deep Learning | [Coursera](https://www.coursera.org) | 2020 |
-| JavaScript Algorithms & Data Structures | [freeCodeCamp](https://www.freecodecamp.org) | 2020 |
-| Git Essential Training | [LinkedIn Learning](https://www.linkedin.com/learning) | 2020 |
-
-**Google Developer Program** — *[g.dev/rupali59](https://g.dev/rupali59) · [credly.com/users/rupali-bhatnagar-59](https://www.credly.com/users/rupali-bhatnagar-59)*
-
-| Badge | Date |
-|-------|------|
-| Google Cloud Innovator | Jan 2026 |
-| Gemini Enterprise Agent Ready | Feb 2026 |
-| Google Maps Platform Innovators | Feb 2026 |
-| Google Developer Program — Premium Tier | Feb 2026 |
-| Google Cloud & NVIDIA Community Member | Feb 2026 |
-| Firebase Studio Developer Community | Feb 2026 |
-| GDG New Delhi & GDG Gurugram Member | Feb 2026 |
-| I/O 2026 — Registered | Feb 2026 |
+| Degree | Institution | Specialisation | Score | Year |
+|--------|-------------|----------------|-------|------|
+| **M.Tech** — Computer Science & Engineering | NIT Goa | Pattern Recognition & Machine Learning | GPA 8.42 / 10 | 2014 – 2016 |
+| **B.E.** — Computer Science & Engineering | LNCT Bhopal (RGPV) | — | CGPA 8.58 / 10 | 2010 – 2014 |
 
 ---
 
-## Coding Profiles
+## 📜 Certifications
 
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=black)](https://leetcode.com/Rupali59/)
-&nbsp;
-[![HackerRank](https://img.shields.io/badge/HackerRank-00EA64?style=flat-square&logo=hackerrank&logoColor=black)](https://www.hackerrank.com/profile/Rupali59)
-&nbsp;
-[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://kaggle.com/rbhatnagar59)
-&nbsp;
-[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/rupali-bhatnagar-59)
+- 🟢 **WhatsApp API Expert** — Wati · 2024
+- 🟡 **Ultimate JavaScript Part 1: Fundamentals** — Code With Mosh · 2025
+- 🔵 **Neural Networks and Deep Learning** — Coursera · 2020
+- 🟠 **JavaScript Algorithms & Data Structures** — freeCodeCamp · 2020
+- ⚫ **Git Essential Training** — LinkedIn Learning · 2020
 
 ---
 
-## Connect
+## 🏅 Google Developer Program 2026
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rupali-bhatnagar-b4864957/)
-&nbsp;
-[![Website](https://img.shields.io/badge/tathya.dev-111111?style=flat-square&logo=About.me&logoColor=white)](https://tathya.dev/)
-&nbsp;
-[![WorkTracker](https://img.shields.io/badge/WorkTracker-1F2937?style=flat-square&logo=github&logoColor=white)](https://rupali59.github.io/WorkTracker/)
-&nbsp;
-[![Google Developer](https://img.shields.io/badge/g.dev%2Frupali59-4285F4?style=flat-square&logo=google&logoColor=white)](https://g.dev/rupali59)
-&nbsp;
-[![Credly](https://img.shields.io/badge/Credly-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/rupali-bhatnagar-59)
-&nbsp;
-[![X](https://img.shields.io/badge/X-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/rupali_0509)
-&nbsp;
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:rupalibhatnagar0509@gmail.com)
-[![HuggingFace](https://img.shields.io/badge/huggingface?logo=huggingface&style=flat-square&logoColor=%23FFD21E)](https://huggingface.co/Rupali59)
+<div align="center">
 
+![Google Cloud](https://img.shields.io/badge/Cloud%20Innovator-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini%20Enterprise%20Agent%20Ready-8E44AD?style=for-the-badge&logo=google&logoColor=white)
+![Maps](https://img.shields.io/badge/Maps%20Platform%20Innovator-34A853?style=for-the-badge&logo=googlemaps&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase%20Studio%20Developer-FF6F00?style=for-the-badge&logo=firebase&logoColor=white)
+![Premium](https://img.shields.io/badge/Premium%20Tier-FFD700?style=for-the-badge&logo=google&logoColor=black)
+![GDG](https://img.shields.io/badge/GDG%20New%20Delhi%20%26%20Gurugram-EA4335?style=for-the-badge&logo=google&logoColor=white)
+![Google I/O](https://img.shields.io/badge/Google%20I%2FO%202026-Registered-4285F4?style=for-the-badge&logo=google&logoColor=white)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,12,20&height=100&section=footer" width="100%" />
+</div>
+
+---
+
+## 🏆 Achievements
+
+- 🥇 **Winners — NowFloats Hackathon** — Product innovation for sales, 2017
+- 🎓 **Chancellor's Scholarship (Topper)** — Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal — 2012 & 2013
+- 🥈 **Silver Medal** — Persistent Systems Programming Contest, 2013
+- 👩‍🏫 **Teaching Assistant** — Computer Science Dept, NIT Goa, 2014–2016
+- 🏛️ **Vice President** — Computer Science Dept, NIT Goa, 2014–2016
+
+---
+
+## 🤝 Open to Opportunities
+
+<div align="center">
+
+I'm actively available for:
+
+**🏢 Full-Time Remote Roles** — Senior/Staff Engineer · Security & Platform Engineering · Full-Stack
+
+**💼 Freelance & Consulting** — Product builds · Technical audits · ML integration · Startup MVPs
+
+**🌱 Collaborations** — Open-source · Developer tooling · EdTech · FinTech
+
+[![Let's Connect](https://img.shields.io/badge/Let's%20Connect-rupalibhatnagar0509%40gmail.com-1A56DB?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rupalibhatnagar0509@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/DM%20on%20LinkedIn-Rupali%20Bhatnagar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rupali-bhatnagar-b4864957)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=100&section=footer" />
+
+*Built with curiosity, shipped with care.* ✨
+
+</div>

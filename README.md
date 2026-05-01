@@ -21,7 +21,7 @@ Passionate about clean architecture, ML-augmented workflows, and developer tooli
 
 <table>
         <tr>
-                <td><img src="https://unpkg.com/lucide-static@latest/icons/hammer.svg" width="16" /> <b>Building</b>b></td>td>
+                <td><img src="https://unpkg.com/lucide-static@latest/icons/hammer.svg" width="16" /> <b>Building</b>b></td><td>
 <td>Motherboard · AstroClarity · Rishta</td>td>
         </tr>tr>
 <tr>
@@ -226,8 +226,4 @@ Passionate about clean architecture, ML-augmented workflows, and developer tooli
 
         </div>
         
-</tr></td></td>
-        </tr>
-</tr></td></td>
-        </tr>
-</table>
+</div>

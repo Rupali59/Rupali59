@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=180&section=header&text=Rupali%20Bhatnagar&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Senior%20Software%20Engineer%20%C2%B7%20Full-Stack%20%C2%B7%20Security%20Ops%20%C2%B7%20ML&descAlignY=58&descSize=15&descColor=BFD8FF" alt="header" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1000&color=1A56DB&center=true&vCenter=true&width=620&lines=9%2B+years+building+enterprise-grade+systems;Led+Security+Ops+%40+ServiceNow+%E2%80%94+1M%2B+items%2Fday;TypeScript+%C2%B7+Next.js+%C2%B7+Go+%C2%B7+Node.js+%C2%B7+Python;Open+to+Freelance+%26+Full-Time)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1000&color=1A56DB&center=true&vCenter=true&width=620&lines=9%2B+years+building+enterprise-grade+systems;Led+Security+Ops+%40+ServiceNow+%E2%80%94+1M%2B+items%2Fday;TypeScript+%C2%B7+Next.js+%C2%B7+Go+%C2%B7+Node.js+%C2%B7+Python;Open+to+Remote+%26+On-site+Roles)](https://git.io/typing-svg)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rupali-bhatnagar-b4864957)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rupalibhatnagar0509@gmail.com)
@@ -17,7 +17,7 @@
 
 Results-driven **Senior Software Engineer** with **9+ years** building high-scale, enterprise-grade systems. At **ServiceNow**, I led feature development across Security Operations & Vulnerability Response — delivering engines that process **1M+ vulnerable items daily** and dashboards trusted by **50+ global organisations**.
 
-Passionate about clean architecture, ML-augmented workflows, and developer tooling. Currently focused on freelance product work, open-source, and full-stack building.
+Passionate about clean architecture, ML-augmented workflows, and developer tooling. Currently focused on product engineering, open-source, and full-stack building.
 
 <table>
   <tr>
@@ -30,7 +30,7 @@ Passionate about clean architecture, ML-augmented workflows, and developer tooli
   </tr>
   <tr>
     <td><img src="https://unpkg.com/lucide-static@latest/icons/handshake.svg" width="16" /> <b>Open to</b></td>
-    <td>Freelance · Consulting · Full-time remote</td>
+    <td>Full-time · Remote · On-site</td>
   </tr>
   <tr>
     <td><img src="https://unpkg.com/lucide-static@latest/icons/messages-square.svg" width="16" /> <b>Ask me</b></td>
@@ -143,6 +143,13 @@ Passionate about clean architecture, ML-augmented workflows, and developer tooli
 
 ---
 
+### <img src="https://unpkg.com/lucide-static@latest/icons/activity.svg" width="20" align="center" /> Coding Activity
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
+---
+
 ### <img src="https://unpkg.com/lucide-static@latest/icons/bar-chart-3.svg" width="20" align="center" /> GitHub Stats
 
 <div align="center">
@@ -206,7 +213,7 @@ Passionate about clean architecture, ML-augmented workflows, and developer tooli
 <table>
   <tr>
     <td align="center"><img src="https://unpkg.com/lucide-static@latest/icons/building-2.svg" width="22" /><br/><b>Full-Time Remote</b><br/><sub>Senior/Staff · Platform · Full-Stack</sub></td>
-    <td align="center"><img src="https://unpkg.com/lucide-static@latest/icons/briefcase-business.svg" width="22" /><br/><b>Freelance & Consulting</b><br/><sub>MVPs · Audits · ML integration</sub></td>
+    <td align="center"><img src="https://unpkg.com/lucide-static@latest/icons/map-pin.svg" width="22" /><br/><b>Full-Time On-site</b><br/><sub>Hyderabad · Bangalore · open to relocation</sub></td>
     <td align="center"><img src="https://unpkg.com/lucide-static@latest/icons/git-merge.svg" width="22" /><br/><b>Collaborations</b><br/><sub>Open-source · Dev tools · EdTech</sub></td>
   </tr>
 </table>

@@ -7,3 +7,6 @@
 
 # Keep the template
 !.env.example
+
+# macOS
+.DS_Store

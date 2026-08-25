@@ -1,234 +1,222 @@
-<div align="center">
+# Rupali Bhatnagar
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=180&section=header&text=Rupali%20Bhatnagar&fontSize=44&fontColor=ffffff&fontAlignY=38&desc=Senior%20Software%20Engineer%20%C2%B7%20Full-Stack%20%C2%B7%20Security%20Ops%20%C2%B7%20ML&descAlignY=58&descSize=15&descColor=BFD8FF" alt="header" />
+**Senior Software Engineer** · India · open to relocation
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1000&color=1A56DB&center=true&vCenter=true&width=620&lines=9%2B+years+building+enterprise-grade+systems;Led+Security+Ops+%40+ServiceNow+%E2%80%94+1M%2B+items%2Fday;TypeScript+%C2%B7+Next.js+%C2%B7+Go+%C2%B7+Node.js+%C2%B7+Python;Open+to+Remote+%26+On-site+Roles)](https://git.io/typing-svg)
+[tathya.dev](https://tathya.dev) ·
+[LinkedIn](https://www.linkedin.com/in/rupali-bhatnagar-b4864957/) ·
+[g.dev/rupali59](https://g.dev/rupali59) ·
+[Credly](https://www.credly.com/users/rupali-bhatnagar-59) ·
+[rupalibhatnagar0509@gmail.com](mailto:rupalibhatnagar0509@gmail.com)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rupali-bhatnagar-b4864957)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rupalibhatnagar0509@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Rupali59)
-[![Hyderabad](https://img.shields.io/badge/Hyderabad,%20India-34A853?style=for-the-badge&logo=googlemaps&logoColor=white)](https://maps.google.com/?q=Hyderabad,India)
+Nine years building high-scale backend and platform systems. Six of them at **ServiceNow**
+across Security Operations and Vulnerability Response, where I shipped engines that route
+**1M+ vulnerable items a day** and dashboards used by **50+ enterprise security teams**.
 
-</div>
-
----
-
-### <img src="https://unpkg.com/lucide-static@latest/icons/user-round.svg" width="20" align="center" /> About Me
-
-Results-driven **Senior Software Engineer** with **9+ years** building high-scale, enterprise-grade systems. At **ServiceNow**, I led feature development across Security Operations & Vulnerability Response — delivering engines that process **1M+ vulnerable items daily** and dashboards trusted by **50+ global organisations**.
-
-Passionate about clean architecture, ML-augmented workflows, and developer tooling. Currently focused on product engineering, open-source, and full-stack building.
-
-<table>
-  <tr>
-    <td><img src="https://unpkg.com/lucide-static@latest/icons/hammer.svg" width="16" /> <b>Building</b></td>
-    <td>Motherboard · AstroClarity · Rishta</td>
-  </tr>
-  <tr>
-    <td><img src="https://unpkg.com/lucide-static@latest/icons/sprout.svg" width="16" /> <b>Learning</b></td>
-    <td>AI Agents · LLM tooling · Product growth</td>
-  </tr>
-  <tr>
-    <td><img src="https://unpkg.com/lucide-static@latest/icons/handshake.svg" width="16" /> <b>Open to</b></td>
-    <td>Full-time · Remote · On-site</td>
-  </tr>
-  <tr>
-    <td><img src="https://unpkg.com/lucide-static@latest/icons/messages-square.svg" width="16" /> <b>Ask me</b></td>
-    <td>Security Ops · Vuln Mgmt · TypeScript · System Design</td>
-  </tr>
-</table>
+Since 2025 I've been building independently: a Go microservices platform, agent-facing developer
+tooling shipped as a Claude Code plugin, and production web products. My interests are distributed systems,
+developer tooling, and the unglamorous problem of keeping large codebases honest.
 
 ---
 
-### <img src="https://unpkg.com/lucide-static@latest/icons/wrench.svg" width="20" align="center" /> Tech Stack
+## Experience
 
-<div align="center">
+### ServiceNow — Senior Software Engineer
+`Mar 2022 – May 2025` · Security Operations & Vulnerability Response · Remote
 
-<sub><b>Languages</b></sub><br/>
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+- **[Dynamic Approval Rule Engine](https://www.servicenow.com/docs/r/washingtondc/servicenow-platform/approvals/c_ApprovalEngines.html)** —
+  multi-level approval workflow for vulnerability deferment and exception requests, built on
+  Flow Designer to stay configurable across differing enterprise policies. **40% faster approvals.**
+- **[Penetration Testing Request Catalog & Workflow Automation](https://www.servicenow.com/docs/r/security-management/application-vulnerability-response/pen-test-config-v16-1.html)** —
+  catalog and automated workflows for pen-test requests across **50+ subsystems**,
+  cutting manual intervention by **30%**.
+- **[Background Job Processing Framework](https://www.servicenow.com/docs/r/security-management/vulnerability-response/vr-background-framework.html)** —
+  multithreaded framework for long-running work that previously strained system resources,
+  with job status tracking, cancellation and ETA visibility. **Up to 60% performance gain**,
+  **1M+ tasks/month**.
+- **Real-Time Data Aggregation Engine** — high-performance aggregation for near real-time
+  multi-dimensional analytics, processing **100K+ records per 8-hour cycle** to power internal
+  dashboards.
 
-<sub><b>Frontend & Backend</b></sub><br/>
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Astro](https://img.shields.io/badge/-Astro-FF5D01?style=flat-square&logo=astro&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![.NET](https://img.shields.io/badge/-.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
+### ServiceNow — Software Engineer
+`Apr 2019 – Mar 2022` · Security Operations & Vulnerability Response · Hybrid
 
-<sub><b>Data & Cloud</b></sub><br/>
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/-Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-<sub><b>ML & Research</b></sub><br/>
-![scikit-learn](https://img.shields.io/badge/-scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/-TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![MATLAB](https://img.shields.io/badge/-MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
-
-</div>
-
----
-
-### <img src="https://unpkg.com/lucide-static@latest/icons/briefcase.svg" width="20" align="center" /> Work Experience
-
-<details open>
-<summary><b>ServiceNow</b> · Senior SWE → SWE — Security Ops & Vulnerability Response · <i>Apr 2019 – May 2025</i></summary>
-
-- <img src="https://unpkg.com/lucide-static@latest/icons/settings-2.svg" width="14" /> **Dynamic Approval Rule Engine** — multi-level workflow → **40% faster** approvals
-- <img src="https://unpkg.com/lucide-static@latest/icons/search.svg" width="14" /> **Pen-Testing Workflow Automation** across 50+ subsystems → **30%** less manual work
-- <img src="https://unpkg.com/lucide-static@latest/icons/rocket.svg" width="14" /> **Background Job Framework** — multithreaded, cancellable → **60%** perf gain · 1M+ tasks/mo
-- <img src="https://unpkg.com/lucide-static@latest/icons/target.svg" width="14" /> **Assignment Rule Engine** — cache-optimised, routes **1M+ items/day**
-- <img src="https://unpkg.com/lucide-static@latest/icons/bot.svg" width="14" /> **ML Assignment Recommendations** → **+20%** allocation accuracy
-- <img src="https://unpkg.com/lucide-static@latest/icons/bar-chart-3.svg" width="14" /> **CISO & Vuln Dashboards** — 100K+ records/8h, adopted by **50+ enterprises**
-- <img src="https://unpkg.com/lucide-static@latest/icons/link.svg" width="14" /> **Source Integrations** — Veracode · Qualys · Tenable · MS TVM (500K+ records/day)
-- <img src="https://unpkg.com/lucide-static@latest/icons/trophy.svg" width="14" /> **Hackathon Wins** — Diagnostic Framework · ML Vuln Grouping · POA&M Generator
-
-</details>
+- **[Assignment Rule Engine](https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-assignment-rules.html)** —
+  cache-optimised engine prioritising infrastructure vulnerabilities and policy violations and
+  routing them to the right remediation groups. Runs daily over **1M+ vulnerable items**.
+- **[ML-Based Assignment Recommendations](https://www.servicenow.com/docs/r/security-management/vulnerability-response/ml_view_assignment_recommendations.html)** —
+  classification-based recommendation system with feature engineering and a user-facing
+  review interface. **+20% task allocation accuracy.**
+- **[CISO & Vulnerability Dashboards](https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-mgmnt-CISO-dashboard.html)** —
+  led design and development of the executive CISO dashboard and its supporting vulnerability
+  dashboards, defining the key metrics and the data pipeline behind them. Adopted by
+  **50+ organisations**.
+- **[Vulnerability Source Integrations](https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-response-common-content-pack.html)** —
+  integrations with Veracode, Qualys, Tenable and Microsoft TVM, standardising
+  **500K+ vulnerability records/day** into a common model for downstream remediation.
+- **Hackathon projects** — Diagnostic Framework (**40%** less debugging time) · ML vulnerability
+  grouping and remediation-target estimation · PoA&M generator · High-volume data generator
+  (**100M+ records across 20–30 tables**, adopted by the performance team).
 
 <details>
-<summary><b>Darwinbox</b> · Software Developer · <i>Aug 2018 – Mar 2019</i></summary>
+<summary><b>Earlier roles</b> — Darwinbox · NowFloats · Finomena · Babajob (2016–2019)</summary>
 
-- Audit Logging microservice (PHP/Yii · MongoDB oplogs → AWS SQS)
-- Oplog Diff Processor (Node.js) — string/array/nested-doc diffs
+### Darwinbox — Software Developer
+`Aug 2018 – Mar 2019` · Hyderabad
 
-</details>
+- Audit-logging microservice capturing every client data modification — PHP/Yii listening to
+  MongoDB oplogs and publishing to AWS SQS for downstream processing.
+- Oplog diff processor resolving changes across strings, arrays and nested documents into
+  human-readable audit entries.
 
-<details>
-<summary><b>NowFloats / Boost360</b> · Software Engineer · <i>Jun 2017 – Aug 2018</i></summary>
+### NowFloats / Boost360 — Software Engineer
+`Jun 2017 – Aug 2018` · Hyderabad
 
-- Responsive web platform — **50K DAU** (C# · Bootstrap · Knockout.js)
-- SPIDER Sales ML model — revenue prediction with **84% accuracy**
-- Generic Booking System — multi-industry engine on Node.js
+- Responsive web platform features supporting **50,000+ daily active users**
+  (C#, Bootstrap, JavaScript, jQuery, Knockout.js).
+- **SPIDER** sales-prediction model — per-representative revenue forecasting at **84% accuracy**.
+- Generic booking system on Node.js, configurable across hotels, clinics and restaurants.
+- Facebook Graph API integration for merchant product sharing; order management dashboard
+  (AngularJS, C#).
 
-</details>
+### Finomena — Software Developer
+`Feb 2017 – May 2017` · Bengaluru
 
-<details>
-<summary><b>Finomena</b> · Software Developer · <i>Feb – May 2017</i></summary>
+- Loan management, repayments and collections dashboards in PHP/Laravel, scaled to
+  **8,000+ loans/month** on MySQL via Eloquent.
 
-- Loan Management — PHP/Laravel · **8,000+ loans/month**
+### Babajob — Software Engineer
+`May 2016 – Jan 2017` · Bengaluru
 
-</details>
-
-<details>
-<summary><b>Babajob</b> · Software Engineer · <i>May 2016 – Jan 2017</i></summary>
-
-- IVR & SMS System (Go · RabbitMQ) — **10K+ calls** & **20K+ SMS** per day
-- Search subsystem — Java · Elasticsearch · dynamic Mustache templates
+- IVR and SMS system in **Go** with RabbitMQ — asynchronous, state-driven inbound call
+  handling at **10K+ calls and 20K+ SMS per day**, with MongoDB-backed analytics.
+- Search subsystem in Java over Elasticsearch, with dynamic query generation via Mustache
+  templates.
 
 </details>
 
 ---
 
-### <img src="https://unpkg.com/lucide-static@latest/icons/rocket.svg" width="20" align="center" /> Selected Projects
+## Projects
 
-| Project | Description | Stack | Status |
+### Current · 2025 – present
+
+My main line of work is a **documentation-integrity toolchain** — tooling that detects when
+files which must agree have silently stopped agreeing — running across every workspace in the
+tree and enforced by commit and session hooks.
+
+| Project | What it is | Stack |
+|---|---|---|
+| **propagate** — a Claude Code plugin | Agent-facing developer tooling: 4 slash commands, a **SessionStart hook** that injects canonical engineering rules into every session, and a **PreToolUse guardrail that inspects the literal command an agent is about to run and surfaces the matching known hazard before it executes** — hazard docs are pull artifacts, and the failure mode is recognition rather than knowledge. Underneath: declares couplings between files that must change together and derives drift from file *content* on demand rather than storing state. **It never edits a downstream file — the tool finds and explains, a human approves, and the decision is recorded in an append-only ledger.** Every detector and every guardrail trigger ships with a `selftest` asserting it can actually fire, because a check that cannot fail reports success — that selftest has caught real bugs. Rearchitected across two generations to an immutable, ULID-keyed, content-pinned store; made portable after the suite passed locally and failed on every clean machine. 130 test files. | Node · ESM · Claude Code plugin API |
+| **Multi-tenant CRM & workflow platform** | Express API plus two Next.js 16 apps (client and admin). A **DB-driven RBAC/ACL engine** — runtime-editable roles, generic field-level access control over CRUD, per-actor tier projection, table→field cascade, and a capability-matrix UI whose review-diff modal shows the consequences of a change before an atomic batch save, with fail-closed reconciliation and admin-floor guards. WebAuthn + OTP auth, BullMQ/Redis job queue, workflow engine, web-push. A phased task-model migration dark-shipped in five stages with a one-shot backfill of ~14,000 records. Test infrastructure cut from **78s to 28s** by running one shared `mongod` for the suite instead of 89. 228 test files. | Express · BullMQ · Redis · MongoDB · Next.js · React 19 |
+| **Content & SEO platform** | Production site backed by the computation service below — the two are one system. Ten templated landing pages on a shared shell with `FAQPage` structured data and selective `noindex`, a server-side analytics pipeline, signed-cookie location handling with a durable resolved-location cache, and a migration of public pages to static generation. | Next.js · TypeScript · Radix · CASL |
+| **Motherboard** | Go multi-module monorepo: an API gateway and multi-tenant plugin platform. **36 `go.work` modules, 702 Go files.** Plugin services authenticate, publish their routes to a client manager, and the gateway proxies to them behind a fail-closed entitlement gate and a plugin-key claim assertion. | Go 1.25 · Next.js |
+| **Demand-intelligence platform** | Multi-source ingestion and opportunity scoring, with a **production LLM classification pipeline**: Gemini calls constrained by enforced response schemas, run at `temperature: 0` and batched, with determinism resting on cache-on-first-write rather than on the model — and a keyword-classifier fallback so a provider outage degrades quality instead of breaking ingestion. Model-proposed sources are **existence-checked against the live API before being accepted**, and an inconclusive check returns the candidate flagged rather than asserted either way. Ingestion also covers Search Console via **Workload Identity Federation** — adopted to remove service-account JSON-key fragility — plus Trends and YouTube. Entity ontology mapping demand against supply; scheduling moved off hosted cron onto a local agent. | Next.js · TypeScript · Mongoose · MongoDB · Gemini |
+| **Ephemeris computation service** | FastAPI service over Swiss Ephemeris, a native library with process-global mutable state that is **not thread-safe**. Every call is serialised through a single-worker executor that releases the event loop during computation — the actual engineering problem behind the API. Adds an astronomical-timeline subsystem (boundary and instant finders, lunar-month tables, per-year caching with TTL) and typed per-calculation endpoints replacing one overloaded route. **1,000+ tests.** | Python 3.12 · FastAPI · MongoDB |
+| **E-commerce storefront & embedded admin app** | Shopify Liquid theme plus an embedded Remix admin — metafield/metaobject schema installer, headless catalogue seeders, and certificate verification implemented natively in Liquid rather than through an app proxy. Accessibility pass to a 44×44 touch-target floor. | Shopify · Liquid · Remix · Polaris · Prisma |
+| **Text digitisation & translation pipeline** | Ingestion for a structured-JSON corpus of classical texts: a TEI/SARIT parser handling prose and division-type detection, a scraper that splits on the source's own headings, a verse-marker grammar, per-work structural maps and validators. One structural fix took depth errors in a single work from **3,522 to 6**. Corpus: [Sanskrit-texts](https://github.com/Rupali59/Sanskrit-texts). | Python · JSON |
+| **Filmmaker portfolio** | Production site with a Google Docs → works sync pipeline and multi-codec delivery (AV1/HEVC/H.264): a hero codec ladder took **10.4 MB to ~3 MB**, with delivery suppressed for non-watchers, and an H.264 Level 4.0 re-encode for iOS autoplay. | Next.js · React 19 · MongoDB |
+| **Job-radar skill** | A Claude Cowork skill that categorises job postings, parses compensation and produces a match-score breakdown, with a local server and a health model. Tested against fixtures and a golden set. | Node · esbuild · vitest |
+| **[tathya.dev](https://tathya.dev)** | My own practice — business sites and CRM. WebAuthn, CASL authorisation, d3-based assessment engine. | Next.js 16 · React 19 |
+
+Also in this period: a Telegram bot service (grammY + webhook dispatch, inline-keyboard state
+machine, adaptive heartbeat and briefing schedulers, en/hi i18n) and a ~30-page production site
+rebuilt in Next.js against a live reference.
+
+**A 154-commit recovery.** A worktree removal combined with dropped stashes left 154 commits
+unreachable in a live repository. All 154 were located, recovered and permanently tagged, and
+the restored work was reintegrated behind its tests.
+
+### AI & agent tooling
+
+Everything here I built; each is a repository of mine.
+
+- **A production LLM pipeline, engineered for unreliability.** Enforced response schemas,
+  `temperature: 0`, batching, a non-LLM fallback path so an outage degrades quality without
+  stopping ingestion, and containment for the failure that matters most: a hallucinated source
+  is an *invisible absence that reads as coverage*, so every model-proposed source is
+  existence-checked before acceptance and an inconclusive check is flagged, never guessed.
+- **A Claude Code plugin and a plugin marketplace.** `propagate` ships 4 slash commands, 3 hook
+  scripts across 4 registrations on 2 events, 2 bundled skills, and a skill *lifecycle* CLI
+  (create / promote / demote / reap); the marketplace serves **19 skills across 3 plugins**.
+- **An agent guardrail.** A `PreToolUse` hook that pattern-matches the command an agent is about
+  to execute against declared hazards and delivers the relevant one at the moment of risk —
+  written after a documented hazard, sitting three files away, was hit anyway and cost 11 false
+  verification records.
+- **Evaluation harnesses, not vibes.** Detectors and guardrail triggers each carry a `selftest`
+  asserting the check can fire against a known-positive input; the job-radar skill is tested
+  against fixtures and a golden set. A check that cannot fail is worse than no check, because it
+  reports success.
+- **Human-in-the-loop by construction.** The tooling is designed so an agent proposes and a
+  person disposes: no downstream file is ever edited automatically, and every approval is an
+  append-only ledger event.
+
+<sub>Client work is described by what was built rather than by client name. Those repositories
+are private; the products are in production.</sub>
+
+### Earlier
+
+| Project | |
+|---|---|
+| **[HIMK](https://github.com/Rupali59/himk-implementation)** — human activity recognition using an HMM-based Intermediate Matching Kernel with SVM. M.Tech thesis, re-implemented in 2026 as a containerised Python pipeline with a Flask front end | Python · scikit-learn · hmmlearn · OpenCV · Docker |
+| **[MIS](https://github.com/Rupali59/MIS)** — institute management platform for students, faculty and administration | Next.js · MongoDB |
+| **[Parking Lot](https://github.com/Rupali59/parking_lot)** — system-design allocation problem | Go |
+| **[WorkTracker](https://rupali59.github.io/WorkTracker/)** — personal work dashboard and digital garden | TypeScript |
+| **Voice Transcriber** — dockerised real-time speech-to-text *(private)* | Python · Docker |
+
+---
+
+## Technical Skills
+
+| | |
+|---|---|
+| **Languages** | Go · TypeScript · JavaScript · Python · Java · PHP · C# · C++ |
+| **Web** | Next.js · React · Node.js · Remix · Astro · Laravel · .NET · Tailwind |
+| **Data** | PostgreSQL · MongoDB · MySQL · Redis · Elasticsearch |
+| **Messaging** | RabbitMQ · BullMQ · AWS SQS |
+| **Commerce** | Shopify · Liquid · Polaris · Prisma |
+| **Cloud & tooling** | AWS · Vercel · Docker · Fly.io · Git · Linux |
+| **AI & agent tooling** | Claude Code plugins, hooks and skills · structured LLM output and schema-constrained generation · eval harnesses and golden sets · hallucination containment and graceful degradation · human-in-the-loop design |
+| **ML** | scikit-learn · hmmlearn · OpenCV — pattern recognition and classification (thesis; ServiceNow assignment recommender) |
+| **Platform** | ServiceNow SecOps · Vulnerability Response · GlidePlatform · Flow Designer |
+
+---
+
+## Education
+
+| Degree | Institution | Grade | Years |
 |---|---|---|---|
-| [Motherboard](https://github.com/Rupali59) | Microservices — auth, scheduling, notifications, inventory | Go · TS | 🟢 Active |
-| SSJK CRM | Enterprise CRM — leads, dashboards, sales pipeline | JS · EJS · Astro · TS | ✅ Live |
-| ACE Coliving | Premium booking with PostgreSQL leads & SEO | Next.js · TS | ✅ Live |
-| Voice Transcriber | Dockerised real-time speech-to-text | Python · Docker | ✅ Done |
-| MIS Platform | Institute mgmt — students, faculty, admin | Next.js · MongoDB | ✅ Done |
-| [AstroClarity](https://github.com/Rupali59) | Astrology-themed web app | TypeScript | 🔨 Building |
-| [Rishta](https://github.com/Rupali59) | Matrimonial platform | TypeScript | 🔨 Building |
-| HIMK | M.Tech thesis — HMM-Kernel + SVM activity recognition | MATLAB · Python | 📚 Research |
+| **M.Tech**, Computer Science & Engineering — Pattern Recognition & Machine Learning | National Institute of Technology Goa | 8.42 | 2014–2016 |
+| **B.E.**, Computer Science & Engineering | LNCT Bhopal (RGPV) | 8.58 CGPA | 2010–2014 |
 
 ---
 
-### <img src="https://unpkg.com/lucide-static@latest/icons/activity.svg" width="20" align="center" /> Coding Activity
+## Certifications
 
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
+**AI, 2026** — **Anthropic:** 5 certifications across Claude, Claude Code and Claude Cowork
+(Jul–Aug 2026). **Google:** Gemini Enterprise Agent Ready · Create Your First Gemini Enterprise
+Application · Google Cloud Innovator · Developer Program Premium Tier · AI Fundamentals
+(Google Career Certificates).
 
----
-
-### <img src="https://unpkg.com/lucide-static@latest/icons/bar-chart-3.svg" width="20" align="center" /> GitHub Stats
-
-<div align="center">
-
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Rupali59&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=1A56DB&icon_color=1A56DB&text_color=C9D1D9" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rupali59&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=1A56DB&text_color=C9D1D9&langs_count=8" />
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Rupali59&theme=tokyonight&hide_border=true&background=0D1117&ring=1A56DB&fire=FF6B35&currStreakLabel=1A56DB)](https://git.io/streak-stats)
-
-</div>
+**Earlier** — WhatsApp API Expert, Wati (2024) · Ultimate JavaScript: Fundamentals, Code With
+Mosh (2025) · Neural Networks & Deep Learning, Coursera (2020) · JavaScript Algorithms & Data
+Structures, freeCodeCamp (2020) · Git Essential Training, LinkedIn Learning (2020)
 
 ---
 
-### <img src="https://unpkg.com/lucide-static@latest/icons/graduation-cap.svg" width="20" align="center" /> Education & <img src="https://unpkg.com/lucide-static@latest/icons/scroll-text.svg" width="20" align="center" /> Certifications
+## Honors & Awards
 
-| Degree | Institution | Score | Year |
-|---|---|---|---|
-| **M.Tech** — CSE (Pattern Recognition & ML) | NIT Goa | 8.42 / 10 | 2014–2016 |
-| **B.E.** — CSE | LNCT Bhopal (RGPV) | 8.58 / 10 | 2010–2014 |
-
-<sub>
-<img src="https://unpkg.com/lucide-static@latest/icons/badge-check.svg" width="12" /> WhatsApp API Expert · Wati (2024) &nbsp;·&nbsp;
-<img src="https://unpkg.com/lucide-static@latest/icons/badge-check.svg" width="12" /> JS Fundamentals · Code With Mosh (2025) &nbsp;·&nbsp;
-<img src="https://unpkg.com/lucide-static@latest/icons/badge-check.svg" width="12" /> Neural Networks & Deep Learning · Coursera (2020) &nbsp;·&nbsp;
-<img src="https://unpkg.com/lucide-static@latest/icons/badge-check.svg" width="12" /> JS Algorithms & DS · freeCodeCamp (2020) &nbsp;·&nbsp;
-<img src="https://unpkg.com/lucide-static@latest/icons/badge-check.svg" width="12" /> Git Essential Training · LinkedIn Learning (2020)
-</sub>
+- **Winner** — NowFloats internal hackathon, for the SPIDER sales-prediction module
+- **Chancellor's Scholarship** — top 10 students statewide by theory marks,
+  RGPV Bhopal · 2012 and 2013
+- **Silver Medal** — Persistent Systems Programming Contest, inter-college · 2013
+- **Teaching Assistant**, Computer Science Department — NIT Goa · 2014–2016
+- **Vice President**, Computer Science Department — NIT Goa · 2014–2016
 
 ---
 
-### <img src="https://unpkg.com/lucide-static@latest/icons/sparkles.svg" width="20" align="center" /> Google Developer Program 2026
+## Open to Opportunities
 
-<div align="center">
-
-![Cloud](https://img.shields.io/badge/Cloud%20Innovator-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini%20Enterprise%20Agent-8E44AD?style=flat-square&logo=google&logoColor=white)
-![Maps](https://img.shields.io/badge/Maps%20Innovator-34A853?style=flat-square&logo=googlemaps&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase%20Studio-FF6F00?style=flat-square&logo=firebase&logoColor=white)
-![Premium](https://img.shields.io/badge/Premium%20Tier-FFD700?style=flat-square&logo=google&logoColor=black)
-![GDG](https://img.shields.io/badge/GDG%20Delhi%20%26%20Gurugram-EA4335?style=flat-square&logo=google&logoColor=white)
-![IO](https://img.shields.io/badge/Google%20I%2FO%202026-Registered-4285F4?style=flat-square&logo=google&logoColor=white)
-
-</div>
-
----
-
-### <img src="https://unpkg.com/lucide-static@latest/icons/award.svg" width="20" align="center" /> Achievements
-
-- <img src="https://unpkg.com/lucide-static@latest/icons/medal.svg" width="14" /> **Winner** — NowFloats Hackathon · 2017
-- <img src="https://unpkg.com/lucide-static@latest/icons/star.svg" width="14" /> **Chancellor's Scholarship (Topper)** — RGPV Bhopal · 2012 & 2013
-- <img src="https://unpkg.com/lucide-static@latest/icons/medal.svg" width="14" /> **Silver Medal** — Persistent Systems Programming Contest · 2013
-- <img src="https://unpkg.com/lucide-static@latest/icons/users.svg" width="14" /> **Teaching Assistant** — CSE Dept, NIT Goa · 2014–2016
-- <img src="https://unpkg.com/lucide-static@latest/icons/landmark.svg" width="14" /> **Vice President** — CSE Dept, NIT Goa · 2014–2016
-
----
-
-### <img src="https://unpkg.com/lucide-static@latest/icons/handshake.svg" width="20" align="center" /> Open to Opportunities
-
-<div align="center">
-
-<table>
-  <tr>
-    <td align="center"><img src="https://unpkg.com/lucide-static@latest/icons/building-2.svg" width="22" /><br/><b>Full-Time Remote</b><br/><sub>Senior/Staff · Platform · Full-Stack</sub></td>
-    <td align="center"><img src="https://unpkg.com/lucide-static@latest/icons/map-pin.svg" width="22" /><br/><b>Full-Time On-site</b><br/><sub>Hyderabad · Bangalore · open to relocation</sub></td>
-    <td align="center"><img src="https://unpkg.com/lucide-static@latest/icons/git-merge.svg" width="22" /><br/><b>Collaborations</b><br/><sub>Open-source · Dev tools · EdTech</sub></td>
-  </tr>
-</table>
-
-[![Email](https://img.shields.io/badge/Let's%20Connect-rupalibhatnagar0509%40gmail.com-1A56DB?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rupalibhatnagar0509@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/DM%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/rupali-bhatnagar-b4864957)
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=1A56DB&height=80&section=footer" />
-
-<sub>Built with curiosity, shipped with care.</sub>
-
-</div>
+Senior and staff-level platform, backend and full-stack roles — remote or on-site. Also open to
+open-source collaboration on developer tooling.
+[Email me](mailto:rupalibhatnagar0509@gmail.com) or
+[reach out on LinkedIn](https://www.linkedin.com/in/rupali-bhatnagar-b4864957/).

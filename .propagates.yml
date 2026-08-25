@@ -1,0 +1,26 @@
+# Profile repo — Rupali59/Rupali59.
+#
+# This is a PROJECT of the Rupali workspace, not a workspace itself: no
+# `workspace: true`, no `propagation/` folder. Its ledger is the one at
+# Rupali/propagation/.
+#
+# WHY THIS EDGE EXISTS, stated so it is not re-litigated:
+# On 2026-08-25 this repo held three descriptions of one career — the published
+# README.md, an unpublished docs/unreviewed/README.md that was BETTER than the
+# published one, and Rupali_Resume.pdf. Plus LinkedIn, off-repo. They disagreed
+# on the NowFloats end date (Jul vs Aug 2018), on academic scores (percentages
+# vs CGPA), and on which metrics existed at all. Nothing could notice, because
+# nothing declared that they had to agree.
+#
+# docs/unreviewed/README.md is gone (harvested into README.md). The PDF stays,
+# so the coupling stays, so it gets declared.
+
+sources:
+  README.md:
+    propagates_to:
+      - path: Rupali_Resume.pdf
+        why: >-
+          the PDF resume and the profile README state the same career. They
+          silently diverged on dates, scores and three metrics because nothing
+          coupled them; the PDF is currently the stale side
+        kind: prose

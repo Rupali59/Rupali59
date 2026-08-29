@@ -97,9 +97,10 @@ developer tooling, and the unglamorous problem of keeping large codebases honest
 ### Babajob — Software Engineer
 `May 2016 – Jan 2017` · Bengaluru · *acquired by Quikr, Jun 2017*
 
-- **Call and SMS orchestration** behind the missed-call job service — per-leg dynamic IVR flows
-  over Exotel cloud telephony, SMS queueing and delivery state — in **Go** with RabbitMQ, Redis
-  and MongoDB, at **10,000+ inbound calls and 20,000+ outbound SMS per day**
+- **TelephonySystem** — the Go service behind the missed-call job channel, consumed by Babajob's
+  C# platform: inbound and outbound call handlers against Exotel numbers, call-rotation strategy,
+  incoming-call handling and logging. RabbitMQ, Redis, MongoDB. **10,000+ inbound calls and
+  20,000+ outbound SMS per day**, as one of two developers on a five-person team
 - Search subsystem in Java over Elasticsearch, with dynamic query generation via Mustache
   templates.
 

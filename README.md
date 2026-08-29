@@ -99,8 +99,14 @@ developer tooling, and the unglamorous problem of keeping large codebases honest
 
 - **TelephonySystem** — the Go service behind the missed-call job channel, consumed by Babajob's
   C# platform: inbound and outbound call handlers against Exotel numbers, call-rotation strategy,
-  incoming-call handling and logging. RabbitMQ, Redis, MongoDB. **10,000+ inbound calls and
-  20,000+ outbound SMS per day**, as one of two developers on a five-person team
+  incoming-call handling and logging. **Stateful** — a first call created the jobseeker's profile,
+  later calls were recognised by source number and enriched it. **10,000+ inbound calls and
+  20,000+ outbound SMS per day** on RabbitMQ, Redis and MongoDB; one of two developers on a
+  five-person team
+- **Automated matching and application pipeline** — each completed call published the profile to
+  the outbound messaging service, which matched it against open roles through Elasticsearch, sent
+  the shortlist by SMS, then walked the seeker through a sequential application connecting them to
+  the job creator
 - Search subsystem in Java over Elasticsearch, with dynamic query generation via Mustache
   templates.
 

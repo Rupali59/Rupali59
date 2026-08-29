@@ -77,8 +77,11 @@ developer tooling, and the unglamorous problem of keeping large codebases honest
 ### NowFloats — Software Engineer
 `Jun 2017 – Jul 2018` · Hyderabad
 
-- Responsive web platform features for the Boost merchant portal, serving **50,000+ merchant
-  websites**
+- Primary work on the Boost merchant portal's **customer-relationship surface** — customer
+  enquiries, call logs and call tracking — serving **50,000+ merchant websites**
+- **Sole owner of the appointment-scheduling system** across the Kitsune-built merchant sites,
+  end to end: per-staff availability and slot modelling, booking and management, generic across
+  clinic, salon, restaurant and hotel verticals
   (C#, Bootstrap, JavaScript, jQuery, Knockout.js).
 - **SPIDER** sales-prediction model — per-representative revenue forecasting at **84% accuracy**.
 - Generic booking system on Node.js, configurable across hotels, clinics and restaurants.

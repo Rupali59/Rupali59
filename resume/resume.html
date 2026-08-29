@@ -115,22 +115,22 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 
 <table class="pj">
 <tr class="hdr"><td class="l" colspan="2">Products &amp; platforms</td></tr>
-<tr><td>Multi-tenant CRM &amp; Workflow Platform<br><span style="font-weight:400;font-size:8.4pt">Shree Shyam Jyotish Kendra &middot; <a href="https://ssjk-crm.vercel.app">ssjk-crm.vercel.app</a> &middot; Express &middot; Next.js 14</span></td><td>
+<tr><td>Multi-tenant CRM &amp; Workflow Platform<br><span style="font-weight:400;font-size:8.4pt">Service-business CRM &middot; Express &middot; Next.js 14 &middot; BullMQ</span></td><td>
 <ul>
 <li>Built an Express API and two Next.js 14 applications with a <b>database-driven RBAC/ACL engine</b>: runtime-editable roles, generic field-level access control over CRUD, per-actor tier projection, fail-closed reconciliation and a capability-matrix UI that shows the consequences of a change before an atomic save.</li>
-<li>WebAuthn + OTP, BullMQ/Redis queue, workflow engine, web-push. Five-stage dark-shipped migration with a <b>~14,000-record</b> backfill.</li>
+<li>WebAuthn + OTP, BullMQ/Redis queue, workflow engine, web-push. Six-phase engine cutover that deleted two legacy sweep passes only after verifying their outcomes equal to the new engine&rsquo;s and freezing them as a golden test &mdash; the cutover surfaced <b>five defects that existed only because the compiled graph had never executed</b>.</li>
 <li>Suite <b>104s &rarr; 28s</b>. <b>228 test files.</b></li>
 </ul>
 </td></tr>
 
-<tr><td>Content &amp; SEO Platform<br><span style="font-weight:400;font-size:8.4pt">Vipin Kaushik &middot; <a href="https://vipinkaushik.com">vipinkaushik.com</a> &middot; Next.js &middot; TypeScript</span></td><td>
+<tr><td>Content &amp; SEO Platform<br><span style="font-weight:400;font-size:8.4pt">Practitioner marketing site &middot; Next.js 16 &middot; TypeScript</span></td><td>
 <ul>
 <li>Shipped a production Next.js site on the computation service below.</li>
 <li>Nine templated landing pages plus a hub on a shared shell, <code>FAQPage</code> structured data with selective <code>noindex</code>, a server-side analytics pipeline, signed-cookie location handling with a TTL-indexed response cache, and public pages migrated to static generation.</li>
 </ul>
 </td></tr>
 
-<tr><td>Practitioner Admin Console<br><span style="font-weight:400;font-size:8.4pt">Vipin Kaushik &middot; Next.js 16 &middot; MongoDB</span></td><td>
+<tr><td>Practitioner Admin Console<br><span style="font-weight:400;font-size:8.4pt">Scheduling, CRM and CMS &middot; Next.js 16 &middot; MongoDB</span></td><td>
 <ul>
 <li>Built the practitioner-facing console behind the public site &mdash; <b>~30 routes</b> over <b>26 Mongoose models</b>: schedule in day, week, month, list and waitlist views, a clients CRM with per-client kundli and birth-detail revert, tasks, notes, an articles CMS and fourteen settings and site-content editors.</li>
 <li><b>WebAuthn passkeys</b> with Twilio OTP fallback and JWT sessions; practitioner notes <b>encrypted at rest with AES-256-GCM</b> under a documented dual-read key-rotation procedure.</li>
@@ -158,23 +158,23 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 </ul>
 </td></tr>
 
-<tr><td>E-commerce Storefront &amp; Embedded Admin<br><span style="font-weight:400;font-size:8.4pt">Gemastrology &middot; Shopify &middot; Liquid &middot; Remix</span></td><td>
+<tr><td>E-commerce Storefront &amp; Embedded Admin<br><span style="font-weight:400;font-size:8.4pt">Shopify &middot; Liquid &middot; Remix &middot; Prisma</span></td><td>
 <ul>
 <li>Developed a Shopify Liquid theme and an embedded Remix admin: metafield/metaobject schema installer, headless catalogue seeders, and certificate verification implemented natively in Liquid rather than through an app proxy.</li>
 <li>Accessibility pass to a <b>44&times;44</b> touch-target floor.</li>
 </ul>
 </td></tr>
 
-<tr><td>Production Portfolio Sites<br><span style="font-weight:400;font-size:8.4pt">Manav Daehi &middot; Kirti Kumar &middot; Youvan Prakashan &middot; Next.js &middot; React 19</span></td><td>
+<tr><td>Production Portfolio Sites<br><span style="font-weight:400;font-size:8.4pt">Filmmaker, designer, publisher &middot; Next.js &middot; React 19 &middot; Playwright</span></td><td>
 <ul>
-<li>Shipped four production sites. <a href="https://www.manavdaehi.com">manavdaehi.com</a> &mdash; Google Docs&rarr;works sync and multi-codec delivery (AV1/HEVC/H.264); a hero codec ladder took <b>10.4 MB to ~3 MB</b>, suppressed for non-watchers, with an H.264 Level 4.0 re-encode for iOS autoplay.</li>
-<li><a href="https://kirtik.co.uk">kirtik.co.uk</a> &mdash; dual-track portfolio, Playwright end-to-end. <a href="https://www.youvanprakashan.org">youvanprakashan.org</a> &mdash; publishing platform with an Express admin classification queue. <a href="https://rtistic.vercel.app">rtistic.vercel.app</a> &mdash; Next.js 14 and MongoDB, jest and CI, public source.</li>
+<li>Shipped four production sites. A filmmaker portfolio with a Google Docs&rarr;works sync pipeline and multi-codec delivery: a hero codec ladder took a <b>9.9 MB</b> H.264 file to <b>2.3&ndash;2.9 MB</b> across AV1, HEVC and H.264 variants, one downloaded, suppressed entirely for non-watchers, with a <b>Level 4.0</b> re-encode because iOS silently refuses to autoplay above 4.2.</li>
+<li>A dual-track design portfolio gated by Playwright specs that fail on any hydration warning, plus axe WCAG 2.2 AA and text-spacing checks. A bilingual publishing platform with a separate Express admin carrying a Unicode-script language classifier that replaced an AI one on review. <a href="https://rtistic.vercel.app">rtistic.vercel.app</a> &mdash; Next.js 14, MongoDB, jest and CI, public source.</li>
 </ul>
 </td></tr>
 
 <tr><td>Git Forensics &amp; Recovery<br><span style="font-weight:400;font-size:8.4pt">Incident work &middot; git</span></td><td>
 <ul>
-<li>Recovered <b>154 commits</b> left unreachable in a live repository after a worktree removal combined with dropped stashes &mdash; all 154 located, tagged under <code>refs/tags/rescue/*</code> and reintegrated behind their tests; <b>8 of 29 stashes</b> held content present in no branch.</li>
+<li>Recovered <b>154 commits</b> left unreachable in a live repository after a worktree removal combined with dropped stashes &mdash; <b>125 loose commits and 29 stashes</b> located, tagged under <code>refs/tags/rescue/*</code>, verified against <code>git fsck</code> and bundled. <b>8 of 29 stashes</b> held content present in no branch; one slice was reintegrated behind its tests and the rest deliberately left unrestored, each with a recorded reason.</li>
 <li>Separately diagnosed a repository whose <code>origin</code> pointed at an <b>unrelated project with no common ancestor</b> &mdash; 48 commits a single push would have sent to the wrong remote.</li>
 </ul>
 </td></tr>

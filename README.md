@@ -53,8 +53,13 @@ developer tooling, and the unglamorous problem of keeping large codebases honest
 - **[Vulnerability Source Integrations](https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-response-common-content-pack.html)** —
   integrations with Veracode, Qualys, Tenable and Microsoft TVM, standardising
   **500K+ vulnerability records/day** into a common model for downstream remediation.
-- **Hackathon projects** — Diagnostic Framework (**40%** less debugging time) · ML vulnerability
-  grouping and remediation-target estimation · PoA&M generator · High-volume data generator
+- **POA&M generator** — auto-generated **Plans of Action & Milestones**, the remediation-plan
+  artifact required under **NIST SP 800-53** and **FedRAMP**, from vulnerability findings rather
+  than control failures. Built at an internal hackathon and **adopted by the Now on Now support
+  team**, who ran it against ServiceNow's own instance
+- **Hackathon projects** — Diagnostic Framework, internal support tooling (**40%** less debugging
+  time) · Predictive Intelligence clustering over vulnerable items and regression on
+  time-to-remediate · High-volume data generator
   (**100M+ records across 20–30 tables**, adopted by the performance team).
 
 <details>

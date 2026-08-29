@@ -96,7 +96,7 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <h3>AI &amp; agent tooling</h3>
 <table class="pj">
 <tr><td>propagate<br><span style="font-weight:400;font-size:8.4pt">Claude Code plugin &middot; Node, ESM</span></td><td>
-A Claude Code plugin published through a marketplace I run, installed at user level so its hooks execute in <b>every agent session on the machine</b> rather than only where it is checked out. 4 slash commands, <b>4 hook scripts across 5 registrations on 2 events</b>, 63 library modules, <b>142 tracked test files</b>. Currently watching <b>415 declared couplings that expand to ~920 edges across 14 workspaces</b>, against a <b>2,060-event</b> store, deriving drift from file content in a median <b>741ms</b>. The marketplace serves <b>18 skills across 3 plugins</b>, and <code>code-review-graph</code> is adopted as an MCP server across <b>24 repositories</b>.
+Sole-authored: <b>217 commits over six weeks</b>, 1,115 files, <b>142 tests</b> &mdash; <a href="https://github.com/Rupali59/propagate">github.com/Rupali59/propagate</a>. Declares the couplings between files that must change together and derives drift from file <i>content</i> on demand rather than storing state, currently watching <b>~920 edges across 14 workspaces</b>. Installed at user level, so its hooks execute in <b>every agent session on the machine</b> rather than only where it is checked out. It never edits a downstream file: the tool finds and explains, a person approves, and the decision is recorded as a ledger event. A companion marketplace serves <b>18 skills across 3 plugins</b>.
 </td></tr>
 
 <tr><td>Agent Guardrail &amp; Rule System<br><span style="font-weight:400;font-size:8.4pt">PreToolUse / SessionStart hooks</span></td><td>

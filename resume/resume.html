@@ -7,6 +7,7 @@ body { font-family: Cambria, Georgia, "Times New Roman", serif; font-size: 8.8pt
 .name { text-align: center; font-variant: small-caps; font-size: 18pt; letter-spacing: .5px; margin: 0 0 1px; }
 .subtitle { text-align: center; font-variant: small-caps; font-size: 10.5pt; letter-spacing: .3px; margin: 0 0 3px; }
 .rule { border: 0; border-top: 2.2px solid #000; margin: 0 0 9px; }
+h3 { font-variant: small-caps; font-size: 9.6pt; font-weight: 700; margin: 6px 0 2px; letter-spacing: .2px; page-break-after: avoid; }
 h2 { font-variant: small-caps; font-size: 10.8pt; font-weight: 700; margin: 8px 0 3px; letter-spacing: .3px; page-break-after: avoid; }
 table { width: 100%; border-collapse: collapse; margin-bottom: 3px; page-break-inside: auto; }
 tr { page-break-inside: avoid; page-break-after: auto; }
@@ -34,15 +35,6 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <hr class="rule">
 
 <h2>Work Experience</h2>
-
-<table><tr class="hdr"><td style="width:34%">Tathya Dev &mdash; independent practice</td><td style="width:40%">Sr. Software Engineer</td><td>Jun'25 &ndash; Present</td></tr>
-<tr><td colspan="3">
-<p class="lead">Independent product engineering practice. <b>10+ production web products across 45 repositories and 4,359 commits in 12 months</b> &mdash; output volume that would previously have required a small team, enabled by AI-augmented engineering workflows.</p>
-<ul>
-<li><b>Platform</b> &mdash; a Go multi-module gateway and multi-tenant plugin platform, a Python/FastAPI computation service, and a multi-tenant CRM with a database-driven RBAC engine, all in production. Detailed under Selected Projects.</li>
-<li><b>AI-native workflow engineering</b> &mdash; a Claude Code plugin published through a marketplace I run, serving <b>18 skills across 3 plugins</b>, with hooks that execute in every agent session on this machine. Detailed below.</li>
-<li><b>Client delivery</b> &mdash; production sites and platforms for six clients across CRM, publishing, e-commerce and content/SEO, each shipped end to end from schema to deployment.</li>
-</ul></td></tr></table>
 
 <table><tr class="hdr"><td style="width:34%">ServiceNow</td><td style="width:40%">Sr. Software Engineer (Security Operations)</td><td>Mar'22 &ndash; May'25</td></tr>
 <tr><td colspan="3">
@@ -98,11 +90,11 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <li>Contributed to the <b>search subsystem in Java over Elasticsearch</b>, with dynamic query generation via Mustache templates.</li>
 </ul></td></tr></table>
 
-<h2>AI &amp; Agent Engineering</h2>
+<h2>Selected Projects &mdash; 2025 to present</h2>
+<p class="lead" style="margin-bottom:4px">Independent and consulting engineering through <b>Tathya Dev</b> (<a href="https://tathya.dev">tathya.dev</a>) &mdash; <b>10+ production web products across 45 repositories and 4,359 commits in 12 months</b>, enabled by AI-augmented engineering workflows.</p>
 
-<table><tr class="hdr"><td style="width:34%">Tathya Dev &mdash; independent</td><td style="width:40%">AI &amp; Agent Tooling</td><td>2025 &ndash; present</td></tr>
-<tr><td colspan="3">
-<p class="lead">Agent-facing tooling and production LLM systems, in use daily. Authored unless noted:</p>
+<h3>AI &amp; agent tooling</h3>
+<table><tr><td>
 <ul>
 <li><b>Agent developer toolchain, deployed system-wide</b> &mdash; <b>propagate</b>, a Claude Code plugin published through a marketplace I run and installed at user level, so its hooks execute in <b>every agent session on the machine</b> rather than only where it is checked out. 4 slash commands, <b>4 hook scripts across 5 registrations on 2 events</b>, 63 library modules, <b>142 tracked test files</b>. Currently watching <b>415 declared couplings that expand to ~920 edges across 14 workspaces</b>, against a <b>2,060-event</b> store, deriving drift from file content in a median <b>741ms</b>. The marketplace serves <b>18 skills across 3 plugins</b>, and <code>code-review-graph</code> is adopted as an MCP server across <b>24 repositories</b>.</li>
 <li><b>Agent guardrail delivered at the moment of risk</b> &mdash; a <code>PreToolUse</code> hook that pattern-matches the literal command an agent is about to execute against declared hazards and surfaces the matching one <i>before</i> it runs; written after a documented hazard sitting three files away was hit anyway and cost <b>11 false verification records</b>. A companion <code>SessionStart</code> hook maintains <b>18 canonical engineering rules</b>, and a restatement detector tracks them across <b>50 <code>CLAUDE.md</code> files</b> &mdash; it counts a file that restates a rule <i>even where the file also references it</i>, because a pointer beside a stale copy is what a half-finished migration looks like.</li>
@@ -111,9 +103,7 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <li><b>Human-in-the-loop by construction</b> &mdash; no downstream file is ever edited automatically: the tooling finds and explains, a person approves, and each decision is recorded as a ledger event. The design principle throughout is that <b>&ldquo;found nothing&rdquo; and &ldquo;looked at nothing&rdquo; must be different outputs</b> &mdash; a probe that cannot report its own failure reports success. Auditing my own monitor against that standard found it logging a hardcoded success field while <b>49 crashes sat in a stderr log nothing read</b>; the logger could not express the state it was being cited to prove.</li>
 </ul></td></tr></table>
 
-<h2>Selected Projects &mdash; 2025 to present</h2>
-<p class="lead" style="margin-bottom:4px">Independent and consulting engineering through <b>Tathya Dev</b> (<a href="https://tathya.dev">tathya.dev</a>).</p>
-
+<h3>Products &amp; platforms</h3>
 <table class="pj">
 <tr><td>Multi-tenant CRM &amp; Workflow Platform<br><span style="font-weight:400;font-size:8.4pt">Shree Shyam Jyotish Kendra (Pt. Pawan Kaushik) &middot; <a href="https://ssjk-crm.vercel.app">ssjk-crm.vercel.app</a></span></td><td>
 Express API plus two Next.js 14 applications (client and admin). Built a <b>database-driven RBAC/ACL engine</b> &mdash; runtime-editable roles, generic field-level access control over CRUD, per-actor tier projection, table&rarr;field cascade, and a capability-matrix UI whose review-diff modal shows the consequences of a change before an atomic batch save, with fail-closed reconciliation and admin-floor guards. WebAuthn + OTP authentication, BullMQ/Redis job queue, workflow engine, web-push. Phased task-model migration dark-shipped in five stages with a one-shot backfill of <b>~14,000 records</b>. Test infrastructure cut from <b>104s to 28s</b> across two changes &mdash; one shared <code>mongod</code> for the suite instead of 89, then per-suite index scoping, which is what actually moved the number. <b>228 test files.</b>

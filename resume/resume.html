@@ -106,7 +106,10 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 </td></tr>
 
 <tr><td>LLM Classification Pipeline<br><span style="font-weight:400;font-size:8.4pt">Demand-intelligence ingestion &middot; Gemini &middot; schema-constrained</span></td><td>
-Built a production LLM classification pipeline: Gemini under enforced response schemas at <code>temperature: 0</code>, batched, determinism from cache-on-first-write rather than the model, and a keyword-classifier fallback so a provider outage degrades quality instead of breaking ingestion. Model-proposed sources are <b>existence-checked against the live API before acceptance</b>; an inconclusive check flags rather than asserts.
+<ul>
+<li>Built a production LLM classification pipeline: Gemini under enforced response schemas at <code>temperature: 0</code>, batched, determinism from cache-on-first-write rather than the model, and a keyword-classifier fallback so a provider outage degrades quality instead of breaking ingestion.</li>
+<li>Model-proposed sources are <b>existence-checked against the live API before acceptance</b>; an inconclusive check flags rather than asserts.</li>
+</ul>
 </td></tr>
 
 </table>
@@ -114,39 +117,67 @@ Built a production LLM classification pipeline: Gemini under enforced response s
 <table class="pj">
 <tr class="hdr"><td class="l" colspan="2">Products &amp; platforms</td></tr>
 <tr><td>Multi-tenant CRM &amp; Workflow Platform<br><span style="font-weight:400;font-size:8.4pt">Shree Shyam Jyotish Kendra &middot; <a href="https://ssjk-crm.vercel.app">ssjk-crm.vercel.app</a> &middot; Express &middot; Next.js 14</span></td><td>
-Built an Express API and two Next.js 14 applications with a <b>database-driven RBAC/ACL engine</b>: runtime-editable roles, generic field-level access control over CRUD, per-actor tier projection, fail-closed reconciliation and a capability-matrix UI that shows the consequences of a change before an atomic save. WebAuthn + OTP, BullMQ/Redis queue, workflow engine, web-push. Five-stage dark-shipped migration with a <b>~14,000-record</b> backfill. Suite <b>104s &rarr; 28s</b>. <b>228 test files.</b>
+<ul>
+<li>Built an Express API and two Next.js 14 applications with a <b>database-driven RBAC/ACL engine</b>: runtime-editable roles, generic field-level access control over CRUD, per-actor tier projection, fail-closed reconciliation and a capability-matrix UI that shows the consequences of a change before an atomic save.</li>
+<li>WebAuthn + OTP, BullMQ/Redis queue, workflow engine, web-push. Five-stage dark-shipped migration with a <b>~14,000-record</b> backfill.</li>
+<li>Suite <b>104s &rarr; 28s</b>. <b>228 test files.</b></li>
+</ul>
 </td></tr>
 
 <tr><td>Content &amp; SEO Platform<br><span style="font-weight:400;font-size:8.4pt">Vipin Kaushik &middot; <a href="https://vipinkaushik.com">vipinkaushik.com</a> &middot; Next.js &middot; TypeScript</span></td><td>
-Shipped a production Next.js site on the computation service below. Nine templated landing pages plus a hub on a shared shell, <code>FAQPage</code> structured data with selective <code>noindex</code>, a server-side analytics pipeline, signed-cookie location handling with a durable resolved-location cache, and public pages migrated to static generation.
+<ul>
+<li>Shipped a production Next.js site on the computation service below.</li>
+<li>Nine templated landing pages plus a hub on a shared shell, <code>FAQPage</code> structured data with selective <code>noindex</code>, a server-side analytics pipeline, signed-cookie location handling with a durable resolved-location cache, and public pages migrated to static generation.</li>
+</ul>
 </td></tr>
 
 <tr><td>Demand-Intelligence Platform<br><span style="font-weight:400;font-size:8.4pt">Multi-source ingestion &amp; scoring &middot; Next.js &middot; Mongoose &middot; Gemini</span></td><td>
-Built multi-source ingestion and opportunity scoring over Trends, YouTube and Search Console, fed by the Gemini pipeline above, with an entity ontology mapping demand against supply. Search Console authenticated via <b>Workload Identity Federation</b> to remove service-account key fragility.
+<ul>
+<li>Built multi-source ingestion and opportunity scoring over Trends, YouTube and Search Console, fed by the Gemini pipeline above, with an entity ontology mapping demand against supply.</li>
+<li>Search Console authenticated via <b>Workload Identity Federation</b> to remove service-account key fragility.</li>
+</ul>
 </td></tr>
 
 <tr><td>Ephemeris Computation Service<br><span style="font-weight:400;font-size:8.4pt">Swiss Ephemeris over FastAPI &middot; Python 3.12 &middot; MongoDB</span></td><td>
-Engineered a FastAPI service over Swiss Ephemeris, a native library with process-global mutable state that is <b>not thread-safe</b> &mdash; every call serialised through a single-worker executor that releases the event loop during computation. Astronomical-timeline subsystem: boundary and instant finders, lunar-month tables, per-year caching with TTL, and typed per-calculation endpoints replacing one overloaded route. <b>1,034 tests.</b>
+<ul>
+<li>Engineered a FastAPI service over Swiss Ephemeris, a native library with process-global mutable state that is <b>not thread-safe</b> &mdash; every call serialised through a single-worker executor that releases the event loop during computation.</li>
+<li>Astronomical-timeline subsystem: boundary and instant finders, lunar-month tables, per-year caching with TTL, and typed per-calculation endpoints replacing one overloaded route. <b>1,034 tests.</b></li>
+</ul>
 </td></tr>
 
 <tr><td>Motherboard<br><span style="font-weight:400;font-size:8.4pt">API gateway &amp; plugin platform &middot; Go 1.25 &middot; Next.js &middot; Docker</span></td><td>
-Architected a Go multi-module monorepo implementing an API gateway and multi-tenant plugin platform &mdash; <b>25 <code>go.work</code> modules, 652 tracked Go files</b>. Plugin services authenticate, publish routes to a client manager, and the gateway proxies behind a <b>fail-closed entitlement gate</b> and a plugin-key claim assertion.
+<ul>
+<li>Architected a Go multi-module monorepo implementing an API gateway and multi-tenant plugin platform &mdash; <b>25 <code>go.work</code> modules, 652 tracked Go files</b>.</li>
+<li>Plugin services authenticate, publish routes to a client manager, and the gateway proxies behind a <b>fail-closed entitlement gate</b> and a plugin-key claim assertion.</li>
+</ul>
 </td></tr>
 
 <tr><td>E-commerce Storefront &amp; Embedded Admin<br><span style="font-weight:400;font-size:8.4pt">Gemastrology &middot; Shopify &middot; Liquid &middot; Remix</span></td><td>
-Developed a Shopify Liquid theme and an embedded Remix admin: metafield/metaobject schema installer, headless catalogue seeders, and certificate verification implemented natively in Liquid rather than through an app proxy. Accessibility pass to a <b>44&times;44</b> touch-target floor.
+<ul>
+<li>Developed a Shopify Liquid theme and an embedded Remix admin: metafield/metaobject schema installer, headless catalogue seeders, and certificate verification implemented natively in Liquid rather than through an app proxy.</li>
+<li>Accessibility pass to a <b>44&times;44</b> touch-target floor.</li>
+</ul>
 </td></tr>
 
 <tr><td>Production Portfolio Sites<br><span style="font-weight:400;font-size:8.4pt">Manav Daehi &middot; Kirti Kumar &middot; Youvan Prakashan &middot; Next.js &middot; React 19</span></td><td>
-Shipped four production sites. <a href="https://www.manavdaehi.com">manavdaehi.com</a> &mdash; Google Docs&rarr;works sync and multi-codec delivery (AV1/HEVC/H.264); a hero codec ladder took <b>10.4 MB to ~3 MB</b>, suppressed for non-watchers, with an H.264 Level 4.0 re-encode for iOS autoplay. <a href="https://kirtik.co.uk">kirtik.co.uk</a> &mdash; dual-track portfolio, Playwright end-to-end. <a href="https://www.youvanprakashan.org">youvanprakashan.org</a> &mdash; publishing platform with an Express admin classification queue. <a href="https://rtistic.vercel.app">rtistic.vercel.app</a> &mdash; Next.js 14 and MongoDB, jest and CI, public source.
+<ul>
+<li>Shipped four production sites. <a href="https://www.manavdaehi.com">manavdaehi.com</a> &mdash; Google Docs&rarr;works sync and multi-codec delivery (AV1/HEVC/H.264); a hero codec ladder took <b>10.4 MB to ~3 MB</b>, suppressed for non-watchers, with an H.264 Level 4.0 re-encode for iOS autoplay.</li>
+<li><a href="https://kirtik.co.uk">kirtik.co.uk</a> &mdash; dual-track portfolio, Playwright end-to-end. <a href="https://www.youvanprakashan.org">youvanprakashan.org</a> &mdash; publishing platform with an Express admin classification queue. <a href="https://rtistic.vercel.app">rtistic.vercel.app</a> &mdash; Next.js 14 and MongoDB, jest and CI, public source.</li>
+</ul>
 </td></tr>
 
 <tr><td>Git Forensics &amp; Recovery<br><span style="font-weight:400;font-size:8.4pt">Incident work &middot; git</span></td><td>
-Recovered <b>154 commits</b> left unreachable in a live repository after a worktree removal combined with dropped stashes &mdash; all 154 located, tagged under <code>refs/tags/rescue/*</code> and reintegrated behind their tests; <b>8 of 29 stashes</b> held content present in no branch. Separately diagnosed a repository whose <code>origin</code> pointed at an <b>unrelated project with no common ancestor</b> &mdash; 48 commits a single push would have sent to the wrong remote.
+<ul>
+<li>Recovered <b>154 commits</b> left unreachable in a live repository after a worktree removal combined with dropped stashes &mdash; all 154 located, tagged under <code>refs/tags/rescue/*</code> and reintegrated behind their tests; <b>8 of 29 stashes</b> held content present in no branch.</li>
+<li>Separately diagnosed a repository whose <code>origin</code> pointed at an <b>unrelated project with no common ancestor</b> &mdash; 48 commits a single push would have sent to the wrong remote.</li>
+</ul>
 </td></tr>
 
 <tr><td>Text Digitisation &amp; Translation Pipeline<br><span style="font-weight:400;font-size:8.4pt">Classical-text corpus &middot; <a href="https://github.com/Rupali59/Sanskrit-texts">Sanskrit-texts</a> &middot; Python</span></td><td>
-Built ingestion for a structured-JSON corpus of classical texts: a TEI/SARIT parser handling prose and division-type detection, a scraper splitting on the source&rsquo;s own headings, a verse-marker grammar and per-work structural validators. One structural fix took depth errors in a single work from <b>3,522 to 6</b>. Corpus spans <b>90,000+ verses across 50+ texts</b>.
+<ul>
+<li>Built ingestion for a structured-JSON corpus of classical texts: a TEI/SARIT parser handling prose and division-type detection, a scraper splitting on the source&rsquo;s own headings, a verse-marker grammar and per-work structural validators.</li>
+<li>One structural fix took depth errors in a single work from <b>3,522 to 6</b>. Corpus spans <b>90,000+ verses across 50+ texts</b>.</li>
+</ul>
 </td></tr>
 
 </table>

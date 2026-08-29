@@ -94,14 +94,28 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <p class="lead" style="margin-bottom:4px">Independent and consulting engineering through <b>Tathya Dev</b> (<a href="https://tathya.dev">tathya.dev</a>) &mdash; <b>10+ production web products across 45 repositories and 4,359 commits in 12 months</b>, enabled by AI-augmented engineering workflows.</p>
 
 <h3>AI &amp; agent tooling</h3>
-<table><tr><td>
-<ul>
-<li><b>Agent developer toolchain, deployed system-wide</b> &mdash; <b>propagate</b>, a Claude Code plugin published through a marketplace I run and installed at user level, so its hooks execute in <b>every agent session on the machine</b> rather than only where it is checked out. 4 slash commands, <b>4 hook scripts across 5 registrations on 2 events</b>, 63 library modules, <b>142 tracked test files</b>. Currently watching <b>415 declared couplings that expand to ~920 edges across 14 workspaces</b>, against a <b>2,060-event</b> store, deriving drift from file content in a median <b>741ms</b>. The marketplace serves <b>18 skills across 3 plugins</b>, and <code>code-review-graph</code> is adopted as an MCP server across <b>24 repositories</b>.</li>
-<li><b>Agent guardrail delivered at the moment of risk</b> &mdash; a <code>PreToolUse</code> hook that pattern-matches the literal command an agent is about to execute against declared hazards and surfaces the matching one <i>before</i> it runs; written after a documented hazard sitting three files away was hit anyway and cost <b>11 false verification records</b>. A companion <code>SessionStart</code> hook maintains <b>18 canonical engineering rules</b>, and a restatement detector tracks them across <b>50 <code>CLAUDE.md</code> files</b> &mdash; it counts a file that restates a rule <i>even where the file also references it</i>, because a pointer beside a stale copy is what a half-finished migration looks like.</li>
-<li><b>Production LLM classification pipeline, engineered for unreliability</b> &mdash; Gemini calls constrained by enforced response schemas, run at <code>temperature: 0</code> and batched, with determinism resting on cache-on-first-write rather than on the model, and a keyword-classifier fallback so a provider outage degrades quality instead of breaking ingestion. Model-proposed sources are <b>existence-checked against the live API before acceptance</b>, and an inconclusive check returns the candidate flagged rather than asserted.</li>
-<li><b>Evaluation harnesses, not vibes</b> &mdash; the rule detectors and both pattern-matching guardrails ship a <code>selftest</code> that runs each trigger against a known-positive and asserts it fires, plus negative cases it must <i>not</i> match, because <b>a check that cannot fail reports success</b>; it caught a rule whose detector could never have matched its own body. A Claude Cowork job-classification skill is tested against captured fixtures.</li>
-<li><b>Human-in-the-loop by construction</b> &mdash; no downstream file is ever edited automatically: the tooling finds and explains, a person approves, and each decision is recorded as a ledger event. The design principle throughout is that <b>&ldquo;found nothing&rdquo; and &ldquo;looked at nothing&rdquo; must be different outputs</b> &mdash; a probe that cannot report its own failure reports success. Auditing my own monitor against that standard found it logging a hardcoded success field while <b>49 crashes sat in a stderr log nothing read</b>; the logger could not express the state it was being cited to prove.</li>
-</ul></td></tr></table>
+<table class="pj">
+<tr><td>propagate<br><span style="font-weight:400;font-size:8.4pt">Claude Code plugin &middot; Node, ESM</span></td><td>
+A Claude Code plugin published through a marketplace I run, installed at user level so its hooks execute in <b>every agent session on the machine</b> rather than only where it is checked out. 4 slash commands, <b>4 hook scripts across 5 registrations on 2 events</b>, 63 library modules, <b>142 tracked test files</b>. Currently watching <b>415 declared couplings that expand to ~920 edges across 14 workspaces</b>, against a <b>2,060-event</b> store, deriving drift from file content in a median <b>741ms</b>. The marketplace serves <b>18 skills across 3 plugins</b>, and <code>code-review-graph</code> is adopted as an MCP server across <b>24 repositories</b>.
+</td></tr>
+
+<tr><td>Agent Guardrail &amp; Rule System<br><span style="font-weight:400;font-size:8.4pt">PreToolUse / SessionStart hooks</span></td><td>
+A <code>PreToolUse</code> hook pattern-matches the literal command an agent is about to execute against declared hazards and surfaces the matching one <i>before</i> it runs; written after a documented hazard sitting three files away was hit anyway and cost <b>11 false verification records</b>. A companion <code>SessionStart</code> hook maintains <b>18 canonical engineering rules</b>, and a restatement detector tracks them across <b>50 <code>CLAUDE.md</code> files</b> &mdash; it counts a file that restates a rule <i>even where the file also references it</i>, because a pointer beside a stale copy is what a half-finished migration looks like.
+</td></tr>
+
+<tr><td>LLM Classification Pipeline<br><span style="font-weight:400;font-size:8.4pt">Gemini &middot; schema-constrained</span></td><td>
+Multi-source ingestion scoring with Gemini calls constrained by enforced response schemas, run at <code>temperature: 0</code> and batched, with determinism resting on cache-on-first-write rather than on the model, and a keyword-classifier fallback so a provider outage degrades quality instead of breaking ingestion. Model-proposed sources are <b>existence-checked against the live API before acceptance</b>, and an inconclusive check returns the candidate flagged rather than asserted.
+</td></tr>
+
+<tr><td>Evaluation Harnesses<br><span style="font-weight:400;font-size:8.4pt">selftests &middot; fixtures</span></td><td>
+The rule detectors and both pattern-matching guardrails each ship a <code>selftest</code> that runs each trigger against a known-positive and asserts it fires, plus negative cases it must <i>not</i> match, because <b>a check that cannot fail reports success</b>; it caught a rule whose detector could never have matched its own body. A Claude Cowork job-classification skill is tested against captured fixtures.
+</td></tr>
+
+<tr><td>Human-in-the-Loop Design<br><span style="font-weight:400;font-size:8.4pt">append-only ledger</span></td><td>
+No downstream file is ever edited automatically &mdash; the tooling finds and explains, a person approves, and each decision is recorded as a ledger event. The design principle throughout is that <b>&ldquo;found nothing&rdquo; and &ldquo;looked at nothing&rdquo; must be different outputs</b> &mdash; a probe that cannot report its own failure reports success. Auditing my own monitor against that standard found it logging a hardcoded success field while <b>49 crashes sat in a stderr log nothing read</b>; the logger could not express the state it was being cited to prove.
+</td></tr>
+
+</table>
 
 <h3>Products &amp; platforms</h3>
 <table class="pj">

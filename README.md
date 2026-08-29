@@ -91,8 +91,13 @@ developer tooling, and the unglamorous problem of keeping large codebases honest
 ### Finomena — Software Developer
 `Feb 2017 – May 2017` · Bengaluru · *company wound down 2017*
 
-- Loan management, repayments and collections dashboards in PHP/Laravel, scaled to
-  **8,000+ loan applications/month** on MySQL via Eloquent.
+- Loan management, mandate (auto-debit) and collections dashboards for a small-ticket lending
+  platform in PHP/Laravel, at **8,000+ loan applications/month** on MySQL via Eloquent
+- **Message categorisation service** feeding alternative underwriting — the app read the
+  borrower's SMS inbox; the service parsed and classified content into structured credit signal
+  for a lender scoring borrowers with no credit history
+- Internal dashboard for the city **runner** fleet — field agents handling collections and
+  repayment follow-up
 
 ### Babajob — Software Engineer
 `May 2016 – Jan 2017` · Bengaluru · *acquired by Quikr, Jun 2017*

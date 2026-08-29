@@ -68,8 +68,9 @@ developer tooling, and the unglamorous problem of keeping large codebases honest
 ### Darwinbox — Software Developer
 `Aug 2018 – Mar 2019` · Hyderabad
 
-- Audit-logging microservice capturing every client data modification — PHP/Yii listening to
-  MongoDB oplogs and publishing to AWS SQS for downstream processing.
+- Audit-trail microservice capturing every client data modification — PHP/Yii listening to
+  MongoDB oplogs and publishing to AWS SQS for downstream processing. Predates MongoDB change
+  streams being the obvious choice, so the oplog was tailed directly.
 - Oplog diff processor resolving changes across strings, arrays and nested documents into
   human-readable audit entries.
 

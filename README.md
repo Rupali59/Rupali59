@@ -79,8 +79,8 @@ developer tooling, and the unglamorous problem of keeping large codebases honest
 
 - Primary work on the Boost merchant portal's **customer-relationship surface** — customer
   enquiries, call logs and call tracking — serving **50,000+ merchant websites**
-- **Sole owner of the appointment-scheduling system** across the Kitsune-built merchant sites,
-  end to end: per-staff availability and slot modelling, booking and management, generic across
+- **Appointment-scheduling system** across the Kitsune-built merchant sites — per-staff
+  availability and slot modelling, booking and management — in **Node.js and C#**, generic across
   clinic, salon, restaurant and hotel verticals
   (C#, Bootstrap, JavaScript, jQuery, Knockout.js).
 - **SPIDER** sales-prediction model — per-representative revenue forecasting at **84% accuracy**.

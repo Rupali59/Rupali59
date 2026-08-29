@@ -35,6 +35,15 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 
 <h2>Work Experience</h2>
 
+<table><tr class="hdr"><td style="width:34%">Tathya Dev &mdash; independent practice</td><td style="width:40%">Sr. Software Engineer</td><td>Jun'25 &ndash; Present</td></tr>
+<tr><td colspan="3">
+<p class="lead">Independent product engineering practice. <b>10+ production web products across 45 repositories and 4,359 commits in 12 months</b> &mdash; output volume that would previously have required a small team, enabled by AI-augmented engineering workflows.</p>
+<ul>
+<li><b>Platform</b> &mdash; a Go multi-module gateway and multi-tenant plugin platform, a Python/FastAPI computation service, and a multi-tenant CRM with a database-driven RBAC engine, all in production. Detailed under Selected Projects.</li>
+<li><b>AI-native workflow engineering</b> &mdash; a Claude Code plugin, a plugin marketplace and <b>56 custom skills</b> codifying ship, QA, review and investigation pipelines; MCP servers built and integrated into the development loop. Detailed below.</li>
+<li><b>Client delivery</b> &mdash; production sites and platforms for six clients across CRM, publishing, e-commerce and content/SEO, each shipped end to end from schema to deployment.</li>
+</ul></td></tr></table>
+
 <table><tr class="hdr"><td style="width:34%">ServiceNow</td><td style="width:40%">Sr. Software Engineer (Security Operations)</td><td>Mar'22 &ndash; May'25</td></tr>
 <tr><td colspan="3">
 <p class="lead">Individual contributor on Security Operations and Vulnerability Response, building on the ServiceNow&copy; platform. <span style="font-size:8.3pt">Underlined features link to ServiceNow&rsquo;s public documentation.</span></p>
@@ -43,16 +52,17 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/application-vulnerability-response/pen-test-config-v16-1.html">Penetration Testing Request Catalog &amp; Workflow Automation</a></b> &mdash; built the catalog and automated the workflows for pen-testing requests, streamlining the vulnerability management lifecycle across <b>50+ subsystems</b> and <b>reducing manual intervention by more than 30%</b>.</li>
 <li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vr-background-framework.html">Background Job Processing Framework</a></b> &mdash; architected a multithreaded framework for long-running tasks that previously strained system resources, with migration via a configuration interface:
 <ul class="tight"><li>Multithreaded execution &mdash; <b>60% efficacy improvement</b> in some use cases, <b>1M+ tasks/month</b>.</li>
-<li>Job status tracking and cancellation &mdash; <b>100% visibility</b> on executing and errored tasks.</li></ul></li>
+<li>Job status tracking and cancellation &mdash; <b>100% visibility</b> on executing and errored tasks.</li>
+<li>Configurable <b>retry logic and dead-letter queuing</b> for failed jobs.</li></ul></li>
 <li><b>Real-Time Data Aggregation Engine</b> &mdash; high-performance aggregation framework for near real-time multi-dimensional analytics, powering key internal dashboards over <b>100K+ records in an 8-hour window</b>.</li>
 </ul></td></tr></table>
 
 <table><tr class="hdr"><td style="width:34%">ServiceNow</td><td style="width:40%">Software Engineer (Security Operations)</td><td>Apr'19 &ndash; Mar'22</td></tr>
 <tr><td colspan="3"><ul>
-<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-assignment-rules.html">Assignment Rule Engine for Vulnerability Remediation</a></b> &mdash; cache-optimised engine prioritising infrastructure vulnerabilities and policy violations and routing them to the correct remediation groups via the Glide platform. Handles <b>1M+ vulnerable items daily</b>.</li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-assignment-rules.html">Assignment Rule Engine for Vulnerability Remediation</a></b> &mdash; <b>Redis</b>-backed, cache-optimised engine prioritising infrastructure vulnerabilities and policy violations and routing them to the correct remediation groups via the Glide platform. Used daily by ITIL users; handles <b>1M+ vulnerable items daily</b>.</li>
 <li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/ml_view_assignment_recommendations.html">Machine Learning&ndash;Based Assignment Recommendations</a></b> &mdash; classification-based recommendation system with feature engineering and a user-facing review interface. <b>20% increase in task allocation accuracy.</b></li>
 <li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-mgmnt-CISO-dashboard.html">CISO &amp; Vulnerability Dashboards</a></b> &mdash; led design and development of the CISO dashboard and supporting vulnerability dashboards, defining the key metrics and structuring the data pipeline. Used on a regular basis by <b>50+ organisations</b>.</li>
-<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-response-common-content-pack.html">Vulnerability Source Integration</a></b> &mdash; engineered integrations with <b>Veracode, Qualys, Tenable and Microsoft TVM</b>, standardising <b>500K+ vulnerability records/day</b> into a common model for downstream remediation workflows.</li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-response-common-content-pack.html">Vulnerability Source Integration</a></b> &mdash; engineered integrations with <b>Veracode, Qualys, Tenable and Microsoft TVM</b>, building the <b>ETL pipelines</b> that standardise <b>500K+ vulnerability records/day</b> into a common model, with error handling and retry for reliable ingestion into downstream remediation workflows.</li>
 <li><b>Hackathon Projects</b>:
 <ul class="tight"><li><b>Diagnostic Framework</b> &mdash; streamlined issue tracking across customer instances, <b>reducing debugging time by 40%</b>.</li>
 <li><b>ML for Vulnerability Response</b> &mdash; models for grouping remediation tasks and estimating remediation targets.</li>
@@ -66,21 +76,22 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <li>Built an <b>Oplog Processor in Node.js</b> resolving differences across strings, arrays and embedded documents into human-readable audit entries, with an internal dashboard for adding trackable fields.</li>
 </ul></td></tr></table>
 
-<table><tr class="hdr"><td style="width:34%">NowFloats (Boost360)</td><td style="width:40%">Software Developer</td><td>Jun'17 &ndash; Aug'18</td></tr>
+<table><tr class="hdr"><td style="width:34%">NowFloats (Boost360)</td><td style="width:40%">Software Developer</td><td>Jun'17 &ndash; Jul'18</td></tr>
 <tr><td colspan="3"><ul>
-<li>Developed responsive web features in <b>C#, Bootstrap, JavaScript, jQuery and Knockout.js</b>, supporting <b>50,000+ daily active users</b>.</li>
+<li>Developed responsive web features in <b>C#, Bootstrap, JavaScript, jQuery and Knockout.js</b>, used daily by <b>50,000+ clients</b>.</li>
 <li>Integrated the <b>Facebook Graph API</b> so merchants could publish products and updates to their Facebook profile, page and shop (Ads extension).</li>
 <li>Built the <b>SPIDER</b> module using <b>machine learning</b> to predict sales revenue per representative from historical performance, with up to <b>84% accuracy</b>.</li>
+<li>Built an <b>offers and discounted-purchase module</b> over <b>Boost Keyboard</b>, integrating the internal <b>Kitsune</b>, <b>k-Pay</b> and <b>Assured Purchase</b> systems.</li>
 <li>Designed a <b>generic Booking System</b> for hotels, clinics and restaurants using <b>Node.js</b> and the WebActions API, and an <b>Order Management</b> dashboard (<b>AngularJS, C#</b>) for purchases, payment and delivery status and grievance redressal.</li>
 </ul></td></tr></table>
 
-<table><tr class="hdr"><td style="width:34%">Finomena</td><td style="width:40%">Software Developer</td><td>Feb'17 &ndash; May'17</td></tr>
+<table><tr class="hdr"><td style="width:34%">Finomena <span style="font-weight:400;font-size:8.2pt">(ceased operations May&rsquo;17)</span></td><td style="width:40%">Software Developer</td><td>Feb'17 &ndash; May'17</td></tr>
 <tr><td colspan="3"><ul>
 <li>Built internal dashboards for <b>Loan Management, Repayments, Collections and Transaction Tracking</b> in <b>PHP (Laravel)</b>, scaling to <b>8,000+ loans/month</b> with Eloquent ORM over MySQL.</li>
 <li>Used <b>Artisan</b> for task scheduling, cron handling and testing; Laravel modules for authorisation, validation, event handling and mailing.</li>
 </ul></td></tr></table>
 
-<table><tr class="hdr"><td style="width:34%">Babajob.com</td><td style="width:40%">Software Engineer</td><td>May'16 &ndash; Jan'17</td></tr>
+<table><tr class="hdr"><td style="width:34%">Babajob.com <span style="font-weight:400;font-size:8.2pt">(acquired by Quikr, Jun&rsquo;17)</span></td><td style="width:40%">Software Engineer</td><td>May'16 &ndash; Jan'17</td></tr>
 <tr><td colspan="3"><ul>
 <li>Redesigned the <b>telephony system (IVR and SMS)</b> to scale to <b>10,000+ inbound calls and 20,000+ outbound SMS per day</b>, built in <b>Golang</b> with <b>RabbitMQ</b> as the message bus, <b>Redis</b> as in-memory cache and <b>MongoDB</b> for persistence.</li>
 <li>Designed and implemented RESTful outbound SMS services and a basic logging framework in Golang for debugging and tracing.</li>
@@ -93,7 +104,7 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <tr><td colspan="3">
 <p class="lead">Agent-facing tooling and production LLM systems. Every item below is my own repository, running now:</p>
 <ul>
-<li><b>Agent developer toolchain, deployed system-wide</b> &mdash; <b>propagate</b>, a Claude Code plugin published through a marketplace I run and installed at user level, so its hooks execute in <b>every agent session on the machine</b> rather than only where it is checked out. 4 slash commands, <b>4 hook scripts across 5 registrations on 2 events</b>, 63 library modules, <b>143 test files</b>. Currently watching <b>1,741 declared file couplings across 14 workspaces</b> against a <b>2,060-event</b> append-only store that reconciles in <b>~1.1s</b>. The marketplace serves <b>19 skills across 3 plugins</b>.</li>
+<li><b>Agent developer toolchain, deployed system-wide</b> &mdash; <b>propagate</b>, a Claude Code plugin published through a marketplace I run and installed at user level, so its hooks execute in <b>every agent session on the machine</b> rather than only where it is checked out. 4 slash commands, <b>4 hook scripts across 5 registrations on 2 events</b>, 63 library modules, <b>143 test files</b>. Currently watching <b>1,741 declared file couplings across 14 workspaces</b> against a <b>2,060-event</b> append-only store that reconciles in <b>~1.1s</b>. The marketplace serves <b>19 skills across 3 plugins</b>, and two <b>MCP servers</b> (<code>code-review-graph</code>, <code>agent-tooling</code>) are built into the development loop.</li>
 <li><b>Agent guardrail delivered at the moment of risk</b> &mdash; a <code>PreToolUse</code> hook that pattern-matches the literal command an agent is about to execute against declared hazards and surfaces the matching one <i>before</i> it runs; written after a documented hazard sitting three files away was hit anyway and cost <b>11 false verification records</b>. A companion <code>SessionStart</code> hook injects <b>18 canonical engineering rules</b> into every session, and a restatement detector holds <b>50 <code>CLAUDE.md</code> files at zero divergent copies</b>.</li>
 <li><b>Production LLM classification pipeline, engineered for unreliability</b> &mdash; Gemini calls constrained by enforced response schemas, run at <code>temperature: 0</code> and batched, with determinism resting on cache-on-first-write rather than on the model, and a keyword-classifier fallback so a provider outage degrades quality instead of breaking ingestion. Model-proposed sources are <b>existence-checked against the live API before acceptance</b>, and an inconclusive check returns the candidate flagged rather than asserted.</li>
 <li><b>Evaluation harnesses, not vibes</b> &mdash; every detector and guardrail trigger ships a <code>selftest</code> asserting it can fire against a known-positive input, because <b>a check that cannot fail reports success</b>; the harness has caught real defects, including a rule whose detector could never have matched its own body. A Claude Cowork job-classification skill is tested against fixtures and a <b>golden set</b>.</li>
@@ -117,11 +128,11 @@ Multi-source ingestion and opportunity scoring over Trends, YouTube and Search C
 </td></tr>
 
 <tr><td>Ephemeris Computation Service<br><span style="font-weight:400;font-size:8.4pt">Python 3.12, FastAPI, MongoDB</span></td><td>
-FastAPI service over Swiss Ephemeris, a native library with process-global mutable state that is <b>not thread-safe</b>. Every call is serialised through a single-worker executor that releases the event loop during computation. Adds an astronomical-timeline subsystem (boundary and instant finders, lunar-month tables, per-year caching with TTL) and typed per-calculation endpoints replacing one overloaded route. <b>1,000+ tests.</b>
+FastAPI service over Swiss Ephemeris, a native library with process-global mutable state that is <b>not thread-safe</b>. Every call is serialised through a single-worker executor that releases the event loop during computation. Adds an astronomical-timeline subsystem (boundary and instant finders, lunar-month tables, per-year caching with TTL) and typed per-calculation endpoints replacing one overloaded route. <b>1,034 tests.</b>
 </td></tr>
 
 <tr><td>Motherboard<br><span style="font-weight:400;font-size:8.4pt">Go 1.25, Next.js, Docker</span></td><td>
-Go multi-module monorepo implementing an API gateway and multi-tenant plugin platform &mdash; <b>25 <code>go.work</code> modules, 698 Go files</b>. Plugin services authenticate, publish their routes to a client manager, and the gateway proxies to them behind a <b>fail-closed entitlement gate</b> and a plugin-key claim assertion.
+Go multi-module monorepo implementing an API gateway and multi-tenant plugin platform &mdash; <b>25 <code>go.work</code> modules, 652 tracked Go files</b>. Plugin services authenticate, publish their routes to a client manager, and the gateway proxies to them behind a <b>fail-closed entitlement gate</b> and a plugin-key claim assertion.
 </td></tr>
 
 <tr><td>E-commerce Storefront &amp; Embedded Admin<br><span style="font-weight:400;font-size:8.4pt">Gemastrology &middot; Shopify, Liquid, Remix, Prisma</span></td><td>
@@ -129,7 +140,11 @@ Shopify Liquid theme plus an embedded Remix admin application &mdash; metafield/
 </td></tr>
 
 <tr><td>Production Portfolio Sites<br><span style="font-weight:400;font-size:8.4pt">Manav Daehi &middot; Kirti Kumar &middot; Youvan Prakashan</span></td><td>
-<a href="https://www.manavdaehi.com">manavdaehi.com</a> &mdash; Google Docs&rarr;works sync pipeline and multi-codec delivery (AV1/HEVC/H.264); a hero codec ladder took <b>10.4 MB to ~3 MB</b>, with delivery suppressed for non-watchers and an H.264 Level 4.0 re-encode for iOS autoplay. <a href="https://kirtik.co.uk">kirtik.co.uk</a> &mdash; dual-track portfolio with Playwright end-to-end coverage. <a href="https://www.youvanprakashan.org">youvanprakashan.org</a> &mdash; publishing platform with an Express admin classification queue and a language classifier.
+<a href="https://www.manavdaehi.com">manavdaehi.com</a> &mdash; Google Docs&rarr;works sync pipeline and multi-codec delivery (AV1/HEVC/H.264); a hero codec ladder took <b>10.4 MB to ~3 MB</b>, with delivery suppressed for non-watchers and an H.264 Level 4.0 re-encode for iOS autoplay. <a href="https://kirtik.co.uk">kirtik.co.uk</a> &mdash; dual-track portfolio with Playwright end-to-end coverage. <a href="https://rtistic.vercel.app">rtistic.vercel.app</a> &mdash; Next.js 14 and MongoDB, jest suite and CI, public source. <a href="https://www.youvanprakashan.org">youvanprakashan.org</a> &mdash; publishing platform with an Express admin classification queue and a language classifier.
+</td></tr>
+
+<tr><td>Git Forensics &amp; Recovery<br><span style="font-weight:400;font-size:8.4pt">Incident work</span></td><td>
+A worktree removal combined with dropped stashes left <b>154 commits unreachable</b> in a live repository. All 154 were located, recovered and permanently tagged under <code>refs/tags/rescue/*</code>; <b>8 of 29 stashes</b> held content present in no branch, and the restored work was reintegrated behind its tests. Separately diagnosed a repository whose <code>origin</code> pointed at an <b>unrelated project with no common ancestor</b> &mdash; 48 commits and 341 files that a single <code>git push</code> would have sent to the wrong remote.
 </td></tr>
 
 <tr><td>Text Digitisation &amp; Translation Pipeline<br><span style="font-weight:400;font-size:8.4pt">Python &middot; <a href="https://github.com/Rupali59/Sanskrit-texts">github.com/Rupali59/Sanskrit-texts</a></span></td><td>
@@ -142,6 +157,7 @@ Ingestion for a structured-JSON corpus of classical texts: a TEI/SARIT parser ha
 <tr><td class="lbl">Dissertation</td><td>Human Activity Recognition using an <b>HMM-based Intermediate Matching Kernel</b>, representing videos as sequences of sets of feature vectors. Re-implemented in 2026 as a containerised Python pipeline with a Flask front end &mdash; <a href="https://github.com/Rupali59/himk-implementation">github.com/Rupali59/himk-implementation</a>.</td></tr>
 <tr><td class="lbl">Methodology</td><td>Classifies a video into a predefined activity class. Feature extraction and classification in Python with scikit-learn, hmmlearn and OpenCV; originally prototyped in MATLAB with Piotr&rsquo;s CV Toolbox, PNetCDF and OpenMPI.</td></tr>
 <tr><td class="lbl">ML Techniques</td><td>Bayesian classifiers, Gaussian mixture models, perceptrons, artificial neural networks and support vector machines on linearly separable, non-linearly separable and overlapping data.</td></tr>
+<tr><td class="lbl">Presentations</td><td>Presented the components of an information retrieval system and Google&rsquo;s PageRank model at the departmental seminar on Information Retrieval.</td></tr>
 <tr><td class="lbl">Other Projects</td><td>Management Information System (<a href="https://github.com/Rupali59/MIS">MIS</a>), Cybernetics Protector System, Product Management System.</td></tr>
 </table>
 
@@ -153,14 +169,14 @@ Ingestion for a structured-JSON corpus of classical texts: a TEI/SARIT parser ha
 <tr><td class="lbl">Databases</td><td>MongoDB, PostgreSQL, MySQL, Redis, Elasticsearch</td></tr>
 <tr><td class="lbl">Queues &amp; Messaging</td><td>RabbitMQ, BullMQ, AWS SQS, Redis Queue</td></tr>
 <tr><td class="lbl">Cloud &amp; DevOps</td><td>AWS, Vercel, Fly.io, Docker, Shopify, Jenkins, Git, Linux</td></tr>
-<tr><td class="lbl">ML</td><td>scikit-learn, hmmlearn, OpenCV, pattern recognition and classification</td></tr>
+<tr><td class="lbl">ML</td><td>scikit-learn, hmmlearn, OpenCV, MATLAB/Octave, pattern recognition and classification</td></tr>
 </table>
 
 <h2>Academic Profile</h2>
 <table>
 <tr class="hdr"><td style="width:9%">Year</td><td class="l" style="width:15%">Degree</td><td class="l" style="width:30%">Discipline</td><td class="l">Institution</td><td style="width:12%">Score</td></tr>
 <tr><td style="text-align:center">2016</td><td><b>M.Tech</b></td><td>Computer Science &amp; Engineering<br><span style="font-size:8.4pt">Pattern Recognition &amp; Machine Learning</span></td><td>National Institute of Technology, Goa</td><td style="text-align:center">8.42 CGPA</td></tr>
-<tr><td style="text-align:center">2014</td><td><b>B.E.</b></td><td>Computer Science &amp; Engineering</td><td>LNCT, Bhopal (RGPV)</td><td style="text-align:center">8.58 CGPA</td></tr>
+<tr><td style="text-align:center">2014</td><td><b>B.E.</b></td><td>Computer Science &amp; Engineering<br><span style="font-size:8.4pt">Graduated with Honours</span></td><td>LNCT, Bhopal (RGPV)</td><td style="text-align:center">8.58 CGPA</td></tr>
 <tr><td style="text-align:center">2010</td><td>XII (CBSE)</td><td>Science</td><td>St. Joseph&rsquo;s Convent School, Bhopal</td><td style="text-align:center">83.0%</td></tr>
 <tr><td style="text-align:center">2008</td><td>X (CBSE)</td><td>&mdash;</td><td>St. Joseph&rsquo;s Convent School, Bhopal</td><td style="text-align:center">88.0%</td></tr>
 </table>
@@ -173,7 +189,8 @@ Ingestion for a structured-JSON corpus of classical texts: a TEI/SARIT parser ha
 
 <h2>Achievements &amp; Activities</h2>
 <table>
-<tr><td class="lbl">Professional</td><td><ul class="tight"><li>Winner, NowFloats Hackathon for product innovation in sales &mdash; built the ML-powered SPIDER revenue-prediction module.<span class="yr">2018</span></li></ul></td></tr>
+<tr><td class="lbl">Professional</td><td><ul class="tight"><li>Winner, NowFloats Hackathon for product innovation in sales &mdash; built the ML-powered SPIDER revenue-prediction module.<span class="yr">2018</span></li>
+<li><b>Geektrust GOLD</b> &mdash; score <b>95.8</b> on the Metro Card backend challenge, with <b>Readability</b> and <b>Maintainability</b> assessed at <b>ADVANCED</b> tier by an independent reviewer.</li></ul></td></tr>
 <tr><td class="lbl">Academic</td><td><ul class="tight">
 <li><b>Chancellor&rsquo;s Scholarship (Topper)</b>, Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal &mdash; awarded to the top 10 students statewide by theory marks.<span class="yr">2012, 2013</span></li>
 <li><b>Silver Medal</b>, Persistent Systems Limited Programming Contest, inter-college.<span class="yr">2013</span></li></ul></td></tr>

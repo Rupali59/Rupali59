@@ -3,7 +3,7 @@
 <style>
 @page { size: A4; margin: 11mm 11mm 11mm 11mm; }
 * { box-sizing: border-box; }
-body { font-family: Cambria, Georgia, "Times New Roman", serif; font-size: 8.8pt; line-height: 1.24; color: #000; margin: 0; }
+body { font-family: Cambria, Georgia, "Times New Roman", serif; font-size: 8.8pt; line-height: 1.22; color: #000; margin: 0; }
 .name { text-align: center; font-variant: small-caps; font-size: 18pt; letter-spacing: .5px; margin: 0 0 1px; }
 .subtitle { text-align: center; font-variant: small-caps; font-size: 10.5pt; letter-spacing: .3px; margin: 0 0 3px; }
 .rule { border: 0; border-top: 2.2px solid #000; margin: 0 0 9px; }
@@ -21,6 +21,7 @@ ul ul { margin-top: 1.4px; }
 .lbl { background: #d9d9d9; font-weight: 700; width: 21%; }
 .yr { float: right; font-weight: 400; }
 a { color: #1155cc; }
+a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 .contact { text-align: center; font-size: 8.8pt; margin: 0 0 5px; }
 .pj td:first-child { width: 27%; font-weight: 700; }
 .tight li { margin-bottom: 0.6px; }
@@ -36,11 +37,11 @@ a { color: #1155cc; }
 
 <table><tr class="hdr"><td style="width:34%">ServiceNow</td><td style="width:40%">Sr. Software Engineer (Security Operations)</td><td>Mar'22 &ndash; May'25</td></tr>
 <tr><td colspan="3">
-<p class="lead">Individual contributor on Security Operations and Vulnerability Response, building on the ServiceNow&copy; platform:</p>
+<p class="lead">Individual contributor on Security Operations and Vulnerability Response, building on the ServiceNow&copy; platform. <span style="font-size:8.3pt">Underlined features link to ServiceNow&rsquo;s public documentation.</span></p>
 <ul>
-<li><b>Dynamic Approval Rule Engine</b> for vulnerability exceptions &mdash; designed a multi-level, dynamic approval rule engine on ServiceNow Flow Designer supporting deferment and exception requests across differing enterprise policies. <b>Reduced approval time by 40%.</b></li>
-<li><b>Penetration Testing Request Catalog &amp; Workflow Automation</b> &mdash; built the catalog and automated the workflows for pen-testing requests, streamlining the vulnerability management lifecycle across <b>50+ subsystems</b> and <b>reducing manual intervention by more than 30%</b>.</li>
-<li><b>Background Job Processing Framework</b> &mdash; architected a multithreaded framework for long-running tasks that previously strained system resources, with migration via a configuration interface:
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/washingtondc/servicenow-platform/approvals/c_ApprovalEngines.html">Dynamic Approval Rule Engine</a></b> for vulnerability exceptions &mdash; designed a multi-level, dynamic approval rule engine on ServiceNow Flow Designer supporting deferment and exception requests across differing enterprise policies. <b>Reduced approval time by 40%.</b></li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/application-vulnerability-response/pen-test-config-v16-1.html">Penetration Testing Request Catalog &amp; Workflow Automation</a></b> &mdash; built the catalog and automated the workflows for pen-testing requests, streamlining the vulnerability management lifecycle across <b>50+ subsystems</b> and <b>reducing manual intervention by more than 30%</b>.</li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vr-background-framework.html">Background Job Processing Framework</a></b> &mdash; architected a multithreaded framework for long-running tasks that previously strained system resources, with migration via a configuration interface:
 <ul class="tight"><li>Multithreaded execution &mdash; <b>60% efficacy improvement</b> in some use cases, <b>1M+ tasks/month</b>.</li>
 <li>Job status tracking and cancellation &mdash; <b>100% visibility</b> on executing and errored tasks.</li></ul></li>
 <li><b>Real-Time Data Aggregation Engine</b> &mdash; high-performance aggregation framework for near real-time multi-dimensional analytics, powering key internal dashboards over <b>100K+ records in an 8-hour window</b>.</li>
@@ -48,10 +49,10 @@ a { color: #1155cc; }
 
 <table><tr class="hdr"><td style="width:34%">ServiceNow</td><td style="width:40%">Software Engineer (Security Operations)</td><td>Apr'19 &ndash; Mar'22</td></tr>
 <tr><td colspan="3"><ul>
-<li><b>Assignment Rule Engine for Vulnerability Remediation</b> &mdash; cache-optimised engine prioritising infrastructure vulnerabilities and policy violations and routing them to the correct remediation groups via the Glide platform. Handles <b>1M+ vulnerable items daily</b>.</li>
-<li><b>Machine Learning&ndash;Based Assignment Recommendations</b> &mdash; classification-based recommendation system with feature engineering and a user-facing review interface. <b>20% increase in task allocation accuracy.</b></li>
-<li><b>CISO &amp; Vulnerability Dashboards</b> &mdash; led design and development of the CISO dashboard and supporting vulnerability dashboards, defining the key metrics and structuring the data pipeline. Used on a regular basis by <b>50+ organisations</b>.</li>
-<li><b>Vulnerability Source Integration</b> &mdash; engineered integrations with <b>Veracode, Qualys, Tenable and Microsoft TVM</b>, standardising <b>500K+ vulnerability records/day</b> into a common model for downstream remediation workflows.</li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/configuration-compliance/cc-assignment-rules.html">Assignment Rule Engine for Vulnerability Remediation</a></b> &mdash; cache-optimised engine prioritising infrastructure vulnerabilities and policy violations and routing them to the correct remediation groups via the Glide platform. Handles <b>1M+ vulnerable items daily</b>.</li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/ml_view_assignment_recommendations.html">Machine Learning&ndash;Based Assignment Recommendations</a></b> &mdash; classification-based recommendation system with feature engineering and a user-facing review interface. <b>20% increase in task allocation accuracy.</b></li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-mgmnt-CISO-dashboard.html">CISO &amp; Vulnerability Dashboards</a></b> &mdash; led design and development of the CISO dashboard and supporting vulnerability dashboards, defining the key metrics and structuring the data pipeline. Used on a regular basis by <b>50+ organisations</b>.</li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-response-common-content-pack.html">Vulnerability Source Integration</a></b> &mdash; engineered integrations with <b>Veracode, Qualys, Tenable and Microsoft TVM</b>, standardising <b>500K+ vulnerability records/day</b> into a common model for downstream remediation workflows.</li>
 <li><b>Hackathon Projects</b>:
 <ul class="tight"><li><b>Diagnostic Framework</b> &mdash; streamlined issue tracking across customer instances, <b>reducing debugging time by 40%</b>.</li>
 <li><b>ML for Vulnerability Response</b> &mdash; models for grouping remediation tasks and estimating remediation targets.</li>
@@ -166,7 +167,7 @@ Ingestion for a structured-JSON corpus of classical texts: a TEI/SARIT parser ha
 
 <h2>Certifications</h2>
 <table>
-<tr><td class="lbl">AI &mdash; 2026</td><td><b>Anthropic:</b> Claude Code in Action; Introduction to Claude Cowork; Claude Platform 101; Claude Code 101; Claude 101. &nbsp;<b>Google:</b> Gemini Enterprise Agent Ready; Create Your First Gemini Enterprise Application; Google Cloud Innovator; Developer Program Premium Tier; AI Fundamentals (Google Career Certificates).</td></tr>
+<tr><td class="lbl">AI &mdash; 2026</td><td><b>Anthropic:</b> Claude Code in Action; Introduction to Claude Cowork; Claude Platform 101; Claude Code 101; Claude 101. &nbsp;<b>Google:</b> Gemini Enterprise Agent Ready; Create Your First Gemini Enterprise Application; Google Cloud Innovator; Developer Program Premium Tier; AI Fundamentals (Google Career Certificates). &nbsp;<b>Verify:</b> <a href="https://www.credly.com/users/rupali-bhatnagar-59">credly.com/users/rupali-bhatnagar-59</a> &middot; <a href="https://g.dev/rupali59">g.dev/rupali59</a>.</td></tr>
 <tr><td class="lbl">Earlier</td><td>WhatsApp API Expert, Wati (2024) &middot; Ultimate JavaScript: Fundamentals, Code With Mosh (2025) &middot; Neural Networks &amp; Deep Learning, Coursera (2020) &middot; JavaScript Algorithms &amp; Data Structures, freeCodeCamp (2020) &middot; Git Essential Training, LinkedIn Learning (2020)</td></tr>
 </table>
 

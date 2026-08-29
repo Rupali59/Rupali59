@@ -127,13 +127,13 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <tr><td>Content &amp; SEO Platform<br><span style="font-weight:400;font-size:8.4pt">Vipin Kaushik &middot; <a href="https://vipinkaushik.com">vipinkaushik.com</a> &middot; Next.js &middot; TypeScript</span></td><td>
 <ul>
 <li>Shipped a production Next.js site on the computation service below.</li>
-<li>Nine templated landing pages plus a hub on a shared shell, <code>FAQPage</code> structured data with selective <code>noindex</code>, a server-side analytics pipeline, signed-cookie location handling with a durable resolved-location cache, and public pages migrated to static generation.</li>
+<li>Nine templated landing pages plus a hub on a shared shell, <code>FAQPage</code> structured data with selective <code>noindex</code>, a server-side analytics pipeline, signed-cookie location handling with a TTL-indexed response cache, and public pages migrated to static generation.</li>
 </ul>
 </td></tr>
 
 <tr><td>Demand-Intelligence Platform<br><span style="font-weight:400;font-size:8.4pt">Multi-source ingestion &amp; scoring &middot; Next.js &middot; Mongoose &middot; Gemini</span></td><td>
 <ul>
-<li>Built multi-source ingestion and opportunity scoring over Trends, YouTube and Search Console, fed by the Gemini pipeline above, with an entity ontology mapping demand against supply.</li>
+<li>Built multi-source ingestion and opportunity scoring over Reddit, Google Trends, Search Console and GA4, fed by the Gemini pipeline above, with an entity ontology mapping demand against supply.</li>
 <li>Search Console authenticated via <b>Workload Identity Federation</b> to remove service-account key fragility.</li>
 </ul>
 </td></tr>
@@ -141,7 +141,7 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <tr><td>Ephemeris Computation Service<br><span style="font-weight:400;font-size:8.4pt">Swiss Ephemeris over FastAPI &middot; Python 3.12 &middot; MongoDB</span></td><td>
 <ul>
 <li>Engineered a FastAPI service over Swiss Ephemeris, a native library with process-global mutable state that is <b>not thread-safe</b> &mdash; every call serialised through a single-worker executor that releases the event loop during computation.</li>
-<li>Astronomical-timeline subsystem: boundary and instant finders, lunar-month tables, per-year caching with TTL, and typed per-calculation endpoints replacing one overloaded route. <b>1,034 tests.</b></li>
+<li>Astronomical-timeline subsystem: boundary and instant finders, lunar-month tables, per-year caching with TTL, and typed per-calculation endpoints replacing one overloaded route. <b>1,078 tests.</b></li>
 </ul>
 </td></tr>
 
@@ -175,8 +175,8 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 
 <tr><td>Text Digitisation &amp; Translation Pipeline<br><span style="font-weight:400;font-size:8.4pt">Classical-text corpus &middot; <a href="https://github.com/Rupali59/Sanskrit-texts">Sanskrit-texts</a> &middot; Python</span></td><td>
 <ul>
-<li>Built ingestion for a structured-JSON corpus of classical texts: a TEI/SARIT parser handling prose and division-type detection, a scraper splitting on the source&rsquo;s own headings, a verse-marker grammar and per-work structural validators.</li>
-<li>One structural fix took depth errors in a single work from <b>3,522 to 6</b>. Corpus spans <b>90,000+ verses across 50+ texts</b>.</li>
+<li>Built a <b>~4,800-line ingestion pipeline</b> for classical texts &mdash; a TEI/SARIT parser detecting division types by containment rather than frequency, a scraper splitting on the source&rsquo;s own headings, five verse-marker grammars detected per source, and per-work structural validators. IAST&rarr;Devanagari round-trip verified on <b>17,086 of 17,090</b> lines.</li>
+<li>One structural fix took depth errors in a single work from <b>3,522 to 6</b>. Publishes to a corpus of <b>92,166 verses across 56 texts</b>.</li>
 </ul>
 </td></tr>
 

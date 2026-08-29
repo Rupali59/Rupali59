@@ -99,9 +99,8 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <tr class="hdr"><td class="l" colspan="2">AI &amp; agent tooling</td></tr>
 <tr><td>propagate<br><span style="font-weight:400;font-size:8.4pt">Claude Code plugin &middot; Node, ESM</span></td><td>
 <ul>
-<li>Sole-authored: <b>218 commits over six weeks</b>, 313 source files, <b>142 tests</b> &mdash; <a href="https://github.com/Rupali59/propagate">github.com/Rupali59/propagate</a>. Declares couplings between files that must change together and derives drift from file <i>content</i> on demand, watching <b>~920 edges across 14 workspaces</b>. Installed at user level, so hooks run in <b>every agent session on the machine</b>. Marketplace serves <b>18 skills across 3 plugins</b>.</li>
-<li>Built a <code>PreToolUse</code> hook matching the command an agent is about to run against declared hazards, surfacing the match before it executes; a <code>SessionStart</code> hook maintains <b>18 canonical rules</b> with a restatement detector across <b>50 <code>CLAUDE.md</code> files</b>. Written after a documented hazard three files away was hit anyway, costing <b>11 false verification records</b>.</li>
-<li>Every detector and both guardrails ship a <code>selftest</code> asserting the trigger fires against a known-positive, plus negative cases it must not match. Never edits a downstream file &mdash; it finds and explains, a person approves, the decision lands in an append-only ledger. Auditing my own monitor to that standard found <b>49 crashes in a stderr log nothing read</b>.</li>
+<li>Watches <b>~920 declared file couplings across 14 workspaces</b>, deriving drift from file <i>content</i> on demand rather than storing state &mdash; <a href="https://github.com/Rupali59/propagate">github.com/Rupali59/propagate</a>. Hooks run in every agent session on the machine, delivering the matching known hazard before a risky command executes.</li>
+<li>Never edits a downstream file &mdash; it finds and explains, a person approves, the decision lands in an append-only ledger. Every detector ships a <code>selftest</code> asserting it can fire; auditing its own monitor to that standard surfaced <b>49 crashes in a stderr log nothing read</b>. <b>142 tests.</b></li>
 </ul>
 </td></tr>
 

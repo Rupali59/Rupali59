@@ -131,9 +131,16 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 </ul>
 </td></tr>
 
+<tr><td>Practitioner Admin Console<br><span style="font-weight:400;font-size:8.4pt">Vipin Kaushik &middot; Next.js 16 &middot; MongoDB</span></td><td>
+<ul>
+<li>Built the practitioner-facing console behind the public site &mdash; <b>~30 routes</b> over <b>26 Mongoose models</b>: schedule in day, week, month, list and waitlist views, a clients CRM with per-client kundli and birth-detail revert, tasks, notes, an articles CMS and fourteen settings and site-content editors.</li>
+<li><b>WebAuthn passkeys</b> with Twilio OTP fallback and JWT sessions; practitioner notes <b>encrypted at rest with AES-256-GCM</b> under a documented dual-read key-rotation procedure.</li>
+</ul>
+</td></tr>
+
 <tr><td>Demand-Intelligence Platform<br><span style="font-weight:400;font-size:8.4pt">Multi-source ingestion &amp; scoring &middot; Next.js &middot; Mongoose &middot; Gemini</span></td><td>
 <ul>
-<li>Built multi-source ingestion and opportunity scoring over Reddit, Google Trends, Search Console and GA4, fed by the Gemini pipeline above, with an entity ontology mapping demand against supply.</li>
+<li>Built multi-source ingestion and opportunity scoring over Reddit, Google Trends, YouTube, Search Console and GA4, fed by the Gemini pipeline above, with an entity ontology mapping demand against supply.</li>
 <li>Search Console authenticated via <b>Workload Identity Federation</b> to remove service-account key fragility.</li>
 </ul>
 </td></tr>

@@ -89,10 +89,10 @@ developer tooling, and the unglamorous problem of keeping large codebases honest
   (AngularJS, C#).
 
 ### Finomena — Software Developer
-`Feb 2017 – May 2017` · Bengaluru · *company ceased operations May 2017*
+`Feb 2017 – May 2017` · Bengaluru · *company wound down 2017*
 
 - Loan management, repayments and collections dashboards in PHP/Laravel, scaled to
-  **8,000+ loans/month** on MySQL via Eloquent.
+  **8,000+ loan applications/month** on MySQL via Eloquent.
 
 ### Babajob — Software Engineer
 `May 2016 – Jan 2017` · Bengaluru · *acquired by Quikr, Jun 2017*

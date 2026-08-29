@@ -8,7 +8,7 @@
 [Credly](https://www.credly.com/users/rupali-bhatnagar-59) ·
 [rupalibhatnagar0509@gmail.com](mailto:rupalibhatnagar0509@gmail.com)
 
-Nine years building high-scale backend and platform systems. Six of them at **ServiceNow**
+Ten years building high-scale backend and platform systems. Six of them at **ServiceNow**
 across Security Operations and Vulnerability Response, where I shipped engines that route
 **1M+ vulnerable items a day** and dashboards used by **50+ enterprise security teams**.
 
@@ -106,16 +106,16 @@ tree and enforced by commit and session hooks.
 
 | Project | What it is | Stack |
 |---|---|---|
-| **propagate** — a Claude Code plugin | Agent-facing developer tooling: 4 slash commands, a **SessionStart hook** that injects canonical engineering rules into every session, and a **PreToolUse guardrail that inspects the literal command an agent is about to run and surfaces the matching known hazard before it executes** — hazard docs are pull artifacts, and the failure mode is recognition rather than knowledge. Underneath: declares couplings between files that must change together and derives drift from file *content* on demand rather than storing state. **It never edits a downstream file — the tool finds and explains, a human approves, and the decision is recorded in an append-only ledger.** Every detector and every guardrail trigger ships with a `selftest` asserting it can actually fire, because a check that cannot fail reports success — that selftest has caught real bugs. Rearchitected across two generations to an immutable, ULID-keyed, content-pinned store; made portable after the suite passed locally and failed on every clean machine. 143 test files. | Node · ESM · Claude Code plugin API |
-| **Multi-tenant CRM & workflow platform** | Express API plus two Next.js 16 apps (client and admin). A **DB-driven RBAC/ACL engine** — runtime-editable roles, generic field-level access control over CRUD, per-actor tier projection, table→field cascade, and a capability-matrix UI whose review-diff modal shows the consequences of a change before an atomic batch save, with fail-closed reconciliation and admin-floor guards. WebAuthn + OTP auth, BullMQ/Redis job queue, workflow engine, web-push. A phased task-model migration dark-shipped in five stages with a one-shot backfill of ~14,000 records. Test infrastructure cut from **78s to 28s** by running one shared `mongod` for the suite instead of 89. 228 test files. | Express · BullMQ · Redis · MongoDB · Next.js · React 19 |
-| **Content & SEO platform** | Production site backed by the computation service below — the two are one system. Ten templated landing pages on a shared shell with `FAQPage` structured data and selective `noindex`, a server-side analytics pipeline, signed-cookie location handling with a durable resolved-location cache, and a migration of public pages to static generation. | Next.js · TypeScript · Radix · CASL |
+| **propagate** — a Claude Code plugin | Agent-facing developer tooling: 4 slash commands, a **SessionStart hook** that injects canonical engineering rules into every session, and a **PreToolUse guardrail that inspects the literal command an agent is about to run and surfaces the matching known hazard before it executes** — hazard docs are pull artifacts, and the failure mode is recognition rather than knowledge. Underneath: declares couplings between files that must change together and derives drift from file *content* on demand rather than storing state. **It never edits a downstream file — the tool finds and explains, a human approves, and the decision is recorded in an append-only ledger.** Every detector and every guardrail trigger ships with a `selftest` asserting it can actually fire, because a check that cannot fail reports success — that selftest has caught real bugs. Rearchitected across two generations to an immutable, ULID-keyed, content-pinned store; made portable after the suite passed locally and failed on every clean machine. 142 tracked test files. | Node · ESM · Claude Code plugin API |
+| **Multi-tenant CRM & workflow platform** | Express API plus two Next.js 14 apps (client and admin). A **DB-driven RBAC/ACL engine** — runtime-editable roles, generic field-level access control over CRUD, per-actor tier projection, table→field cascade, and a capability-matrix UI whose review-diff modal shows the consequences of a change before an atomic batch save, with fail-closed reconciliation and admin-floor guards. WebAuthn + OTP auth, BullMQ/Redis job queue, workflow engine, web-push. A phased task-model migration dark-shipped in five stages with a one-shot backfill of ~14,000 records. Test infrastructure cut from **104s to 28s** across two changes — one shared `mongod` instead of 89, then per-suite index scoping, which is what actually moved the number. 228 test files. | Express · BullMQ · Redis · MongoDB · Next.js 14 · React 18 |
+| **Content & SEO platform** | Production site backed by the computation service below — the two are one system. Nine templated landing pages plus a hub on a shared shell with `FAQPage` structured data and selective `noindex`, a server-side analytics pipeline, signed-cookie location handling with a durable resolved-location cache, and a migration of public pages to static generation. | Next.js · TypeScript · Radix · CASL |
 | **Motherboard** | Go multi-module monorepo: an API gateway and multi-tenant plugin platform. **25 `go.work` modules, 652 tracked Go files.** Plugin services authenticate, publish their routes to a client manager, and the gateway proxies to them behind a fail-closed entitlement gate and a plugin-key claim assertion. | Go 1.25 · Next.js |
 | **Demand-intelligence platform** | Multi-source ingestion and opportunity scoring, with a **production LLM classification pipeline**: Gemini calls constrained by enforced response schemas, run at `temperature: 0` and batched, with determinism resting on cache-on-first-write rather than on the model — and a keyword-classifier fallback so a provider outage degrades quality instead of breaking ingestion. Model-proposed sources are **existence-checked against the live API before being accepted**, and an inconclusive check returns the candidate flagged rather than asserted either way. Ingestion also covers Search Console via **Workload Identity Federation** — adopted to remove service-account JSON-key fragility — plus Trends and YouTube. Entity ontology mapping demand against supply; scheduling moved off hosted cron onto a local agent. | Next.js · TypeScript · Mongoose · MongoDB · Gemini |
 | **Ephemeris computation service** | FastAPI service over Swiss Ephemeris, a native library with process-global mutable state that is **not thread-safe**. Every call is serialised through a single-worker executor that releases the event loop during computation — the actual engineering problem behind the API. Adds an astronomical-timeline subsystem (boundary and instant finders, lunar-month tables, per-year caching with TTL) and typed per-calculation endpoints replacing one overloaded route. **1,034 tests.** | Python 3.12 · FastAPI · MongoDB |
 | **E-commerce storefront & embedded admin app** | Shopify Liquid theme plus an embedded Remix admin — metafield/metaobject schema installer, headless catalogue seeders, and certificate verification implemented natively in Liquid rather than through an app proxy. Accessibility pass to a 44×44 touch-target floor. | Shopify · Liquid · Remix · Polaris · Prisma |
 | **Text digitisation & translation pipeline** | Ingestion for a structured-JSON corpus of classical texts: a TEI/SARIT parser handling prose and division-type detection, a scraper that splits on the source's own headings, a verse-marker grammar, per-work structural maps and validators. One structural fix took depth errors in a single work from **3,522 to 6**. Corpus: [Sanskrit-texts](https://github.com/Rupali59/Sanskrit-texts). | Python · JSON |
 | **Filmmaker portfolio** | Production site with a Google Docs → works sync pipeline and multi-codec delivery (AV1/HEVC/H.264): a hero codec ladder took **10.4 MB to ~3 MB**, with delivery suppressed for non-watchers, and an H.264 Level 4.0 re-encode for iOS autoplay. | Next.js · React 19 · MongoDB |
-| **Job-radar skill** | A Claude Cowork skill that categorises job postings, parses compensation and produces a match-score breakdown, with a local server and a health model whose check exits non-zero and names the fault. **536 tests across 21 files**, plus fixtures and a golden set. | Node · esbuild · vitest |
+| **Job-radar skill** | A Claude Cowork skill that categorises job postings, parses compensation and produces a match-score breakdown, with a local server and a health model whose check exits non-zero and names the fault. **536 tests across 21 files**, plus captured fixtures. | Node · esbuild · vitest |
 | **[rtistic](https://rtistic.vercel.app)** | Public, deployed Next.js 14 + MongoDB site with a jest suite and GitHub Actions CI — the source is open, so the code behind it can actually be read. | Next.js 14 · MongoDB · jest |
 | **[tathya.dev](https://tathya.dev)** | My own practice — business sites and CRM. WebAuthn, CASL authorisation, d3-based assessment engine. | Next.js 16 · React 19 |
 
@@ -129,7 +129,7 @@ the restored work was reintegrated behind its tests.
 
 ### AI & agent tooling
 
-Everything here I built; each is a repository of mine.
+Authored unless noted. Where something is adopted rather than written, it says so.
 
 - **A production LLM pipeline, engineered for unreliability.** Enforced response schemas,
   `temperature: 0`, batching, a non-LLM fallback path so an outage degrades quality without
@@ -139,27 +139,31 @@ Everything here I built; each is a repository of mine.
 - **A Claude Code plugin and a plugin marketplace, running system-wide.** `propagate` ships 4
   slash commands, 4 hook scripts across **5 registrations** on 2 events, 2 bundled skills, 63
   library modules and a skill *lifecycle* CLI (create / promote / demote / reap); the marketplace
-  serves **19 skills across 3 plugins**, and two **MCP servers** — `code-review-graph` and
-  `agent-tooling` — are built into the development loop rather than demoed. Installed at user
-  level rather than per-repo, so its
-  hooks execute in **every agent session on the machine**. It currently watches **1,741 declared
-  file couplings across 14 workspaces** against a **2,060-event** append-only store that
-  reconciles in **~1.1s**. Count registrations, not hooks: one guard is registered twice against
+  serves **18 skills across 3 plugins**. Separately, `code-review-graph` (a third-party MCP
+  server) is adopted across **24 repositories** — adoption at that scale, not authorship.
+  Installed at user level rather than per-repo, so its hooks execute in **every agent session on
+  the machine**. It currently watches **415 declared couplings that expand to ~920 edges across
+  14 workspaces**, against a **2,060-event** store, deriving drift from file content in a median
+  **741ms**. Count registrations, not hooks: one guard is registered twice against
   different matchers, and "all four hooks fire" would pass green while one matcher was dead.
 - **An agent guardrail.** A `PreToolUse` hook that pattern-matches the command an agent is about
   to execute against declared hazards and delivers the relevant one at the moment of risk —
   written after a documented hazard, sitting three files away, was hit anyway and cost 11 false
-  verification records. Its `SessionStart` counterpart injects **18 canonical engineering rules**
-  into every session, and a restatement detector holds **50 `CLAUDE.md` files at zero divergent
-  copies** — the same rule previously existed in 9 copies making 4 mutually exclusive claims.
-- **Evaluation harnesses, not vibes.** Detectors and guardrail triggers each carry a `selftest`
-  asserting the check can fire against a known-positive input; the job-radar skill is tested
-  against fixtures and a golden set. A check that cannot fail is worse than no check, because it
-  reports success.
+  verification records. Its `SessionStart` counterpart maintains **18 canonical engineering
+  rules**, and a restatement detector tracks them across **50 `CLAUDE.md` files** — counting a
+  file that restates a rule even where it also references it, because a pointer beside a stale
+  copy is what a half-finished migration looks like. The same rule once existed in 9 copies
+  making 4 mutually exclusive claims.
+- **Evaluation harnesses, not vibes.** The rule detectors and both pattern-matching guardrails
+  carry a `selftest` that runs each trigger against a known-positive and asserts it fires, plus
+  negative cases it must *not* match; the job-radar skill is tested against captured fixtures. A
+  check that cannot fail is worse than no check, because it reports success.
 - **Human-in-the-loop by construction.** The tooling is designed so an agent proposes and a
   person disposes: no downstream file is ever edited automatically, and every approval is an
-  append-only ledger event. The background monitor has run **2,420 times with zero runs that
-  could not look** — "found nothing" and "looked at nothing" are deliberately different outputs,
+  ledger event. The principle throughout is that **"found nothing" and "looked at nothing" must
+  be different outputs** — a probe that cannot report its own failure reports success. Auditing my
+  own monitor against that standard found it writing a hardcoded success field while **49 crashes
+  sat in a stderr log nothing read**: the logger could not express the state it was cited to prove,
   because only one of them is a pass.
 
 <sub>Client work is described by what was built rather than by client name. Those repositories
@@ -187,7 +191,7 @@ are private; the products are in production.</sub>
 | **Messaging** | RabbitMQ · BullMQ · AWS SQS |
 | **Commerce** | Shopify · Liquid · Polaris · Prisma |
 | **Cloud & tooling** | AWS · Vercel · Docker · Fly.io · Git · Linux |
-| **AI & agent tooling** | Claude Code plugins, hooks and skills · structured LLM output and schema-constrained generation · eval harnesses and golden sets · hallucination containment and graceful degradation · human-in-the-loop design |
+| **AI & agent tooling** | Claude Code plugins, hooks and skills · structured LLM output and schema-constrained generation · eval harnesses and fixture-based regression suites · hallucination containment and graceful degradation · human-in-the-loop design |
 | **ML** | scikit-learn · hmmlearn · OpenCV — pattern recognition and classification (thesis; ServiceNow assignment recommender) |
 | **Platform** | ServiceNow SecOps · Vulnerability Response · GlidePlatform · Flow Designer |
 

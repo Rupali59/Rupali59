@@ -97,8 +97,9 @@ developer tooling, and the unglamorous problem of keeping large codebases honest
 ### Babajob — Software Engineer
 `May 2016 – Jan 2017` · Bengaluru · *acquired by Quikr, Jun 2017*
 
-- IVR and SMS system in **Go** with RabbitMQ — asynchronous, state-driven inbound call
-  handling at **10K+ calls and 20K+ SMS per day**, with MongoDB-backed analytics.
+- **Call and SMS orchestration** behind the missed-call job service — per-leg dynamic IVR flows
+  over Exotel cloud telephony, SMS queueing and delivery state — in **Go** with RabbitMQ, Redis
+  and MongoDB, at **10,000+ inbound calls and 20,000+ outbound SMS per day**
 - Search subsystem in Java over Elasticsearch, with dynamic query generation via Mustache
   templates.
 

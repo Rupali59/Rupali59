@@ -85,7 +85,7 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 
 <table><tr class="hdr"><td style="width:34%">Babajob.com <span style="font-weight:400;font-size:8.2pt">(acquired by Quikr, Jun&rsquo;17)</span></td><td style="width:40%">Software Engineer</td><td>May'16 &ndash; Jan'17</td></tr>
 <tr><td colspan="3"><ul>
-<li>Redesigned the <b>telephony system (IVR and SMS)</b> to scale to <b>10,000+ inbound calls and 20,000+ outbound SMS per day</b>, built in <b>Golang</b> with <b>RabbitMQ</b> as the message bus, <b>Redis</b> as in-memory cache and <b>MongoDB</b> for persistence.</li>
+<li>Redesigned the <b>call and SMS orchestration layer</b> behind the missed-call job service &mdash; the endpoints driving per-leg dynamic IVR flows over <b>Exotel</b> cloud telephony, plus SMS queueing and delivery state &mdash; scaling to <b>10,000+ inbound calls and 20,000+ outbound SMS per day</b>, in <b>Golang</b> with <b>RabbitMQ</b> as the message bus, <b>Redis</b> as in-memory cache and <b>MongoDB</b> for persistence.</li>
 <li>Designed and implemented RESTful outbound SMS services and a basic logging framework in Golang for debugging and tracing.</li>
 <li>Contributed to the <b>search subsystem in Java over Elasticsearch</b>, with dynamic query generation via Mustache templates.</li>
 </ul></td></tr></table>

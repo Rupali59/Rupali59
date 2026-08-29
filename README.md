@@ -106,10 +106,10 @@ tree and enforced by commit and session hooks.
 
 | Project | What it is | Stack |
 |---|---|---|
-| **propagate** — a Claude Code plugin | Agent-facing developer tooling: 4 slash commands, a **SessionStart hook** that injects canonical engineering rules into every session, and a **PreToolUse guardrail that inspects the literal command an agent is about to run and surfaces the matching known hazard before it executes** — hazard docs are pull artifacts, and the failure mode is recognition rather than knowledge. Underneath: declares couplings between files that must change together and derives drift from file *content* on demand rather than storing state. **It never edits a downstream file — the tool finds and explains, a human approves, and the decision is recorded in an append-only ledger.** Every detector and every guardrail trigger ships with a `selftest` asserting it can actually fire, because a check that cannot fail reports success — that selftest has caught real bugs. Rearchitected across two generations to an immutable, ULID-keyed, content-pinned store; made portable after the suite passed locally and failed on every clean machine. 130 test files. | Node · ESM · Claude Code plugin API |
+| **propagate** — a Claude Code plugin | Agent-facing developer tooling: 4 slash commands, a **SessionStart hook** that injects canonical engineering rules into every session, and a **PreToolUse guardrail that inspects the literal command an agent is about to run and surfaces the matching known hazard before it executes** — hazard docs are pull artifacts, and the failure mode is recognition rather than knowledge. Underneath: declares couplings between files that must change together and derives drift from file *content* on demand rather than storing state. **It never edits a downstream file — the tool finds and explains, a human approves, and the decision is recorded in an append-only ledger.** Every detector and every guardrail trigger ships with a `selftest` asserting it can actually fire, because a check that cannot fail reports success — that selftest has caught real bugs. Rearchitected across two generations to an immutable, ULID-keyed, content-pinned store; made portable after the suite passed locally and failed on every clean machine. 143 test files. | Node · ESM · Claude Code plugin API |
 | **Multi-tenant CRM & workflow platform** | Express API plus two Next.js 16 apps (client and admin). A **DB-driven RBAC/ACL engine** — runtime-editable roles, generic field-level access control over CRUD, per-actor tier projection, table→field cascade, and a capability-matrix UI whose review-diff modal shows the consequences of a change before an atomic batch save, with fail-closed reconciliation and admin-floor guards. WebAuthn + OTP auth, BullMQ/Redis job queue, workflow engine, web-push. A phased task-model migration dark-shipped in five stages with a one-shot backfill of ~14,000 records. Test infrastructure cut from **78s to 28s** by running one shared `mongod` for the suite instead of 89. 228 test files. | Express · BullMQ · Redis · MongoDB · Next.js · React 19 |
 | **Content & SEO platform** | Production site backed by the computation service below — the two are one system. Ten templated landing pages on a shared shell with `FAQPage` structured data and selective `noindex`, a server-side analytics pipeline, signed-cookie location handling with a durable resolved-location cache, and a migration of public pages to static generation. | Next.js · TypeScript · Radix · CASL |
-| **Motherboard** | Go multi-module monorepo: an API gateway and multi-tenant plugin platform. **36 `go.work` modules, 702 Go files.** Plugin services authenticate, publish their routes to a client manager, and the gateway proxies to them behind a fail-closed entitlement gate and a plugin-key claim assertion. | Go 1.25 · Next.js |
+| **Motherboard** | Go multi-module monorepo: an API gateway and multi-tenant plugin platform. **25 `go.work` modules, 698 Go files.** Plugin services authenticate, publish their routes to a client manager, and the gateway proxies to them behind a fail-closed entitlement gate and a plugin-key claim assertion. | Go 1.25 · Next.js |
 | **Demand-intelligence platform** | Multi-source ingestion and opportunity scoring, with a **production LLM classification pipeline**: Gemini calls constrained by enforced response schemas, run at `temperature: 0` and batched, with determinism resting on cache-on-first-write rather than on the model — and a keyword-classifier fallback so a provider outage degrades quality instead of breaking ingestion. Model-proposed sources are **existence-checked against the live API before being accepted**, and an inconclusive check returns the candidate flagged rather than asserted either way. Ingestion also covers Search Console via **Workload Identity Federation** — adopted to remove service-account JSON-key fragility — plus Trends and YouTube. Entity ontology mapping demand against supply; scheduling moved off hosted cron onto a local agent. | Next.js · TypeScript · Mongoose · MongoDB · Gemini |
 | **Ephemeris computation service** | FastAPI service over Swiss Ephemeris, a native library with process-global mutable state that is **not thread-safe**. Every call is serialised through a single-worker executor that releases the event loop during computation — the actual engineering problem behind the API. Adds an astronomical-timeline subsystem (boundary and instant finders, lunar-month tables, per-year caching with TTL) and typed per-calculation endpoints replacing one overloaded route. **1,000+ tests.** | Python 3.12 · FastAPI · MongoDB |
 | **E-commerce storefront & embedded admin app** | Shopify Liquid theme plus an embedded Remix admin — metafield/metaobject schema installer, headless catalogue seeders, and certificate verification implemented natively in Liquid rather than through an app proxy. Accessibility pass to a 44×44 touch-target floor. | Shopify · Liquid · Remix · Polaris · Prisma |
@@ -135,20 +135,29 @@ Everything here I built; each is a repository of mine.
   stopping ingestion, and containment for the failure that matters most: a hallucinated source
   is an *invisible absence that reads as coverage*, so every model-proposed source is
   existence-checked before acceptance and an inconclusive check is flagged, never guessed.
-- **A Claude Code plugin and a plugin marketplace.** `propagate` ships 4 slash commands, 3 hook
-  scripts across 4 registrations on 2 events, 2 bundled skills, and a skill *lifecycle* CLI
-  (create / promote / demote / reap); the marketplace serves **19 skills across 3 plugins**.
+- **A Claude Code plugin and a plugin marketplace, running system-wide.** `propagate` ships 4
+  slash commands, 4 hook scripts across **5 registrations** on 2 events, 2 bundled skills, 63
+  library modules and a skill *lifecycle* CLI (create / promote / demote / reap); the marketplace
+  serves **19 skills across 3 plugins**. Installed at user level rather than per-repo, so its
+  hooks execute in **every agent session on the machine**. It currently watches **1,741 declared
+  file couplings across 14 workspaces** against a **2,060-event** append-only store that
+  reconciles in **~1.1s**. Count registrations, not hooks: one guard is registered twice against
+  different matchers, and "all four hooks fire" would pass green while one matcher was dead.
 - **An agent guardrail.** A `PreToolUse` hook that pattern-matches the command an agent is about
   to execute against declared hazards and delivers the relevant one at the moment of risk —
   written after a documented hazard, sitting three files away, was hit anyway and cost 11 false
-  verification records.
+  verification records. Its `SessionStart` counterpart injects **18 canonical engineering rules**
+  into every session, and a restatement detector holds **50 `CLAUDE.md` files at zero divergent
+  copies** — the same rule previously existed in 9 copies making 4 mutually exclusive claims.
 - **Evaluation harnesses, not vibes.** Detectors and guardrail triggers each carry a `selftest`
   asserting the check can fire against a known-positive input; the job-radar skill is tested
   against fixtures and a golden set. A check that cannot fail is worse than no check, because it
   reports success.
 - **Human-in-the-loop by construction.** The tooling is designed so an agent proposes and a
   person disposes: no downstream file is ever edited automatically, and every approval is an
-  append-only ledger event.
+  append-only ledger event. The background monitor has run **2,420 times with zero runs that
+  could not look** — "found nothing" and "looked at nothing" are deliberately different outputs,
+  because only one of them is a pass.
 
 <sub>Client work is described by what was built rather than by client name. Those repositories
 are private; the products are in production.</sub>

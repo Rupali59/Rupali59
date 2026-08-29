@@ -3,7 +3,7 @@
 <style>
 @page { size: A4; margin: 11mm 11mm 11mm 11mm; }
 * { box-sizing: border-box; }
-body { font-family: Cambria, Georgia, "Times New Roman", serif; font-size: 8.8pt; line-height: 1.22; color: #000; margin: 0; }
+body { font-family: Cambria, Georgia, "Times New Roman", serif; font-size: 8.8pt; line-height: 1.20; color: #000; margin: 0; }
 .name { text-align: center; font-variant: small-caps; font-size: 18pt; letter-spacing: .5px; margin: 0 0 1px; }
 .subtitle { text-align: center; font-variant: small-caps; font-size: 10.5pt; letter-spacing: .3px; margin: 0 0 3px; }
 .rule { border: 0; border-top: 2.2px solid #000; margin: 0 0 9px; }
@@ -100,7 +100,7 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <tr><td>propagate<br><span style="font-weight:400;font-size:8.4pt">Claude Code plugin &middot; Node, ESM</span></td><td>
 <ul>
 <li>Watches <b>~920 declared file couplings across 14 workspaces</b>, deriving drift from file <i>content</i> on demand rather than storing state &mdash; <a href="https://github.com/Rupali59/propagate">github.com/Rupali59/propagate</a>. Hooks run in every agent session on the machine, delivering the matching known hazard before a risky command executes.</li>
-<li>Never edits a downstream file &mdash; it finds and explains, a person approves, the decision lands in an append-only ledger. Every detector ships a <code>selftest</code> asserting it can fire; auditing its own monitor to that standard surfaced <b>49 crashes in a stderr log nothing read</b>. <b>142 tests.</b></li>
+<li>Never edits a downstream file &mdash; it finds and explains, a person approves, the decision lands in an append-only ledger. Every detector ships a <code>selftest</code> asserting it can fire; auditing its own monitor to that standard surfaced <b>49 crashes in a stderr log nothing read</b>. The same rule runs through the state files it watches &mdash; each count names the command that derives it rather than the number, adopted after a header reading <code>8 edges &middot; 8 verified</code> stood for eight days against a real 29, in the file warning about exactly that. <b>142 tests.</b></li>
 </ul>
 </td></tr>
 
@@ -119,7 +119,7 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <ul>
 <li>Built an Express API and two Next.js 14 applications with a <b>database-driven RBAC/ACL engine</b>: runtime-editable roles, generic field-level access control over CRUD, per-actor tier projection, fail-closed reconciliation and a capability-matrix UI that shows the consequences of a change before an atomic save.</li>
 <li>WebAuthn + OTP, BullMQ/Redis queue, workflow engine, web-push. Six-phase engine cutover that deleted two legacy sweep passes only after verifying their outcomes equal to the new engine&rsquo;s and freezing them as a golden test &mdash; the cutover surfaced <b>five defects that existed only because the compiled graph had never executed</b>.</li>
-<li>Suite <b>104s &rarr; 28s</b>. <b>228 test files.</b></li>
+<li>Appointment-lifecycle scheduling in flight. Suite <b>104s &rarr; 28s</b>. <b>228 test files.</b></li>
 </ul>
 </td></tr>
 
@@ -140,7 +140,7 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <tr><td>Demand-Intelligence Platform<br><span style="font-weight:400;font-size:8.4pt">Multi-source ingestion &amp; scoring &middot; Next.js &middot; Mongoose &middot; Gemini</span></td><td>
 <ul>
 <li>Built multi-source ingestion and opportunity scoring over Reddit, Google Trends, YouTube, Search Console and GA4, fed by the Gemini pipeline above, with an entity ontology mapping demand against supply.</li>
-<li>Search Console authenticated via <b>Workload Identity Federation</b> to remove service-account key fragility.</li>
+<li>Search Console authenticated via <b>Workload Identity Federation</b> to remove service-account key fragility. Deployed; scheduled ingestion not yet cut over from the local agent.</li>
 </ul>
 </td></tr>
 
@@ -169,6 +169,13 @@ a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 <ul>
 <li>Shipped four production sites. A filmmaker portfolio with a Google Docs&rarr;works sync pipeline and multi-codec delivery: a hero codec ladder took a <b>9.9 MB</b> H.264 file to <b>2.3&ndash;2.9 MB</b> across AV1, HEVC and H.264 variants, one downloaded, suppressed entirely for non-watchers, with a <b>Level 4.0</b> re-encode because iOS silently refuses to autoplay above 4.2.</li>
 <li>A dual-track design portfolio gated by Playwright specs that fail on any hydration warning, plus axe WCAG 2.2 AA and text-spacing checks. A bilingual publishing platform with a separate Express admin carrying a Unicode-script language classifier that replaced an AI one on review. <a href="https://rtistic.vercel.app">rtistic.vercel.app</a> &mdash; Next.js 14, MongoDB, jest and CI, public source.</li>
+</ul>
+</td></tr>
+
+<tr><td>Algorithmic Trading Platform<br><span style="font-weight:400;font-size:8.4pt">Research and dashboard &middot; Python &middot; NATS &middot; Next.js</span></td><td>
+<ul>
+<li>Built the research layer &mdash; edge estimators, a hypothesis framework and the data access beneath them, <b>1,000+ lines sole-authored</b> &mdash; and the <b>179-file</b> operator dashboard over it: strategy, system-health, market, trades, futures and options.</li>
+<li>Wrote a <b>design-drift ratchet</b>: each rule carries a <b>canary</b> and a selftest asserting it trips on a known-positive <i>and</i> stays silent on correct code &mdash; a lint rule that cannot fire is indistinguishable from a clean codebase. Adoption debt ratcheted to zero.</li>
 </ul>
 </td></tr>
 

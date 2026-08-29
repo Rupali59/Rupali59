@@ -74,10 +74,11 @@ developer tooling, and the unglamorous problem of keeping large codebases honest
 - Oplog diff processor resolving changes across strings, arrays and nested documents into
   human-readable audit entries.
 
-### NowFloats / Boost360 — Software Engineer
+### NowFloats — Software Engineer
 `Jun 2017 – Jul 2018` · Hyderabad
 
-- Responsive web platform features used daily by **50,000+ clients**
+- Responsive web platform features for the Boost merchant portal, serving **50,000+ merchant
+  websites**
   (C#, Bootstrap, JavaScript, jQuery, Knockout.js).
 - **SPIDER** sales-prediction model — per-representative revenue forecasting at **84% accuracy**.
 - Generic booking system on Node.js, configurable across hotels, clinics and restaurants.

@@ -57,3 +57,41 @@ sources:
           of its own, so it is stale from the moment the HTML changes without a
           re-render — and nothing about the PDF looks stale when it is
         kind: prose
+
+# ADDED 2026-08-29, alongside docs/COMPONENTS.md.
+#
+# The two blocks above are the same failure twice: descriptions of one career
+# that diverged because nothing declared they had to agree. This block is the
+# same failure a third time, in the other direction — docs/REPO-CATALOG.md was
+# added that day carrying findings that CONTRADICT the published claims (a
+# WebAuthn/OTP/JWT row for a codebase where all four packages are declared and
+# never imported), and it was declared here in neither direction. So the
+# correction sat in the repository, correct and unreachable, while the resume
+# rendered the false claim to PDF.
+#
+# docs/COMPONENTS.md is the concept-level view of that same source reading. It
+# is the file the resume and the README are actually written FROM, so that is
+# the edge, in the direction it failed.
+#
+# NOT declared, deliberately: docs/COMPONENTS.md -> docs/REPO-CATALOG.md. They
+# describe the same work through different instruments — one concepts, one
+# counts — and neither is downstream of the other. Coupling them would assert a
+# precedence that does not exist and would fire on every regeneration of the
+# counts, which change weekly by design.
+
+  docs/COMPONENTS.md:
+    propagates_to:
+      - path: README.md
+        why: >-
+          the profile README's project rows are the published short form of
+          these sections. When a concept here is corrected by re-reading source
+          — as the WebAuthn claim was on 2026-08-29 — the README is the file
+          that still carries the old version, and nothing else would notice
+        kind: prose
+      - path: resume/resume.html
+        why: >-
+          the HTML resume states the same projects from the same source
+          reading, and it is the side that renders to PDF. A claim corrected
+          here and not there becomes a false statement in a document that
+          leaves the building
+        kind: prose

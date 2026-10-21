@@ -3,250 +3,110 @@
 <style>
 @page { size: A4; margin: 11mm 11mm 11mm 11mm; }
 * { box-sizing: border-box; }
-body { font-family: Cambria, Georgia, "Times New Roman", serif; font-size: 8.8pt; line-height: 1.20; color: #000; margin: 0; }
+body { font-family: Cambria, Georgia, "Times New Roman", serif; font-size: 9.4pt; line-height: 1.24; color: #000; margin: 0; }
 .name { text-align: center; font-variant: small-caps; font-size: 18pt; letter-spacing: .5px; margin: 0 0 1px; }
 .subtitle { text-align: center; font-variant: small-caps; font-size: 10.5pt; letter-spacing: .3px; margin: 0 0 3px; }
-.rule { border: 0; border-top: 2.2px solid #000; margin: 0 0 9px; }
-h3 { font-variant: small-caps; font-size: 9.6pt; font-weight: 700; margin: 6px 0 2px; letter-spacing: .2px; page-break-after: avoid; }
-h2 { font-variant: small-caps; font-size: 10.8pt; font-weight: 700; margin: 8px 0 3px; letter-spacing: .3px; page-break-after: avoid; }
+.rule { border: 0; border-top: 2.2px solid #000; margin: 0 0 7px; }
+h2 { font-variant: small-caps; font-size: 10.8pt; font-weight: 700; margin: 7px 0 3px; letter-spacing: .3px; page-break-after: avoid; }
 table { width: 100%; border-collapse: collapse; margin-bottom: 3px; page-break-inside: auto; }
 tr { page-break-inside: avoid; page-break-after: auto; }
 td, th { border: 1px solid #9a9a9a; padding: 2.1px 5px; vertical-align: top; text-align: left; }
 .hdr { page-break-after: avoid; }
 .hdr td { background: #d9d9d9; font-weight: 700; text-align: center; }
-.hdr td.l { text-align: left; }
 ul { margin: 2px 0 0; padding-left: 15px; }
 li { margin-bottom: 1.4px; }
-ul ul { margin-top: 1.4px; }
-.lead { margin: 0 0 1px; }
-.lbl { background: #d9d9d9; font-weight: 700; width: 21%; }
+.lead { margin: 0 0 2px; }
+.summary { margin: 0 0 2px; text-align: justify; }
+.lbl { background: #d9d9d9; font-weight: 700; width: 19%; }
 .yr { float: right; font-weight: 400; }
 a { color: #1155cc; }
 a.ref { color: #000; text-decoration: none; border-bottom: .6px dotted #777; }
 .contact { text-align: center; font-size: 8.8pt; margin: 0 0 5px; }
-.pj td:first-child { width: 27%; font-weight: 700; }
 .tight li { margin-bottom: 0.6px; }
+.sub { font-weight: 400; font-size: 8.3pt; }
 </style></head><body>
 
 
 <p class="name">Rupali Bhatnagar</p>
-<p class="subtitle">Senior Software Engineer</p>
-<p class="contact"><a href="mailto:rupalibhatnagar0509@gmail.com">rupalibhatnagar0509@gmail.com</a> &nbsp;&middot;&nbsp; <a href="tel:+918349780523">+91 8349780523</a> &nbsp;&middot;&nbsp; <a href="https://www.linkedin.com/in/rupali-bhatnagar-b4864957/">linkedin.com/in/rupali-bhatnagar</a> &nbsp;&middot;&nbsp; <a href="https://github.com/Rupali59">github.com/Rupali59</a> &nbsp;&middot;&nbsp; <a href="https://tathya.dev">tathya.dev</a></p>
+<p class="subtitle">Senior Software Engineer &middot; AI-Assisted Engineering</p>
+<p class="contact"><a href="mailto:rupalibhatnagar0509@gmail.com">rupalibhatnagar0509@gmail.com</a> &nbsp;&middot;&nbsp; <a href="tel:+918349780523">+91 8349780523</a> &nbsp;&middot;&nbsp; <a href="https://www.linkedin.com/in/rupali-bhatnagar-b4864957/">linkedin.com/in/rupali-bhatnagar</a> &nbsp;&middot;&nbsp; <a href="https://github.com/Rupali59">github.com/Rupali59</a></p>
 <hr class="rule">
+
+<p class="summary">Senior engineer with <b>9+ years</b> across backend platforms, data pipelines and product engineering, six of them at <b>ServiceNow</b> building Security Operations features used by enterprise customers. Since 2025, independent engineering with AI agents in the loop: <b>Claude Code plugins, hooks and skills</b>, MCP, schema-constrained LLM output, eval fixtures drawn from real failures, and human-in-the-loop by construction &mdash; tools propose and explain, a person decides.</p>
 
 <h2>Work Experience</h2>
 
-<table><tr class="hdr"><td style="width:34%">ServiceNow</td><td style="width:40%">Sr. Software Engineer (Security Operations)</td><td>Mar'22 &ndash; May'25</td></tr>
+<table><tr class="hdr"><td style="width:34%">Independent</td><td style="width:40%">Software Consultant</td><td>Jun'25 &ndash; present</td></tr>
 <tr><td colspan="3">
-<p class="lead">Individual contributor on Security Operations and Vulnerability Response, building on the ServiceNow&copy; platform. <span style="font-size:8.3pt">Underlined features link to ServiceNow&rsquo;s public documentation.</span></p>
+<p class="lead"><i>Platform and AI-tooling engineering for small businesses; building open-source developer tools alongside client work.</i></p>
 <ul>
-<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vr-exception-management.html">Exception Management &mdash; Approval Rule Engine</a></b> for vulnerability exceptions &mdash; designed a multi-level, dynamic approval rule engine on ServiceNow Flow Designer supporting deferment and exception requests across differing enterprise policies; Flow Designer approvals shipped in <b>v15.0.2</b>. <b>Reduced approval time by 40%.</b></li>
-<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/application-vulnerability-response/pen_test_overview_avm.html">Penetration Testing Request Catalog &amp; Workflow Automation</a></b> &mdash; built the request catalog and automated intake, triage and routing for penetration-test requests across <b>50+ subsystems</b>, <b>cutting manual coordination by more than 30%</b> &mdash; the testing itself stays expert and manual by design.</li>
-<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vr-background-framework.html">Background Job Processing Framework</a></b> &mdash; architected the multithreaded framework for long-running tasks that previously strained system resources, partitioning work into parallel chunks, with migration via a configuration interface. Rollup jobs were converted to multithreaded background jobs in <b>v18.2.5</b>:
-<ul class="tight"><li>Multithreaded execution &mdash; <b>60% efficacy improvement</b> in some use cases, <b>1M+ tasks/month</b>.</li>
-<li>Job status tracking and cancellation &mdash; <b>100% visibility</b> on executing and errored tasks.</li>
-<li>Configurable <b>retry logic and dead-letter queuing</b> for failed jobs.</li></ul></li>
-<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-response-common-content-pack.html">Real-Time Data Aggregation Engine</a></b> &mdash; high-performance aggregation framework for near real-time multi-dimensional analytics, powering key internal dashboards over <b>100K+ records in an 8-hour window</b>.</li>
+<li><b>propagate</b> <span class="sub">&middot; Claude Code plugin &amp; CLI, Node</span> &mdash; open-source tool that keeps files which must agree across many repositories from silently drifting: <b>1,200+ declared file couplings</b>, drift derived from file content on demand rather than a stored baseline. Pre-tool <b>hooks</b> put the matching known hazard in front of an agent before it runs a risky command. Never edits a downstream file &mdash; it explains, a person approves, the decision lands in an append-only ledger. Every detector ships a selftest proving it can fire. <b>v0.15.41</b>, released continuously; <b>283 test files</b> &mdash; <a href="https://github.com/Rupali59/propagate">github.com/Rupali59/propagate</a>.</li>
+<li><b>Manuscript</b> <span class="sub">&middot; Obsidian plugin &middot; TypeScript &middot; Postgres</span> &mdash; Claude-assisted editorial review and publishing: findings tracked in a Postgres review ledger, an author approves or rejects each one, and the agent side ships as a <b>Claude Code plugin with a hook and a skill</b> so every request carries a stable, versioned instruction set. <b>1.0.0 released</b> (private); <b>210 test files</b>; second contributor onboarding.</li>
+<li><b>Legacy desktop software revival</b> <span class="sub">&middot; Windows &middot; C# &middot; reverse engineering</span> &mdash; revived a discontinued astrology product whose vendor is unreachable: replaced its dead Flash dependency with a stub control, built an installer verified end to end on clean Windows 11 ARM, decoded its proprietary chart format (<b>350/350 round-trip</b>) and migrated its database to SQLite. Re-implemented the calculation engine in C#, validated against the original&rsquo;s output, as the spec for a <b>Flutter rebuild for iOS, Android, macOS and Windows</b>.</li>
+<li><b>Motherboard</b> <span class="sub">&middot; Go 1.25 &middot; Docker</span> &mdash; multi-tenant API gateway and plugin platform, <b>21 Go modules</b>: client services register as plugins and publish their routes; tenant &rarr; authentication &rarr; RBAC path working end to end, <b>fail-closed entitlement gate</b>, scoped per-request tokens, notification hub live on Telegram.</li>
+<li><b>Workflow engine cutover</b> <span class="sub">&middot; Express &middot; Next.js &middot; BullMQ</span> &mdash; for a service-business CRM with database-driven, runtime-editable RBAC: a six-phase cutover that deleted the legacy passes only after freezing their outcomes as a <b>golden test</b> &mdash; surfacing five defects that existed only because the new graph had never executed. Test suite <b>104s &rarr; 28s</b>.</li>
+<li><b>LLM classification pipeline</b> &mdash; Gemini under enforced response schemas at <code>temperature: 0</code>, determinism from cache-on-first-write rather than the model, keyword-classifier fallback so a provider outage degrades quality instead of stopping ingestion; model-proposed sources existence-checked against the live API.</li>
+<li><b>Trading research</b> &mdash; contributed the research layer (edge estimators, hypothesis framework) and a design-drift ratchet with canaries to a team&rsquo;s algorithmic trading system.</li>
+<li><b>Currently completing:</b> Manuscript&rsquo;s next release &middot; the cross-platform Flutter suite (design approved) &middot; Motherboard platform v1 &middot; a release gate for propagate.</li>
+<li><b>Also built:</b> four production portfolio sites (Next.js, Playwright, WCAG 2.2 AA gates; a video codec ladder 9.9&nbsp;MB &rarr; 2.3&nbsp;MB), a Shopify storefront with embedded Remix admin, a FastAPI astronomical-calculation service (<b>965 tests</b>), a classical-text ingestion pipeline (<b>92,166 verses</b>), and recovery of <b>154 unreachable git commits</b> from a live repository.</li>
+</ul></td></tr></table>
+
+<table><tr class="hdr"><td style="width:34%">ServiceNow</td><td style="width:40%">Sr. Software Engineer (Security Operations)</td><td>Mar'22 &ndash; May'25</td></tr>
+<tr><td colspan="3"><ul>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vr-exception-management.html">Exception Management &mdash; Approval Rule Engine</a></b> &mdash; multi-level, dynamic approval engine on Flow Designer for vulnerability deferment and exception requests across differing enterprise policies; shipped in <b>v15.0.2</b>. <b>Approval time down 40%.</b></li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vr-background-framework.html">Background Job Processing Framework</a></b> &mdash; architected multithreaded execution for long-running tasks with status tracking, cancellation, retry and dead-letter queuing; shipped in <b>v18.2.5</b>. <b>60% efficacy improvement</b> in some use cases, <b>1M+ tasks/month</b>.</li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/application-vulnerability-response/pen_test_overview_avm.html">Penetration Testing Request Catalog</a></b> &mdash; automated intake, triage and routing across <b>50+ subsystems</b>, cutting manual coordination by <b>30%+</b>.</li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-response-common-content-pack.html">Real-Time Data Aggregation Engine</a></b> &mdash; near real-time multi-dimensional analytics over <b>100K+ records in an 8-hour window</b>.</li>
 </ul></td></tr></table>
 
 <table><tr class="hdr"><td style="width:34%">ServiceNow</td><td style="width:40%">Software Engineer (Security Operations)</td><td>Apr'19 &ndash; Mar'22</td></tr>
 <tr><td colspan="3"><ul>
-<li><b><a class="ref" href="https://www.servicenow.com/docs/r/zurich/security-management/vulnerability-response/vr-assignment-rules.html">Assignment Rule Engine for Vulnerability Remediation</a></b> &mdash; cache-optimised engine prioritising infrastructure vulnerabilities and policy violations and routing <b>vulnerable items (VITs)</b> to the correct remediation groups via the Glide platform. Used daily by ITIL users; handles <b>1M+ vulnerable items daily</b>.</li>
-<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/ml_view_assignment_recommendations.html">Assignment Recommendations on Predictive Intelligence</a></b> &mdash; classification models on the <b>Predictive Intelligence</b> framework with feature engineering and a reviewer-facing recommendation interface across <b>vulnerable items and vulnerability groups</b>; shipped in <b>v12.1.4</b>. <b>20% increase in task allocation accuracy.</b></li>
-<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-mgmnt-CISO-dashboard.html">CISO &amp; Vulnerability Dashboards</a></b> &mdash; led design and development of the CISO dashboard and supporting vulnerability dashboards, defining the key metrics and structuring the data pipeline. Used on a regular basis by <b>50+ organisations</b>.</li>
-<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vuln_integrations.html">Vulnerability Source Integration</a></b> &mdash; engineered integrations with <b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/application-vulnerability-response/veracode-vuln-integration.html">Veracode</a>, Qualys, Tenable and Microsoft TVM</b>, building the <b>ETL pipelines</b> that standardise <b>500K+ vulnerability records/day</b> into a common model, with error handling and retry for reliable ingestion into downstream remediation workflows.</li>
-<li><b>POA&amp;M Generator</b> &mdash; auto-generated <b>Plans of Action &amp; Milestones</b>, the remediation-plan artifact required under <b>NIST SP 800-53</b> and <b>FedRAMP</b>, directly from vulnerability findings rather than from control failures. Built at an internal hackathon and <b>adopted by the Now on Now support team</b>, who ran it against ServiceNow&rsquo;s own instance.</li>
-<li><b>Hackathon Projects</b>:
-<ul class="tight"><li><b>Diagnostic Framework</b> &mdash; internal support tooling that streamlined issue tracking and reproduction across customer instances, <b>reducing debugging time by 40%</b>.</li>
-<li><b>ML over Vulnerability Response data</b> &mdash; Predictive Intelligence <b>clustering</b> to group vulnerable items beyond the product&rsquo;s filter-based group rules, and <b>regression</b> to predict time-to-remediate, where shipped remediation targets are deterministic date arithmetic.</li>
-<li><b>High-Volume Data Generator</b> &mdash; scalable generation of <b>100M+ records across 20&ndash;30 tables</b> for load testing; used by the performance team.</li></ul></li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/zurich/security-management/vulnerability-response/vr-assignment-rules.html">Assignment Rule Engine</a></b> &mdash; cache-optimised routing of vulnerable items to remediation groups; <b>1M+ vulnerable items daily</b>.</li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/ml_view_assignment_recommendations.html">ML Assignment Recommendations</a></b> &mdash; classification models on Predictive Intelligence with a reviewer-facing interface; shipped in <b>v12.1.4</b>. <b>Allocation accuracy up 20%.</b></li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vuln_integrations.html">Vulnerability Source Integration</a></b> &mdash; ETL from Veracode, Qualys, Tenable and Microsoft TVM standardising <b>500K+ records/day</b> into a common model.</li>
+<li><b><a class="ref" href="https://www.servicenow.com/docs/r/security-management/vulnerability-response/vulnerability-mgmnt-CISO-dashboard.html">CISO &amp; Vulnerability Dashboards</a></b> &mdash; led design and metrics; used by <b>50+ organisations</b>. &nbsp;<b>POA&amp;M Generator</b> (NIST SP 800-53 / FedRAMP) &mdash; hackathon build adopted by the Now on Now team.</li>
 </ul></td></tr></table>
 
 <table><tr class="hdr"><td style="width:34%">Darwinbox Digital Solutions</td><td style="width:40%">Software Developer</td><td>Aug'18 &ndash; Mar'19</td></tr>
 <tr><td colspan="3"><ul>
-<li>Designed and implemented a microservice architecture capturing an <b>audit trail</b> of client data modifications, written in <b>PHP with the Yii framework</b>, listening to <b>MongoDB oplogs</b> and publishing to an <b>AWS SQS</b> queue.</li>
-<li>Built an <b>Oplog Processor in Node.js</b> diffing strings, arrays and embedded documents into human-readable audit entries, with an internal dashboard for adding trackable fields.</li>
+<li>Audit-trail microservice listening to <b>MongoDB oplogs</b> and publishing to <b>AWS SQS</b>, with a Node.js processor diffing documents into human-readable audit entries.</li>
 </ul></td></tr></table>
 
 <table><tr class="hdr"><td style="width:34%">NowFloats</td><td style="width:40%">Software Developer</td><td>Jun'17 &ndash; Jul'18</td></tr>
 <tr><td colspan="3"><ul>
-<li>Primary work was the <b>Boost merchant portal&rsquo;s customer-relationship surface</b> &mdash; customer enquiries, call logs and call tracking &mdash; built in <b>C#/ASP.NET, Bootstrap, JavaScript, jQuery and Knockout.js</b> and serving <b>50,000+ merchant websites</b>.</li>
-<li>Integrated the <b>Facebook Graph API</b> so merchants could publish products and updates to their Facebook profile, page and shop (Ads extension).</li>
-<li>Built the <b>SPIDER</b> module using <b>machine learning</b> to predict sales revenue per representative from historical performance, with up to <b>84% accuracy</b>.</li>
-<li>Built an <b>offers and discounted-purchase flow</b> on <b>Kitsune</b>, NowFloats&rsquo; serverless application framework, wiring in <b>k-Pay</b> and <b>Assured Purchase</b> &mdash; the escrow-backed payment-protection system that held buyer funds until an order was confirmed fulfilled &mdash; and surfaced it to merchants through the <b>Boost Keyboard</b>; also built the <b>Order Management</b> dashboard (<b>AngularJS, C#</b>) covering purchase, payment and delivery status and grievance redressal.</li>
-<li>Worked on the <b>appointment-scheduling system</b> across the Kitsune-built merchant websites &mdash; per-staff availability and slot modelling, booking and management &mdash; in <b>Node.js and C#</b>, generic across the clinic, salon, restaurant and hotel verticals, where it ships today as an appointment scheduler for practices and a room-reservation engine for hotels.</li>
+<li>Customer-relationship surface of the Boost merchant portal (C#/ASP.NET) serving <b>50,000+ merchant websites</b>; escrow-backed purchase flow and order management; appointment scheduling across verticals.</li>
+<li>Built <b>SPIDER</b>, an ML module predicting sales revenue per representative with up to <b>84% accuracy</b> &mdash; hackathon winner.</li>
 </ul></td></tr></table>
 
 <table><tr class="hdr"><td style="width:34%">Finomena <span style="font-weight:400;font-size:8.2pt">(wound down 2017)</span></td><td style="width:40%">Software Developer</td><td>Feb'17 &ndash; May'17</td></tr>
 <tr><td colspan="3"><ul>
-<li>Built the internal dashboards for <b>Loan Management</b>, mandate (auto-debit) management, collections and transaction tracking on the small-ticket lending platform, in <b>PHP (Laravel)</b>, scaling to <b>8,000+ loan applications/month</b> with Eloquent ORM over MySQL.</li>
-<li>Built the <b>message categorisation service</b> feeding Finomena&rsquo;s alternative underwriting &mdash; the app read the borrower&rsquo;s SMS inbox and the service parsed and classified message content into structured credit signal, for a lender whose model scored borrowers with <b>no credit history</b>.</li>
-<li>Built the internal dashboard for the city <b>runner</b> fleet &mdash; the field agents handling collections and repayment follow-up.</li>
-<li>Used <b>Artisan</b> for task scheduling, cron handling and testing; Laravel modules for authorisation, validation, event handling and mailing.</li>
+<li>Lending dashboards in Laravel scaling to <b>8,000+ loan applications/month</b>, and an SMS categorisation service feeding alternative underwriting for borrowers with no credit history.</li>
 </ul></td></tr></table>
 
-<table><tr class="hdr"><td style="width:34%">Babajob.com <span style="font-weight:400;font-size:8.2pt">(acquired by Quikr, Jun&rsquo;17)</span></td><td style="width:40%">Software Engineer</td><td>May'16 &ndash; Jan'17</td></tr>
+<table><tr class="hdr"><td style="width:34%">Babajob.com <span style="font-weight:400;font-size:8.2pt">(acquired by Quikr)</span></td><td style="width:40%">Software Engineer</td><td>May'16 &ndash; Jan'17</td></tr>
 <tr><td colspan="3"><ul>
-<li>Built <b>TelephonySystem</b>, the <b>Golang</b> service behind the missed-call job channel and consumed by Babajob&rsquo;s C# platform &mdash; inbound and outbound call handlers against <b>Exotel</b> numbers, call-rotation strategy, incoming-call handling and the logging subsystem. <b>Stateful by design</b>: a first call created the jobseeker&rsquo;s profile, and later calls were recognised by source number and enriched it &mdash; so a feature-phone user built a profile by ringing a number. <b>10,000+ inbound calls and 20,000+ outbound SMS per day</b> on <b>RabbitMQ</b>, <b>Redis</b> and <b>MongoDB</b>; one of two developers on a five-person telephony team.</li>
-<li>Wired that profile into an <b>automated matching and application pipeline</b>: each completed call published the jobseeker profile to the outbound messaging service, which matched it against open roles through <b>Elasticsearch</b>, sent the shortlist by SMS, then walked the seeker through a sequential application that connected them to the job creator.</li>
-<li>Contributed to the <b>search subsystem in Java over Elasticsearch</b>, with dynamic query generation via Mustache templates.</li>
+<li>Built <b>TelephonySystem</b> in <b>Go</b>: the missed-call job channel where a feature-phone user built a profile by ringing a number &mdash; <b>10,000+ calls and 20,000+ SMS/day</b> on RabbitMQ, Redis and MongoDB.</li>
+<li>Wired it into an automated matching pipeline over <b>Elasticsearch</b> that sent shortlisted jobs by SMS.</li>
 </ul></td></tr></table>
-
-<h2>Selected Projects &mdash; 2025 to present</h2>
-<p class="lead" style="margin-bottom:4px">Independent and consulting engineering through <b>Tathya Dev</b> (<a href="https://tathya.dev">tathya.dev</a>) &mdash; <b>10+ production web products across 43 repositories and 4,238 commits in 12 months</b>, enabled by AI-augmented engineering workflows.</p>
-
-<table class="pj">
-<tr class="hdr"><td class="l" colspan="2">AI &amp; agent tooling</td></tr>
-<tr><td>propagate<br><span style="font-weight:400;font-size:8.4pt">Claude Code plugin &middot; Node, ESM</span></td><td>
-<ul>
-<li>Watches <b>~920 declared file couplings across 14 workspaces</b>, deriving drift from file <i>content</i> on demand rather than storing state &mdash; <a href="https://github.com/Rupali59/propagate">github.com/Rupali59/propagate</a>. Hooks run in every agent session on the machine, delivering the matching known hazard before a risky command executes.</li>
-<li>Never edits a downstream file &mdash; it finds and explains, a person approves, the decision lands in an append-only ledger. Every detector ships a <code>selftest</code> asserting it can fire; auditing its own monitor to that standard surfaced <b>49 crashes in a stderr log nothing read</b>. The same rule runs through the state files it watches &mdash; each count names the command that derives it rather than the number, adopted after a header reading <code>8 edges &middot; 8 verified</code> stood for eight days against a real 29, in the file warning about exactly that. <b>142 tests.</b></li>
-</ul>
-</td></tr>
-
-<tr><td>LLM Classification Pipeline<br><span style="font-weight:400;font-size:8.4pt">Demand-intelligence ingestion &middot; Gemini &middot; schema-constrained</span></td><td>
-<ul>
-<li>Built a production LLM classification pipeline: Gemini under enforced response schemas at <code>temperature: 0</code>, batched, determinism from cache-on-first-write rather than the model, and a keyword-classifier fallback so a provider outage degrades quality instead of breaking ingestion.</li>
-<li>Model-proposed sources are <b>existence-checked against the live API before acceptance</b>; an inconclusive check flags rather than asserts.</li>
-</ul>
-</td></tr>
-
-</table>
-
-<table class="pj">
-<tr class="hdr"><td class="l" colspan="2">Products &amp; platforms</td></tr>
-<tr><td>Multi-tenant CRM &amp; Workflow Platform<br><span style="font-weight:400;font-size:8.4pt">Service-business CRM &middot; Express &middot; Next.js 14 &middot; BullMQ</span></td><td>
-<ul>
-<li>Built an Express API and two Next.js 14 applications with a <b>database-driven RBAC/ACL engine</b>: runtime-editable roles, generic field-level access control over CRUD, per-actor tier projection, fail-closed reconciliation and a capability-matrix UI that shows the consequences of a change before an atomic save.</li>
-<li>WebAuthn + OTP, BullMQ/Redis queue, workflow engine, web-push. Six-phase engine cutover that deleted two legacy sweep passes only after verifying their outcomes equal to the new engine&rsquo;s and freezing them as a golden test &mdash; the cutover surfaced <b>five defects that existed only because the compiled graph had never executed</b>.</li>
-<li>Appointment-lifecycle scheduling in flight. Suite <b>104s &rarr; 28s</b>. <b>228 test files.</b></li>
-</ul>
-</td></tr>
-
-<tr><td>Content &amp; SEO Platform<br><span style="font-weight:400;font-size:8.4pt">Practitioner marketing site &middot; Next.js 16 &middot; TypeScript</span></td><td>
-<ul>
-<li>Shipped a production Next.js site on the computation service below.</li>
-<li>Nine templated landing pages plus a hub on a shared shell, <code>FAQPage</code> structured data with selective <code>noindex</code>, a server-side analytics pipeline, signed-cookie location handling with a TTL-indexed response cache, and public pages migrated to static generation.</li>
-</ul>
-</td></tr>
-
-<tr><td>Practitioner Admin Console<br><span style="font-weight:400;font-size:8.4pt">Scheduling, CRM and CMS &middot; Next.js 16 &middot; MongoDB</span></td><td>
-<ul>
-<li>Built the practitioner-facing console behind the public site &mdash; <b>~30 routes</b> over <b>26 Mongoose models</b>: schedule in day, week, month, list and waitlist views, a clients CRM with per-client kundli and birth-detail revert, tasks, notes, an articles CMS and fourteen settings and site-content editors.</li>
-<li><b>WebAuthn passkeys</b> with Twilio OTP fallback and JWT sessions; practitioner notes <b>encrypted at rest with AES-256-GCM</b> under a documented dual-read key-rotation procedure.</li>
-</ul>
-</td></tr>
-
-<tr><td>Demand-Intelligence Platform<br><span style="font-weight:400;font-size:8.4pt">Multi-source ingestion &amp; scoring &middot; Next.js &middot; Mongoose &middot; Gemini</span></td><td>
-<ul>
-<li>Built multi-source ingestion and opportunity scoring over Reddit, Google Trends, YouTube, Search Console and GA4, fed by the Gemini pipeline above, with an entity ontology mapping demand against supply.</li>
-<li>Search Console authenticated via <b>Workload Identity Federation</b> to remove service-account key fragility. Deployed; scheduled ingestion not yet cut over from the local agent.</li>
-</ul>
-</td></tr>
-
-<tr><td>Ephemeris Computation Service<br><span style="font-weight:400;font-size:8.4pt">Swiss Ephemeris over FastAPI &middot; Python 3.12 &middot; MongoDB</span></td><td>
-<ul>
-<li>Engineered a FastAPI service over Swiss Ephemeris, a native library with process-global mutable state that is <b>not thread-safe</b> &mdash; every call serialised through a single-worker executor that releases the event loop during computation.</li>
-<li>Astronomical-timeline subsystem: boundary and instant finders, lunar-month tables, per-year caching with TTL, and typed per-calculation endpoints replacing one overloaded route. <b>1,078 tests.</b></li>
-</ul>
-</td></tr>
-
-<tr><td>Motherboard<br><span style="font-weight:400;font-size:8.4pt">API gateway &amp; plugin platform &middot; Go 1.25 &middot; Next.js &middot; Docker</span></td><td>
-<ul>
-<li>Architected a Go multi-module monorepo implementing an API gateway and multi-tenant plugin platform &mdash; <b>25 <code>go.work</code> modules, 652 tracked Go files</b>.</li>
-<li>Plugin services authenticate, publish routes to a client manager, and the gateway proxies behind a <b>fail-closed entitlement gate</b> and a plugin-key claim assertion.</li>
-</ul>
-</td></tr>
-
-<tr><td>E-commerce Storefront &amp; Embedded Admin<br><span style="font-weight:400;font-size:8.4pt">Shopify &middot; Liquid &middot; Remix &middot; Prisma</span></td><td>
-<ul>
-<li>Developed a Shopify Liquid theme and an embedded Remix admin: metafield/metaobject schema installer, headless catalogue seeders, and certificate verification implemented natively in Liquid rather than through an app proxy.</li>
-<li>Accessibility pass to a <b>44&times;44</b> touch-target floor.</li>
-</ul>
-</td></tr>
-
-<tr><td>Production Portfolio Sites<br><span style="font-weight:400;font-size:8.4pt">Filmmaker, designer, publisher &middot; Next.js &middot; React 19 &middot; Playwright</span></td><td>
-<ul>
-<li>Shipped four production sites. A filmmaker portfolio with a Google Docs&rarr;works sync pipeline and multi-codec delivery: a hero codec ladder took a <b>9.9 MB</b> H.264 file to <b>2.3&ndash;2.9 MB</b> across AV1, HEVC and H.264 variants, one downloaded, suppressed entirely for non-watchers, with a <b>Level 4.0</b> re-encode because iOS silently refuses to autoplay above 4.2.</li>
-<li>A dual-track design portfolio gated by Playwright specs that fail on any hydration warning, plus axe WCAG 2.2 AA and text-spacing checks. A bilingual publishing platform with a separate Express admin carrying a Unicode-script language classifier that replaced an AI one on review. <a href="https://rtistic.vercel.app">rtistic.vercel.app</a> &mdash; Next.js 14, MongoDB, jest and CI, public source.</li>
-</ul>
-</td></tr>
-
-<tr><td>Algorithmic Trading Platform<br><span style="font-weight:400;font-size:8.4pt">Research and dashboard &middot; Python &middot; NATS &middot; Next.js</span></td><td>
-<ul>
-<li>Built the research layer &mdash; edge estimators, a hypothesis framework and the data access beneath them, <b>1,000+ lines sole-authored</b> &mdash; and the <b>179-file</b> operator dashboard over it: strategy, system-health, market, trades, futures and options.</li>
-<li>Wrote a <b>design-drift ratchet</b>: each rule carries a <b>canary</b> and a selftest asserting it trips on a known-positive <i>and</i> stays silent on correct code &mdash; a lint rule that cannot fire is indistinguishable from a clean codebase. Adoption debt ratcheted to zero.</li>
-</ul>
-</td></tr>
-
-<tr><td>Git Forensics &amp; Recovery<br><span style="font-weight:400;font-size:8.4pt">Incident work &middot; git</span></td><td>
-<ul>
-<li>Recovered <b>154 commits</b> left unreachable in a live repository after a worktree removal combined with dropped stashes &mdash; <b>125 loose commits and 29 stashes</b> located, tagged under <code>refs/tags/rescue/*</code>, verified against <code>git fsck</code> and bundled. <b>8 of 29 stashes</b> held content present in no branch; one slice was reintegrated behind its tests and the rest deliberately left unrestored, each with a recorded reason.</li>
-<li>Separately diagnosed a repository whose <code>origin</code> pointed at an <b>unrelated project with no common ancestor</b> &mdash; 48 commits a single push would have sent to the wrong remote.</li>
-</ul>
-</td></tr>
-
-<tr><td>Text Digitisation &amp; Translation Pipeline<br><span style="font-weight:400;font-size:8.4pt">Classical-text corpus &middot; <a href="https://github.com/Rupali59/Sanskrit-texts">Sanskrit-texts</a> &middot; Python</span></td><td>
-<ul>
-<li>Built a <b>~4,800-line ingestion pipeline</b> for classical texts &mdash; a TEI/SARIT parser detecting division types by containment rather than frequency, a scraper splitting on the source&rsquo;s own headings, five verse-marker grammars detected per source, and per-work structural validators. IAST&rarr;Devanagari round-trip verified on <b>17,086 of 17,090</b> lines.</li>
-<li>One structural fix took depth errors in a single work from <b>3,522 to 6</b>. Publishes to a corpus of <b>92,166 verses across 56 texts</b>.</li>
-</ul>
-</td></tr>
-
-</table>
-
-<h2>Dissertation &amp; Coursework</h2>
-<table>
-<tr><td class="lbl">Dissertation</td><td>Human Activity Recognition using an <b>HMM-based Intermediate Matching Kernel</b>, representing videos as sequences of sets of feature vectors. Re-implemented in 2026 as a containerised Python pipeline with a Flask front end &mdash; <a href="https://github.com/Rupali59/himk-implementation">github.com/Rupali59/himk-implementation</a>.</td></tr>
-<tr><td class="lbl">Methodology</td><td>Classifies a video into a predefined activity class. Feature extraction and classification in Python with scikit-learn, hmmlearn and OpenCV; originally prototyped in MATLAB with Piotr&rsquo;s CV Toolbox, PNetCDF and OpenMPI.</td></tr>
-<tr><td class="lbl">ML Techniques</td><td>Bayesian classifiers, Gaussian mixture models, perceptrons, artificial neural networks and support vector machines on linearly separable, non-linearly separable and overlapping data.</td></tr>
-<tr><td class="lbl">Presentations</td><td>Presented the components of an information retrieval system and Google&rsquo;s PageRank model at the departmental seminar on Information Retrieval.</td></tr>
-<tr><td class="lbl">Other Projects</td><td>Management Information System (<a href="https://github.com/Rupali59/MIS">MIS</a>), Cybernetics Protector System, Product Management System.</td></tr>
-</table>
 
 <h2>Technical Skills</h2>
 <table>
-<tr><td class="lbl">Languages</td><td>Go, TypeScript, JavaScript, Python, PHP, Java, C#, C++, GlidePlatform</td></tr>
-<tr><td class="lbl">Web &amp; Frameworks</td><td>Next.js, React, Node.js, Express, Remix, Astro, Laravel, .NET, FastAPI, Tailwind, Bootstrap</td></tr>
-<tr><td class="lbl">AI &amp; Agent Tooling</td><td>Claude Code plugins, hooks and skills; structured LLM output and schema-constrained generation; eval harnesses and fixture-based regression suites; hallucination containment and graceful degradation; human-in-the-loop design; MCP</td></tr>
-<tr><td class="lbl">Databases</td><td>MongoDB, PostgreSQL, MySQL, Redis, Elasticsearch</td></tr>
-<tr><td class="lbl">Queues &amp; Messaging</td><td>RabbitMQ, BullMQ, AWS SQS, Redis Queue</td></tr>
-<tr><td class="lbl">Cloud &amp; DevOps</td><td>AWS, Vercel, Fly.io, Docker, Shopify, Jenkins, Git, Linux</td></tr>
-<tr><td class="lbl">ML</td><td>scikit-learn, hmmlearn, OpenCV, MATLAB/Octave, pattern recognition and classification</td></tr>
+<tr><td class="lbl">AI &amp; Agent Tooling</td><td>Claude Code plugins, hooks and skills; MCP; schema-constrained LLM output; eval fixtures and regression suites; graceful degradation; human-in-the-loop design; Gemini, Predictive Intelligence</td></tr>
+<tr><td class="lbl">Languages</td><td>Go, TypeScript, JavaScript, Python, C#, PHP, Java</td></tr>
+<tr><td class="lbl">Frameworks &amp; Data</td><td>Next.js, React, Node.js, Express, FastAPI, Remix, Laravel &middot; MongoDB, PostgreSQL, MySQL, Redis, Elasticsearch &middot; RabbitMQ, BullMQ, AWS SQS</td></tr>
+<tr><td class="lbl">Cloud &amp; DevOps</td><td>AWS, Vercel, Fly.io, Docker, GitHub Actions, Jenkins, Linux</td></tr>
 </table>
 
-<h2>Academic Profile</h2>
+<h2>Education</h2>
 <table>
-<tr class="hdr"><td style="width:9%">Year</td><td class="l" style="width:15%">Degree</td><td class="l" style="width:30%">Discipline</td><td class="l">Institution</td><td style="width:12%">Score</td></tr>
-<tr><td style="text-align:center">2016</td><td><b>M.Tech</b></td><td>Computer Science &amp; Engineering<br><span style="font-size:8.4pt">Pattern Recognition &amp; Machine Learning</span></td><td>National Institute of Technology, Goa</td><td style="text-align:center">8.42 CGPA</td></tr>
-<tr><td style="text-align:center">2014</td><td><b>B.E.</b></td><td>Computer Science &amp; Engineering<br><span style="font-size:8.4pt">Graduated with Honours</span></td><td>LNCT, Bhopal (RGPV)</td><td style="text-align:center">8.58 CGPA</td></tr>
-<tr><td style="text-align:center">2010</td><td>XII (CBSE)</td><td>Science</td><td>St. Joseph&rsquo;s Convent School, Bhopal</td><td style="text-align:center">83.0%</td></tr>
-<tr><td style="text-align:center">2008</td><td>X (CBSE)</td><td>&mdash;</td><td>St. Joseph&rsquo;s Convent School, Bhopal</td><td style="text-align:center">88.0%</td></tr>
+<tr><td class="lbl">M.Tech, 2016</td><td>Computer Science &amp; Engineering (Pattern Recognition &amp; Machine Learning), <b>NIT Goa</b> &mdash; 8.42 CGPA. Dissertation: human activity recognition with an HMM-based intermediate matching kernel.</td></tr>
+<tr><td class="lbl">B.E., 2014</td><td>Computer Science &amp; Engineering, <b>LNCT Bhopal (RGPV)</b> &mdash; 8.58 CGPA, Honours. Chancellor&rsquo;s Scholarship (top 10 statewide), 2012 and 2013.</td></tr>
 </table>
 
-<h2>Certifications</h2>
+<h2>Certifications &amp; Achievements</h2>
 <table>
-<tr><td class="lbl">AI &mdash; 2026</td><td><b>Anthropic:</b> Claude Code in Action; Introduction to Claude Cowork; Claude Platform 101; Claude Code 101; Claude 101. &nbsp;<b>Google:</b> Gemini Enterprise Agent Ready; Create Your First Gemini Enterprise Application; Google Cloud Innovator; Developer Program Premium Tier; AI Fundamentals (Google Career Certificates). &nbsp;<b>Verify:</b> <a href="https://www.credly.com/users/rupali-bhatnagar-59">credly.com/users/rupali-bhatnagar-59</a> &middot; <a href="https://g.dev/rupali59">g.dev/rupali59</a>.</td></tr>
-<tr><td class="lbl">Earlier</td><td>WhatsApp API Expert, Wati (2024) &middot; Ultimate JavaScript: Fundamentals, Code With Mosh (2025) &middot; Neural Networks &amp; Deep Learning, Coursera (2020) &middot; JavaScript Algorithms &amp; Data Structures, freeCodeCamp (2020) &middot; Git Essential Training, LinkedIn Learning (2020)</td></tr>
-</table>
-
-<h2>Achievements &amp; Activities</h2>
-<table>
-<tr><td class="lbl">Professional</td><td><ul class="tight"><li>Winner, NowFloats Hackathon for product innovation in sales &mdash; built the ML-powered SPIDER revenue-prediction module.<span class="yr">2018</span></li>
-<li><b>Geektrust GOLD</b> &mdash; score <b>95.8</b> on the Metro Card backend challenge, with <b>Readability</b> and <b>Maintainability</b> assessed at <b>ADVANCED</b> tier by an independent reviewer.</li></ul></td></tr>
-<tr><td class="lbl">Academic</td><td><ul class="tight">
-<li><b>Chancellor&rsquo;s Scholarship (Topper)</b>, Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal &mdash; awarded to the top 10 students statewide by theory marks.<span class="yr">2012, 2013</span></li>
-<li><b>Silver Medal</b>, Persistent Systems Limited Programming Contest, inter-college.<span class="yr">2013</span></li></ul></td></tr>
-<tr><td class="lbl">Other</td><td><ul class="tight">
-<li>Organised the intra-college programming competition, LNCT Bhopal.<span class="yr">2012</span></li>
-<li>Conducted cultural events, NIT Goa.<span class="yr">2014&ndash;2016</span></li></ul></td></tr>
-</table>
-
-<h2>Positions of Responsibility</h2>
-<table>
-<tr><td style="width:22%"><b>NIT Goa</b></td><td>Teaching Assistant, Computer Science &amp; Engineering Department</td><td style="width:16%;text-align:center">2014&ndash;2016</td></tr>
-<tr><td><b>NIT Goa</b></td><td>Vice President, Computer Science Department</td><td style="text-align:center">2014&ndash;2016</td></tr>
-<tr><td><b>LNCT, Bhopal</b></td><td>Student Coordinator, Training &amp; Placement Department</td><td style="text-align:center">2013&ndash;2014</td></tr>
+<tr><td class="lbl">AI &mdash; 2026</td><td><b>Anthropic:</b> Claude Code in Action; Claude Platform 101; Introduction to Claude Cowork. &nbsp;<b>Google:</b> Gemini Enterprise Agent Ready; Google Cloud Innovator; AI Fundamentals. &nbsp;<a href="https://www.credly.com/users/rupali-bhatnagar-59">credly.com/users/rupali-bhatnagar-59</a></td></tr>
+<tr><td class="lbl">Achievements</td><td><b>Geektrust GOLD</b> (95.8, Readability and Maintainability at ADVANCED) &middot; Winner, NowFloats Hackathon 2018 &middot; Silver Medal, Persistent Systems Programming Contest 2013</td></tr>
 </table>
 
 </body></html>

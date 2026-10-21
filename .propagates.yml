@@ -18,11 +18,12 @@
 sources:
   README.md:
     propagates_to:
-      - path: Rupali_Resume.pdf
+      - path: resume/Rupali_Bhatnagar_Resume.pdf
         why: >-
           the PDF resume and the profile README state the same career. They
           silently diverged on dates, scores and three metrics because nothing
-          coupled them; the PDF is currently the stale side
+          coupled them. Repointed 2026-10-21 when the root Rupali_Resume.pdf was
+          deleted: resume/ holds the one remaining copy
         kind: prose
       - path: resume/resume.html
         why: >-
@@ -44,10 +45,10 @@ sources:
 # README.md; measured that day they were 25 / 698 / 143. README.md still
 # carries the stale pair. That is the edge below, in the direction it failed.
 #
-# NOT declared here, deliberately: Rupali_Resume.pdf (root) and
-# resume/Rupali_Bhatnagar_Resume.pdf are now two PDFs of one resume. Which
-# supersedes which is a decision, not a coupling — until it is made, declaring
-# an edge between them would assert an answer nobody gave.
+# RESOLVED 2026-10-21: there were two PDFs of one resume, Rupali_Resume.pdf
+# (root) and resume/Rupali_Bhatnagar_Resume.pdf. Rupali chose one copy; the
+# root file was deleted and resume/ is canonical. No edge between them is
+# needed because only one exists.
 
   resume/resume.html:
     propagates_to:
